@@ -1,0 +1,2007 @@
+StataFileTM:00001:01000:LiveGPH:                       :
+00008:00008:
+*! classname: twowaygraph_g
+*! family: twoway
+*! command: twoway (scatter y zero , ms(i)) (scatteri 0 79.09718596703999 101.7 79.09718596703999, ms(i) connect(direct) lw(medium) lc(gs8) lp(shortdash) ) (bar tplot1 y if y == 10, horizontal fc(green*2) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot1 tplot2 y if y == 10, horizontal fc(magenta*.5) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot2 tplot3 y if y == 10, horizontal fc(magenta*.8) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot3 tplot4 y if y == 10, horizontal fc(black) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot4 tplot5 y if y == 10, horizontal fc(gs14) lc(gs2) lw(*.2) barwidth(6.7)) (rcap tplot6 tplot7 y if y == 10 , horizontal lc(gs8) lw(vthin) msize(small)) (bar tplot1 y if y == 20, horizontal fc(magenta*2) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot1 tplot2 y if y == 20, horizontal fc(green) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot2 tplot3 y if y == 20, horizontal fc(magenta*.5) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot3 tplot4 y if y == 20, horizontal fc(magenta*.8) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot4 tplot5 y if y == 20, horizontal fc(gs14) lc(gs2) lw(*.2) barwidth(6.7)) (rcap tplot6 tplot7 y if y == 20 , horizontal lc(gs8) lw(vthin) msize(small)) (bar tplot1 y if y == 27, horizontal fc(magenta*2) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot1 tplot2 y if y == 27, horizontal fc(green) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot2 tplot3 y if y == 27, horizontal fc(magenta*.5) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot3 tplot4 y if y == 27, horizontal fc(magenta*.8) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot4 tplot5 y if y == 27, horizontal fc(gs14) lc(gs2) lw(*.2) barwidth(6.7)) (rcap tplot6 tplot7 y if y == 27 , horizontal lc(gs8) lw(vthin) msize(small)) (bar tplot1 y if y == 37, horizontal fc(magenta*2) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot1 tplot2 y if y == 37, horizontal fc(green) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot2 tplot3 y if y == 37, horizontal fc(magenta*.5) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot3 tplot4 y if y == 37, horizontal fc(magenta*.8) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot4 tplot5 y if y == 37, horizontal fc(gs14) lc(gs2) lw(*.2) barwidth(6.7)) (rcap tplot6 tplot7 y if y == 37 , horizontal lc(gs8) lw(vthin) msize(small)) (bar tplot1 y if y == 44, horizontal fc(magenta*2) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot1 tplot2 y if y == 44, horizontal fc(green) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot2 tplot3 y if y == 44, horizontal fc(magenta*.5) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot3 tplot4 y if y == 44, horizontal fc(magenta*.8) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot4 tplot5 y if y == 44, horizontal fc(gs14) lc(gs2) lw(*.2) barwidth(6.7)) (rcap tplot6 tplot7 y if y == 44 , horizontal lc(gs8) lw(vthin) msize(small)) (bar tplot1 y if y == 54, horizontal fc(magenta*2) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot1 tplot2 y if y == 54, horizontal fc(green) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot2 tplot3 y if y == 54, horizontal fc(magenta*.5) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot3 tplot4 y if y == 54, horizontal fc(magenta*.8) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot4 tplot5 y if y == 54, horizontal fc(gs14) lc(gs2) lw(*.2) barwidth(6.7)) (rcap tplot6 tplot7 y if y == 54 , horizontal lc(gs8) lw(vthin) msize(small)) (bar tplot1 y if y == 61, horizontal fc(magenta*2) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot1 tplot2 y if y == 61, horizontal fc(green) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot2 tplot3 y if y == 61, horizontal fc(magenta*.5) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot3 tplot4 y if y == 61, horizontal fc(magenta*.8) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot4 tplot5 y if y == 61, horizontal fc(gs14) lc(gs2) lw(*.2) barwidth(6.7)) (rcap tplot6 tplot7 y if y == 61 , horizontal lc(gs8) lw(vthin) msize(small)) (bar tplot1 y if y == 71, horizontal fc(magenta*2) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot1 tplot2 y if y == 71, horizontal fc(green) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot2 tplot3 y if y == 71, horizontal fc(magenta*.5) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot3 tplot4 y if y == 71, horizontal fc(magenta*.8) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot4 tplot5 y if y == 71, horizontal fc(gs14) lc(gs2) lw(*.2) barwidth(6.7)) (rcap tplot6 tplot7 y if y == 71 , horizontal lc(gs8) lw(vthin) msize(small)) (bar tplot1 y if y == 81, horizontal fc(magenta*2) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot1 tplot2 y if y == 81, horizontal fc(green) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot2 tplot3 y if y == 81, horizontal fc(magenta*.5) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot3 tplot4 y if y == 81, horizontal fc(magenta*.8) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot4 tplot5 y if y == 81, horizontal fc(gs14) lc(gs2) lw(*.2) barwidth(6.7)) (rcap tplot6 tplot7 y if y == 81 , horizontal lc(gs8) lw(vthin) msize(small)) (bar tplot1 y if y == 88, horizontal fc(magenta*2) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot1 tplot2 y if y == 88, horizontal fc(green) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot2 tplot3 y if y == 88, horizontal fc(magenta*.5) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot3 tplot4 y if y == 88, horizontal fc(magenta*.8) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot4 tplot5 y if y == 88, horizontal fc(gs14) lc(gs2) lw(*.2) barwidth(6.7)) (rcap tplot6 tplot7 y if y == 88 , horizontal lc(gs8) lw(vthin) msize(small)) (bar tplot1 y if y == 95, horizontal fc(magenta*2) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot1 tplot2 y if y == 95, horizontal fc(green) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot2 tplot3 y if y == 95, horizontal fc(magenta*.5) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot3 tplot4 y if y == 95, horizontal fc(magenta*.8) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot4 tplot5 y if y == 95, horizontal fc(gs14) lc(gs2) lw(*.2) barwidth(6.7)) (rcap tplot6 tplot7 y if y == 95 , horizontal lc(gs8) lw(vthin) msize(small)) , ylabel( 10    20 27             37 44          54 61         71       81 88 95 , valuelabel angle(0) labsize(5pt) labcolor(black) nogrid) xscale(range(0 170) titlegap(*5)) xlabel(0(20)100, angle(0) labsize(5pt)) xtitle("") xtitle(Estimated Coverage (%), size(5pt)) ytitle(" ") title("Vaccination Coverage & Timeliness: Jamaica", span size(medium) place(w)) subtitle(" ", size(small) place(w)) graphregion(fcolor(white)) plotregion(fcolor(white) lcolor(white)) legend( order( 9 "Too Early" 3 "BCG by day 5" 10 "Timely (28 days)" 11 "< 2 Months Late" 12 "2+ Months Late" 6 "BCG After 1 Year" 13 "Timing Unknown" ) pos(6) symplacement(left) row(1) symxsize(*.3) symysize(*1) size(*.5) keygap(0.5) region(lcolor(white)) span ) text( 10 108 "97.7" , placement(c) size(5pt) color(black)) text( 20 108 "96.3" , placement(c) size(5pt) color(black)) text( 27 108 "94.1" , placement(c) size(5pt) color(black)) text( 37 108 "92.8" , placement(c) size(5pt) color(black)) text( 44 108 "87.6" , placement(c) size(5pt) color(black)) text( 54 108 "90.0" , placement(c) size(5pt) color(black)) text( 61 108 "83.5" , placement(c) size(5pt) color(black)) text( 71 108 "95.2" , placement(c) size(5pt) color(black)) text( 81 108 "73.6" , placement(c) size(5pt) color(black)) text( 88 108 "88.7" , placement(c) size(5pt) color(black)) text( 95 108 "61.9" , placement(c) size(5pt) color(black)) text(104 108 "Coverage(%)", placement(c) size(5pt) color(black)) text( 10 122 "(95.2,98.9)" , placement(c) size(5pt) color(black)) text( 20 122 "(92.8,98.1)" , placement(c) size(5pt) color(black)) text( 27 122 "(89.7,96.7)" , placement(c) size(5pt) color(black)) text( 37 122 "(88.8,95.5)" , placement(c) size(5pt) color(black)) text( 44 122 "(81.5,91.9)" , placement(c) size(5pt) color(black)) text( 54 122 "(85.3,93.2)" , placement(c) size(5pt) color(black)) text( 61 122 "(77.6,88.1)" , placement(c) size(5pt) color(black)) text( 71 122 "(91.2,97.4)" , placement(c) size(5pt) color(black)) text( 81 122 "(68.1,78.4)" , placement(c) size(5pt) color(black)) text( 88 122 "(83.6,92.4)" , placement(c) size(5pt) color(black)) text( 95 122 "(55.7,67.7)" , placement(c) size(5pt) color(black)) text(104 122 "95% CI", placement(c) size(5pt) color(black)) text(10 135 "281" , placement(c) size(5pt) color(black)) text(20 135 "281" , placement(c) size(5pt) color(black)) text(27 135 "281" , placement(c) size(5pt) color(black)) text(37 135 "281" , placement(c) size(5pt) color(black)) text(44 135 "281" , placement(c) size(5pt) color(black)) text(54 135 "281" , placement(c) size(5pt) color(black)) text(61 135 "281" , placement(c) size(5pt) color(black)) text(71 135 "281" , placement(c) size(5pt) color(black)) text(81 135 "281" , placement(c) size(5pt) color(black)) text(88 135 "281" , placement(c) size(5pt) color(black)) text(95 135 "281" , placement(c) size(5pt) color(black)) text(104 135 "N", placement(c) size(5pt) color(black)) text(10 145 "281" , placement(c) size(5pt) color(black)) text(20 145 "219" , placement(c) size(5pt) color(black)) text(27 145 "181" , placement(c) size(5pt) color(black)) text(37 145 "235" , placement(c) size(5pt) color(black)) text(44 145 "156" , placement(c) size(5pt) color(black)) text(54 145 "224" , placement(c) size(5pt) color(black)) text(61 145 "191" , placement(c) size(5pt) color(black)) text(71 145 "197" , placement(c) size(5pt) color(black)) text(81 145 "281" , placement(c) size(5pt) color(black)) text(88 145 "200" , placement(c) size(5pt) color(black)) text(95 145 "245" , placement(c) size(5pt) color(black)) text(104 145 "NEFF", placement(c) size(5pt) color(black)) text(10 155 "1.0" , placement(c) size(5pt) color(black)) text(20 155 "1.3" , placement(c) size(5pt) color(black)) text(27 155 "1.5" , placement(c) size(5pt) color(black)) text(37 155 "1.2" , placement(c) size(5pt) color(black)) text(44 155 "1.8" , placement(c) size(5pt) color(black)) text(54 155 "1.2" , placement(c) size(5pt) color(black)) text(61 155 "1.5" , placement(c) size(5pt) color(black)) text(71 155 "1.4" , placement(c) size(5pt) color(black)) text(81 155 "1.0" , placement(c) size(5pt) color(black)) text(88 155 "1.4" , placement(c) size(5pt) color(black)) text(95 155 "1.1" , placement(c) size(5pt) color(black)) text(104 155 "DEFF", placement(c) size(5pt) color(black)) text(10 165 "0.087" , placement(c) size(5pt) color(black)) text(20 165 "-0.396" , placement(c) size(5pt) color(black)) text(27 165 "-0.331" , placement(c) size(5pt) color(black)) text(37 165 "-0.099" , placement(c) size(5pt) color(black)) text(44 165 "0.005" , placement(c) size(5pt) color(black)) text(54 165 "-0.058" , placement(c) size(5pt) color(black)) text(61 165 "-0.003" , placement(c) size(5pt) color(black)) text(71 165 "-0.228" , placement(c) size(5pt) color(black)) text(81 165 "0.084" , placement(c) size(5pt) color(black)) text(88 165 "0.191" , placement(c) size(5pt) color(black)) text(95 165 "0.137" , placement(c) size(5pt) color(black)) text(104 165 "ICC", placement(c) size(5pt) color(black)) text(0.05 80.09718596703999 "<-- Showed HBR (79.1%)", placement(3) size(5pt) color(gs2)) note( "Fully vaccinated: 81.2% (95% CI: 75.3 - 86.0%). Fully vaccinated dose list: BCG POLIO1 POLIO2 POLIO3 PENTA1 PENTA2 PENTA3 MMR1." "Not vaccinated: 1.5% (95% CI: 0.6 - 3.7%). Not vaccinated means the child did not receive any of the doses from the fully vaccinated dose list." , size(5pt) place(w) span) caption( "Abbreviations: HBR- home-based record" "CI - Confidence interval; N - Sample size; NEFF - Effective sample size; DEFF - Design effect; ICC - Intracluster correlation coefficient", size(5pt) place(w) span)
+*! command_date:  7 Nov 2025
+*! command_time: 23:39:00
+*! datafile: Q:/VCQI Output - Jamaica 2022 MICS/Run 04 - Full RI for 24-35m/RI_VCTC_01_1_tplot_1_1.dta
+*! datafile_date:  7 Nov 2025 23:38
+*! scheme: s2color
+*! naturallywhite: 1
+*! xsize: 5.5
+*! ysize: 4
+*! end
+<BeginItem> serset K1515fd58 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  10
+.max =  95
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+.lab_offset = (.)
+.vlabs.Declare __D_10 = `"BCG"'
+.vlabs.Declare __D_20 = `"POLIO1"'
+.vlabs.Declare __D_27 = `"PENTA1"'
+.vlabs.Declare __D_37 = `"POLIO2"'
+.vlabs.Declare __D_44 = `"PENTA2"'
+.vlabs.Declare __D_54 = `"POLIO3"'
+.vlabs.Declare __D_61 = `"PENTA3"'
+.vlabs.Declare __D_71 = `"MMR1"'
+.vlabs.Declare __D_81 = `"POLIO4"'
+.vlabs.Declare __D_88 = `"DPT4"'
+.vlabs.Declare __D_95 = `"MMR2"'
+<EndSeries>
+<BeginSeries>
+.name = `"zero"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  0
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛y tcum 2                                                                                                                                              zero val_days                                                                                                                                         %9.0g                                                    %9.0g                                                          $@             ¿W@           A      †A      ÿA      B      0B      XB      tB      éB      ¢B      ∞B      æB    
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K1515f5d8 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  101.6999969482422
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  79.09718322753906
+.max =  79.09718322753906
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__00003U                                                                                                                                              __00003V days                                                                                                                                         %9.0g                                                    %9.0g                                                               @8∆S@   ¿ÃlY@   @8∆S@    ¬1ûBffÀB¬1ûB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K1515ff88 
+<BeginSerset>
+<BeginSeries>
+.name = `"tplot1"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  58.24079895019531
+.max =  58.24079895019531
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"y"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  10
+.max =  10
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+.lab_offset = (.)
+.vlabs.Declare __D_10 = `"BCG"'
+.vlabs.Declare __D_20 = `"POLIO1"'
+.vlabs.Declare __D_27 = `"PENTA1"'
+.vlabs.Declare __D_37 = `"POLIO2"'
+.vlabs.Declare __D_44 = `"PENTA2"'
+.vlabs.Declare __D_54 = `"POLIO3"'
+.vlabs.Declare __D_61 = `"PENTA3"'
+.vlabs.Declare __D_71 = `"MMR1"'
+.vlabs.Declare __D_81 = `"POLIO4"'
+.vlabs.Declare __D_88 = `"DPT4"'
+.vlabs.Declare __D_95 = `"MMR2"'
+<EndSeries>
+<BeginSeries>
+.name = `"tplot2"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  72.82064056396484
+.max =  72.82064056396484
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot3"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  77.97617340087891
+.max =  77.97617340087891
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot4"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  78.28451538085938
+.max =  78.28451538085938
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot5"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  97.71797943115234
+.max =  97.71797943115234
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot6"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  95.22470855712891
+.max =  95.22470855712891
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot7"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  98.92417144775391
+.max =  98.92417144775391
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛˛˛˛˛˛˛tplot1 U                                                                                                                                              y 00003V days                                                                                                                                         tplot2 ipy                                                                                                                                            tplot3 ipx                                                                                                                                            tplot4 g0                                                                                                                                             tplot5                                                                                                                                                tplot6 g1                                                                                                                                             tplot7                                                                                                                                                %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                       Ä“M@      $@   `Ö4R@   †y~S@   Ä5íS@   `ÛmX@   †aŒW@   †%ªX@   Ä“M@      $@   `Ö4R@   †y~S@   Ä5íS@   `ÛmX@   †aŒW@   †%ªX@îˆhB   A+§ëBÕÛõB¨ëúBõo√BsæB-Ÿ≈B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K151611a8 
+<BeginSerset>
+<BeginSeries>
+.name = `"tplot1"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  4.173892498016357
+.max =  4.173892498016357
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"y"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  20
+.max =  20
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+.lab_offset = (.)
+.vlabs.Declare __D_10 = `"BCG"'
+.vlabs.Declare __D_20 = `"POLIO1"'
+.vlabs.Declare __D_27 = `"PENTA1"'
+.vlabs.Declare __D_37 = `"POLIO2"'
+.vlabs.Declare __D_44 = `"PENTA2"'
+.vlabs.Declare __D_54 = `"POLIO3"'
+.vlabs.Declare __D_61 = `"PENTA3"'
+.vlabs.Declare __D_71 = `"MMR1"'
+.vlabs.Declare __D_81 = `"POLIO4"'
+.vlabs.Declare __D_88 = `"DPT4"'
+.vlabs.Declare __D_95 = `"MMR2"'
+<EndSeries>
+<BeginSeries>
+.name = `"tplot2"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  68.27556610107422
+.max =  68.27556610107422
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot3"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  71.00930023193359
+.max =  71.00930023193359
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot4"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  72.52286529541016
+.max =  72.52286529541016
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot5"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  96.25566101074219
+.max =  96.25566101074219
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot6"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  92.83625030517578
+.max =  92.83625030517578
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot7"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  98.07672882080078
+.max =  98.07672882080078
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛˛˛˛˛˛˛tplot1 U                                                                                                                                              y 00003V days                                                                                                                                         tplot2 ipy                                                                                                                                            tplot3 ipx                                                                                                                                            tplot4 g0                                                                                                                                             tplot5                                                                                                                                                tplot6 g1                                                                                                                                             tplot7                                                                                                                                                %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                       ‡≤@      4@   ‡¢Q@   `ò¿Q@   †v!R@   ¿\X@    Ö5W@    ÈÑX@   ‡≤@      4@   ‡¢Q@   `ò¿Q@   †v!R@   ¿\X@    Ö5W@    ÈÑX@áêÖ@  †AçàB√éBµëBÊÇ¿B)¨πBI'ƒB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K151615b8 
+<BeginSerset>
+<BeginSeries>
+.name = `"tplot1"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  4.237080574035645
+.max =  4.237080574035645
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"y"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  27
+.max =  27
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+.lab_offset = (.)
+.vlabs.Declare __D_10 = `"BCG"'
+.vlabs.Declare __D_20 = `"POLIO1"'
+.vlabs.Declare __D_27 = `"PENTA1"'
+.vlabs.Declare __D_37 = `"POLIO2"'
+.vlabs.Declare __D_44 = `"PENTA2"'
+.vlabs.Declare __D_54 = `"POLIO3"'
+.vlabs.Declare __D_61 = `"PENTA3"'
+.vlabs.Declare __D_71 = `"MMR1"'
+.vlabs.Declare __D_81 = `"POLIO4"'
+.vlabs.Declare __D_88 = `"DPT4"'
+.vlabs.Declare __D_95 = `"MMR2"'
+<EndSeries>
+<BeginSeries>
+.name = `"tplot2"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  69.09690856933594
+.max =  69.09690856933594
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot3"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  72.6944580078125
+.max =  72.6944580078125
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot4"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  74.20802307128906
+.max =  74.20802307128906
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot5"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  94.13404846191406
+.max =  94.13404846191406
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot6"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  89.70926666259766
+.max =  89.70926666259766
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot7"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  96.72571563720703
+.max =  96.72571563720703
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛˛˛˛˛˛˛tplot1 U                                                                                                                                              y 00003V days                                                                                                                                         tplot2 ipy                                                                                                                                            tplot3 ipx                                                                                                                                            tplot4 g0                                                                                                                                             tplot5                                                                                                                                                tplot6 g1                                                                                                                                             tplot7                                                                                                                                                %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                       @≈Ú@      ;@   ¿3FQ@    r,R@   @PçR@   @îàW@   †dmV@    r.X@   @≈Ú@      ;@   ¿3FQ@    r,R@   @PçR@   @îàW@   †dmV@    r.X@*ñá@  ÿAû1äBêcëBÇjîB¢DºB%k≥Bës¡B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K15160988 
+<BeginSerset>
+<BeginSeries>
+.name = `"tplot1"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .3909347951412201
+.max =  .3909347951412201
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"y"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  37
+.max =  37
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+.lab_offset = (.)
+.vlabs.Declare __D_10 = `"BCG"'
+.vlabs.Declare __D_20 = `"POLIO1"'
+.vlabs.Declare __D_27 = `"PENTA1"'
+.vlabs.Declare __D_37 = `"POLIO2"'
+.vlabs.Declare __D_44 = `"PENTA2"'
+.vlabs.Declare __D_54 = `"POLIO3"'
+.vlabs.Declare __D_61 = `"PENTA3"'
+.vlabs.Declare __D_71 = `"MMR1"'
+.vlabs.Declare __D_81 = `"POLIO4"'
+.vlabs.Declare __D_88 = `"DPT4"'
+.vlabs.Declare __D_95 = `"MMR2"'
+<EndSeries>
+<BeginSeries>
+.name = `"tplot2"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  60.10786056518555
+.max =  60.10786056518555
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot3"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  67.20228576660156
+.max =  67.20228576660156
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot4"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  69.44821929931641
+.max =  69.44821929931641
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot5"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  92.80284118652344
+.max =  92.80284118652344
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot6"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  88.76792907714844
+.max =  88.76792907714844
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot7"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  95.46237945556641
+.max =  95.46237945556641
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛˛˛˛˛˛˛tplot1 U                                                                                                                                              y 00003V days                                                                                                                                         tplot2 ipy                                                                                                                                            tplot3 ipx                                                                                                                                            tplot4 g0                                                                                                                                             tplot5                                                                                                                                                tplot6 g1                                                                                                                                             tplot7                                                                                                                                                %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                       `Ÿ?     ÄB@   `ŒN@   @ÚÃP@   †Ø\Q@   ¿a3W@   ¿%1V@   †ó›W@   `Ÿ?     ÄB@   `ŒN@   @ÚÃP@   †Ø\Q@   ¿a3W@   ¿%1V@   †ó›W@õ(»>  BsnpBígÜB}ÂäBõπB.â±BΩÏæB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K15162058 
+<BeginSerset>
+<BeginSeries>
+.name = `"tplot1"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .7369279265403748
+.max =  .7369279265403748
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"y"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  44
+.max =  44
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+.lab_offset = (.)
+.vlabs.Declare __D_10 = `"BCG"'
+.vlabs.Declare __D_20 = `"POLIO1"'
+.vlabs.Declare __D_27 = `"PENTA1"'
+.vlabs.Declare __D_37 = `"POLIO2"'
+.vlabs.Declare __D_44 = `"PENTA2"'
+.vlabs.Declare __D_54 = `"POLIO3"'
+.vlabs.Declare __D_61 = `"PENTA3"'
+.vlabs.Declare __D_71 = `"MMR1"'
+.vlabs.Declare __D_81 = `"POLIO4"'
+.vlabs.Declare __D_88 = `"DPT4"'
+.vlabs.Declare __D_95 = `"MMR2"'
+<EndSeries>
+<BeginSeries>
+.name = `"tplot2"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  61.44500350952148
+.max =  61.44500350952148
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot3"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  69.23374176025391
+.max =  69.23374176025391
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot4"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  71.47966766357422
+.max =  71.47966766357422
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot5"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  87.61643218994141
+.max =  87.61643218994141
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot6"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  81.51612854003906
+.max =  81.51612854003906
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot7"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  91.90339660644531
+.max =  91.90339660644531
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛˛˛˛˛˛˛tplot1 U                                                                                                                                              y 00003V days                                                                                                                                         tplot2 ipy                                                                                                                                            tplot3 ipx                                                                                                                                            tplot4 g0                                                                                                                                             tplot5                                                                                                                                                tplot6 g1                                                                                                                                             tplot7                                                                                                                                                %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                       ‡ÈîÁ?      F@   ‡ı∏N@   †ıNQ@   ‡≤ﬁQ@   †sÁU@   @aT@   @—˘V@   ‡ÈîÁ?      F@   ‡ı∏N@   †ıNQ@   ‡≤ﬁQ@   †sÁU@   @aT@   @—˘V@Oß<?  0BØ«uB≠wäBóıéBù;ØBB£BäŒ∑B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K15162c88 
+<BeginSerset>
+<BeginSeries>
+.name = `"tplot1"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  6.322113990783691
+.max =  6.322113990783691
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"y"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  54
+.max =  54
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+.lab_offset = (.)
+.vlabs.Declare __D_10 = `"BCG"'
+.vlabs.Declare __D_20 = `"POLIO1"'
+.vlabs.Declare __D_27 = `"PENTA1"'
+.vlabs.Declare __D_37 = `"POLIO2"'
+.vlabs.Declare __D_44 = `"PENTA2"'
+.vlabs.Declare __D_54 = `"POLIO3"'
+.vlabs.Declare __D_61 = `"PENTA3"'
+.vlabs.Declare __D_71 = `"MMR1"'
+.vlabs.Declare __D_81 = `"POLIO4"'
+.vlabs.Declare __D_88 = `"DPT4"'
+.vlabs.Declare __D_95 = `"MMR2"'
+<EndSeries>
+<BeginSeries>
+.name = `"tplot2"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  62.00279235839844
+.max =  62.00279235839844
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot3"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  68.59417724609375
+.max =  68.59417724609375
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot4"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  75.77001190185547
+.max =  75.77001190185547
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot5"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  89.96292877197266
+.max =  89.96292877197266
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot6"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  85.33021545410156
+.max =  85.33021545410156
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot7"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  93.24839019775391
+.max =  93.24839019775391
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛˛˛˛˛˛˛tplot1 U                                                                                                                                              y 00003V days                                                                                                                                         tplot2 ipy                                                                                                                                            tplot3 ipx                                                                                                                                            tplot4 g0                                                                                                                                             tplot5                                                                                                                                                tplot6 g1                                                                                                                                             tplot7                                                                                                                                                %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                       @ÿI@      K@   Ä[ O@    &Q@   ‡GÒR@   ††}V@   @"UU@   †ÂOW@   @ÿI@      K@   Ä[ O@    &Q@   ‡GÒR@   ††}V@   @"UU@   †ÂOW@¬N @  XB‹xB80âB?äóBÌ≥B©™B-∫B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K15164218 
+<BeginSerset>
+<BeginSeries>
+.name = `"tplot1"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  3.701922655105591
+.max =  3.701922655105591
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"y"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  61
+.max =  61
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+.lab_offset = (.)
+.vlabs.Declare __D_10 = `"BCG"'
+.vlabs.Declare __D_20 = `"POLIO1"'
+.vlabs.Declare __D_27 = `"PENTA1"'
+.vlabs.Declare __D_37 = `"POLIO2"'
+.vlabs.Declare __D_44 = `"PENTA2"'
+.vlabs.Declare __D_54 = `"POLIO3"'
+.vlabs.Declare __D_61 = `"PENTA3"'
+.vlabs.Declare __D_71 = `"MMR1"'
+.vlabs.Declare __D_81 = `"POLIO4"'
+.vlabs.Declare __D_88 = `"DPT4"'
+.vlabs.Declare __D_95 = `"MMR2"'
+<EndSeries>
+<BeginSeries>
+.name = `"tplot2"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  60.57658004760742
+.max =  60.57658004760742
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot3"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  67.16796112060547
+.max =  67.16796112060547
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot4"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  75.77224731445313
+.max =  75.77224731445313
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot5"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  83.53948974609375
+.max =  83.53948974609375
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot6"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  77.63014221191406
+.max =  77.63014221191406
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot7"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  88.12655639648438
+.max =  88.12655639648438
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛˛˛˛˛˛˛tplot1 U                                                                                                                                              y 00003V days                                                                                                                                         tplot2 ipy                                                                                                                                            tplot3 ipx                                                                                                                                            tplot4 g0                                                                                                                                             tplot5                                                                                                                                                tplot6 g1                                                                                                                                             tplot7                                                                                                                                                %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                       †âù@     ÄN@   `ÕIN@   ‡ø P@   ÄlÒR@    á‚T@   @ThS@   ÄV@   †âù@     ÄN@   `ÕIN@   ‡ø P@   ÄlÒR@    á‚T@   @ThS@   ÄV@MÏl@  tBkNrBˇUÜBdãóB8ßB¢BõBÃ@∞B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K151639a8 
+<BeginSerset>
+<BeginSeries>
+.name = `"tplot1"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  7.005749225616455
+.max =  7.005749225616455
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"y"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  71
+.max =  71
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+.lab_offset = (.)
+.vlabs.Declare __D_10 = `"BCG"'
+.vlabs.Declare __D_20 = `"POLIO1"'
+.vlabs.Declare __D_27 = `"PENTA1"'
+.vlabs.Declare __D_37 = `"POLIO2"'
+.vlabs.Declare __D_44 = `"PENTA2"'
+.vlabs.Declare __D_54 = `"POLIO3"'
+.vlabs.Declare __D_61 = `"PENTA3"'
+.vlabs.Declare __D_71 = `"MMR1"'
+.vlabs.Declare __D_81 = `"POLIO4"'
+.vlabs.Declare __D_88 = `"DPT4"'
+.vlabs.Declare __D_95 = `"MMR2"'
+<EndSeries>
+<BeginSeries>
+.name = `"tplot2"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  66.32510375976563
+.max =  66.32510375976563
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot3"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  70.11827850341797
+.max =  70.11827850341797
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot4"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  76.55989074707031
+.max =  76.55989074707031
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot5"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  95.15138244628906
+.max =  95.15138244628906
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot6"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  91.19578552246094
+.max =  91.19578552246094
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot7"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  97.38082885742188
+.max =  97.38082885742188
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛˛˛˛˛˛˛tplot1 U                                                                                                                                              y 00003V days                                                                                                                                         tplot2 ipy                                                                                                                                            tplot3 ipx                                                                                                                                            tplot4 g0                                                                                                                                             tplot5                                                                                                                                                tplot6 g1                                                                                                                                             tplot7                                                                                                                                                %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                        „@     ¿Q@   ÄŒîP@   ‡ëáQ@   @’#S@   @∞…W@   ¿áÃV@   Ä_XX@    „@     ¿Q@   ÄŒîP@   ‡ëáQ@   @’#S@   @∞…W@   ¿áÃV@   Ä_XX@/‡@  éBt¶ÑBè<åB™ôBÇMæB>d∂B¸¬¬B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K15163d18 
+<BeginSerset>
+<BeginSeries>
+.name = `"tplot1"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  5.687605381011963
+.max =  5.687605381011963
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"y"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  81
+.max =  81
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+.lab_offset = (.)
+.vlabs.Declare __D_10 = `"BCG"'
+.vlabs.Declare __D_20 = `"POLIO1"'
+.vlabs.Declare __D_27 = `"PENTA1"'
+.vlabs.Declare __D_37 = `"POLIO2"'
+.vlabs.Declare __D_44 = `"PENTA2"'
+.vlabs.Declare __D_54 = `"POLIO3"'
+.vlabs.Declare __D_61 = `"PENTA3"'
+.vlabs.Declare __D_71 = `"MMR1"'
+.vlabs.Declare __D_81 = `"POLIO4"'
+.vlabs.Declare __D_88 = `"DPT4"'
+.vlabs.Declare __D_95 = `"MMR2"'
+<EndSeries>
+<BeginSeries>
+.name = `"tplot2"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  38.78562927246094
+.max =  38.78562927246094
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot3"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  51.76167297363281
+.max =  51.76167297363281
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot4"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  65.76741790771484
+.max =  65.76741790771484
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot5"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  73.55674743652344
+.max =  73.55674743652344
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot6"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  68.10749816894531
+.max =  68.10749816894531
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot7"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  78.37060546875
+.max =  78.37060546875
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛˛˛˛˛˛˛tplot1 U                                                                                                                                              y 00003V days                                                                                                                                         tplot2 ipy                                                                                                                                            tplot3 ipx                                                                                                                                            tplot4 g0                                                                                                                                             tplot5                                                                                                                                                tplot6 g1                                                                                                                                             tplot7                                                                                                                                                %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                       †¿@     @T@   ÄèdC@   Ä~·I@   `qP@   ¿°cR@   @·Q@    ∏óS@   †¿@     @T@   ÄèdC@   Ä~·I@   `qP@   ¿°cR@   @·Q@    ∏óS@› ∂@  ¢B|$BÙOBÎàÉBìB
+7àB¿ΩúB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K151652f8 
+<BeginSerset>
+<BeginSeries>
+.name = `"tplot1"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  9.04417610168457
+.max =  9.04417610168457
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"y"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  88
+.max =  88
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+.lab_offset = (.)
+.vlabs.Declare __D_10 = `"BCG"'
+.vlabs.Declare __D_20 = `"POLIO1"'
+.vlabs.Declare __D_27 = `"PENTA1"'
+.vlabs.Declare __D_37 = `"POLIO2"'
+.vlabs.Declare __D_44 = `"PENTA2"'
+.vlabs.Declare __D_54 = `"POLIO3"'
+.vlabs.Declare __D_61 = `"PENTA3"'
+.vlabs.Declare __D_71 = `"MMR1"'
+.vlabs.Declare __D_81 = `"POLIO4"'
+.vlabs.Declare __D_88 = `"DPT4"'
+.vlabs.Declare __D_95 = `"MMR2"'
+<EndSeries>
+<BeginSeries>
+.name = `"tplot2"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  38.30073165893555
+.max =  38.30073165893555
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot3"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  53.27362823486328
+.max =  53.27362823486328
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot4"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  74.4017333984375
+.max =  74.4017333984375
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot5"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  88.69891357421875
+.max =  88.69891357421875
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot6"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  83.56914520263672
+.max =  83.56914520263672
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot7"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  92.37331390380859
+.max =  92.37331390380859
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛˛˛˛˛˛˛tplot1 U                                                                                                                                              y 00003V days                                                                                                                                         tplot2 ipy                                                                                                                                            tplot3 ipx                                                                                                                                            tplot4 g0                                                                                                                                             tplot5                                                                                                                                                tplot6 g1                                                                                                                                             tplot7                                                                                                                                                %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                       @û"@      V@   `~&C@   @£J@    ∂ôR@    ª,V@   ‡l‰T@   `‰W@   @û"@      V@   `~&C@   @£J@    ∂ôR@    ª,V@   ‡l‰T@   `‰W@Ú¥A  ∞BÛ3B2UB∞ÕîBÿe±Bg#ßB#ø∏B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K15165528 
+<BeginSerset>
+<BeginSeries>
+.name = `"tplot1"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  2.920689344406128
+.max =  2.920689344406128
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"y"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  95
+.max =  95
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+.lab_offset = (.)
+.vlabs.Declare __D_10 = `"BCG"'
+.vlabs.Declare __D_20 = `"POLIO1"'
+.vlabs.Declare __D_27 = `"PENTA1"'
+.vlabs.Declare __D_37 = `"POLIO2"'
+.vlabs.Declare __D_44 = `"PENTA2"'
+.vlabs.Declare __D_54 = `"POLIO3"'
+.vlabs.Declare __D_61 = `"PENTA3"'
+.vlabs.Declare __D_71 = `"MMR1"'
+.vlabs.Declare __D_81 = `"POLIO4"'
+.vlabs.Declare __D_88 = `"DPT4"'
+.vlabs.Declare __D_95 = `"MMR2"'
+<EndSeries>
+<BeginSeries>
+.name = `"tplot2"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  31.5665397644043
+.max =  31.5665397644043
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot3"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  42.08633422851563
+.max =  42.08633422851563
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot4"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  52.46806335449219
+.max =  52.46806335449219
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot5"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  61.89370346069336
+.max =  61.89370346069336
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot6"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  55.67776107788086
+.max =  55.67776107788086
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"tplot7"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  67.74294281005859
+.max =  67.74294281005859
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛˛˛˛˛˛˛tplot1 U                                                                                                                                              y 00003V days                                                                                                                                         tplot2 ipy                                                                                                                                            tplot3 ipx                                                                                                                                            tplot4 g0                                                                                                                                             tplot5                                                                                                                                                tplot6 g1                                                                                                                                             tplot7                                                                                                                                                %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                       `í]@     ¿W@   ¿ë?@    E@   ÄÈ;J@   ‡dÚN@   ‡¿÷K@   `åÔP@   `í]@     ¿W@   ¿ë?@    E@   ÄÈ;J@   ‡dÚN@   ‡¿÷K@   `åÔP@ìÏ:@  æBFà¸AhX(BLﬂQB'ìwB∂^Bc|áB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> scheme K9699298 
+.setscheme , scheme(s2color) naturallywhite(1)
+<EndItem>
+<BeginItem> twowaygraph_g K9b00348 <UseScheme> K9699298
+.style.editstyle boxstyle( shadestyle( color(white))) editcopy
+.sersets[1] = .__Map.K1515fd58.ref
+.sersets[2] = .__Map.K1515f5d8.ref
+.sersets[3] = .__Map.K1515ff88.ref
+.sersets[4] = .__Map.K151611a8.ref
+.sersets[5] = .__Map.K151615b8.ref
+.sersets[6] = .__Map.K15160988.ref
+.sersets[7] = .__Map.K15162058.ref
+.sersets[8] = .__Map.K15162c88.ref
+.sersets[9] = .__Map.K15164218.ref
+.sersets[10] = .__Map.K151639a8.ref
+.sersets[11] = .__Map.K15163d18.ref
+.sersets[12] = .__Map.K151652f8.ref
+.sersets[13] = .__Map.K15165528.ref
+.insert (plotregion1 = .plotregion.new , style(scheme twoway) graph(`.objkey')) at 1 1
+.plotregion1.xaxis_dexes = `"1"'
+.plotregion1.yaxis_dexes = `"1"'
+.plotregion1.style.editstyle boxstyle( linestyle( color(white)) shadestyle( color(white))) editcopy
+.plotregion1.Declare plot1 = .yxview.new , type(scatter) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof y') xvariable(`.sersets[1].seriesof zero')     plotregion(`.plotregion1.objkey') style(scheme p1) 
+.plotregion1.plot1.style.editstyle marker(symbol(i)) editcopy
+.plotregion1.Declare plot2 = .yxview.new , type(scatter) serset(`.sersets[2].objkey') yvariable(`.sersets[2].seriesof y') xvariable(`.sersets[2].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p2) 
+.plotregion1.plot2.style.editstyle line(color(gs8)) area(linestyle(color(gs8))) line(width(medium)) area(linestyle(width(medium))) line(pattern(shortdash)) area(linestyle(pattern(shortdash))) marker(symbol(i)) editcopy
+.plotregion1.plot2.style.editstyle connect(direct) editcopy
+.plotregion1.plot2._maybe_override_type
+.plotregion1.Declare plot3 = .yxview.new , type(bar) serset(`.sersets[3].objkey') yvariable(`.sersets[3].seriesof tplot1') xvariable(`.sersets[3].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p3bar) 
+.plotregion1.plot3.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(green*2))) editcopy
+.plotregion1.plot3.bar_drop_to.setstyle , style(y)
+.plotregion1.plot3.bar_size = 6.7
+.plotregion1.plot3.register_with_scale
+.plotregion1.Declare plot4 = .y2xview_g.new , type(rbar) serset(`.sersets[3].objkey') yvariable(`.sersets[3].seriesof tplot1') xvariable(`.sersets[3].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p4bar) ybvar(`.sersets[3].seriesof tplot2')
+.plotregion1.plot4.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*.5))) editcopy
+.plotregion1.plot4.bar_drop_to.setstyle , style(y)
+.plotregion1.plot4.bar_size = 6.7
+.plotregion1.plot4.register_with_scale
+.plotregion1.Declare plot5 = .y2xview_g.new , type(rbar) serset(`.sersets[3].objkey') yvariable(`.sersets[3].seriesof tplot2') xvariable(`.sersets[3].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p5bar) ybvar(`.sersets[3].seriesof tplot3')
+.plotregion1.plot5.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*.8))) editcopy
+.plotregion1.plot5.bar_drop_to.setstyle , style(y)
+.plotregion1.plot5.bar_size = 6.7
+.plotregion1.plot5.register_with_scale
+.plotregion1.Declare plot6 = .y2xview_g.new , type(rbar) serset(`.sersets[3].objkey') yvariable(`.sersets[3].seriesof tplot3') xvariable(`.sersets[3].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p6bar) ybvar(`.sersets[3].seriesof tplot4')
+.plotregion1.plot6.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(black))) editcopy
+.plotregion1.plot6.bar_drop_to.setstyle , style(y)
+.plotregion1.plot6.bar_size = 6.7
+.plotregion1.plot6.register_with_scale
+.plotregion1.Declare plot7 = .y2xview_g.new , type(rbar) serset(`.sersets[3].objkey') yvariable(`.sersets[3].seriesof tplot4') xvariable(`.sersets[3].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p7bar) ybvar(`.sersets[3].seriesof tplot5')
+.plotregion1.plot7.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(gs14))) editcopy
+.plotregion1.plot7.bar_drop_to.setstyle , style(y)
+.plotregion1.plot7.bar_size = 6.7
+.plotregion1.plot7.register_with_scale
+.plotregion1.Declare plot8 = .y2xview_g.new , type(rcap) serset(`.sersets[3].objkey') yvariable(`.sersets[3].seriesof tplot6') xvariable(`.sersets[3].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p8) ybvar(`.sersets[3].seriesof tplot7')
+.plotregion1.plot8.style.editstyle line(color(gs8)) area(linestyle(color(gs8))) line(width(vthin)) area(linestyle(width(vthin))) marker(size(small)) editcopy
+.plotregion1.plot8.bar_drop_to.setstyle , style(y)
+.plotregion1.Declare plot9 = .yxview.new , type(bar) serset(`.sersets[4].objkey') yvariable(`.sersets[4].seriesof tplot1') xvariable(`.sersets[4].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p9bar) 
+.plotregion1.plot9.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*2))) editcopy
+.plotregion1.plot9.bar_drop_to.setstyle , style(y)
+.plotregion1.plot9.bar_size = 6.7
+.plotregion1.plot9.register_with_scale
+.plotregion1.Declare plot10 = .y2xview_g.new , type(rbar) serset(`.sersets[4].objkey') yvariable(`.sersets[4].seriesof tplot1') xvariable(`.sersets[4].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p10bar) ybvar(`.sersets[4].seriesof tplot2')
+.plotregion1.plot10.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(green))) editcopy
+.plotregion1.plot10.bar_drop_to.setstyle , style(y)
+.plotregion1.plot10.bar_size = 6.7
+.plotregion1.plot10.register_with_scale
+.plotregion1.Declare plot11 = .y2xview_g.new , type(rbar) serset(`.sersets[4].objkey') yvariable(`.sersets[4].seriesof tplot2') xvariable(`.sersets[4].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p11bar) ybvar(`.sersets[4].seriesof tplot3')
+.plotregion1.plot11.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*.5))) editcopy
+.plotregion1.plot11.bar_drop_to.setstyle , style(y)
+.plotregion1.plot11.bar_size = 6.7
+.plotregion1.plot11.register_with_scale
+.plotregion1.Declare plot12 = .y2xview_g.new , type(rbar) serset(`.sersets[4].objkey') yvariable(`.sersets[4].seriesof tplot3') xvariable(`.sersets[4].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p12bar) ybvar(`.sersets[4].seriesof tplot4')
+.plotregion1.plot12.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*.8))) editcopy
+.plotregion1.plot12.bar_drop_to.setstyle , style(y)
+.plotregion1.plot12.bar_size = 6.7
+.plotregion1.plot12.register_with_scale
+.plotregion1.Declare plot13 = .y2xview_g.new , type(rbar) serset(`.sersets[4].objkey') yvariable(`.sersets[4].seriesof tplot4') xvariable(`.sersets[4].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p13bar) ybvar(`.sersets[4].seriesof tplot5')
+.plotregion1.plot13.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(gs14))) editcopy
+.plotregion1.plot13.bar_drop_to.setstyle , style(y)
+.plotregion1.plot13.bar_size = 6.7
+.plotregion1.plot13.register_with_scale
+.plotregion1.Declare plot14 = .y2xview_g.new , type(rcap) serset(`.sersets[4].objkey') yvariable(`.sersets[4].seriesof tplot6') xvariable(`.sersets[4].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p14) ybvar(`.sersets[4].seriesof tplot7')
+.plotregion1.plot14.style.editstyle line(color(gs8)) area(linestyle(color(gs8))) line(width(vthin)) area(linestyle(width(vthin))) marker(size(small)) editcopy
+.plotregion1.plot14.bar_drop_to.setstyle , style(y)
+.plotregion1.Declare plot15 = .yxview.new , type(bar) serset(`.sersets[5].objkey') yvariable(`.sersets[5].seriesof tplot1') xvariable(`.sersets[5].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p15bar) 
+.plotregion1.plot15.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*2))) editcopy
+.plotregion1.plot15.bar_drop_to.setstyle , style(y)
+.plotregion1.plot15.bar_size = 6.7
+.plotregion1.plot15.register_with_scale
+.plotregion1.Declare plot16 = .y2xview_g.new , type(rbar) serset(`.sersets[5].objkey') yvariable(`.sersets[5].seriesof tplot1') xvariable(`.sersets[5].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p1bar) ybvar(`.sersets[5].seriesof tplot2')
+.plotregion1.plot16.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(green))) editcopy
+.plotregion1.plot16.bar_drop_to.setstyle , style(y)
+.plotregion1.plot16.bar_size = 6.7
+.plotregion1.plot16.register_with_scale
+.plotregion1.Declare plot17 = .y2xview_g.new , type(rbar) serset(`.sersets[5].objkey') yvariable(`.sersets[5].seriesof tplot2') xvariable(`.sersets[5].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p2bar) ybvar(`.sersets[5].seriesof tplot3')
+.plotregion1.plot17.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*.5))) editcopy
+.plotregion1.plot17.bar_drop_to.setstyle , style(y)
+.plotregion1.plot17.bar_size = 6.7
+.plotregion1.plot17.register_with_scale
+.plotregion1.Declare plot18 = .y2xview_g.new , type(rbar) serset(`.sersets[5].objkey') yvariable(`.sersets[5].seriesof tplot3') xvariable(`.sersets[5].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p3bar) ybvar(`.sersets[5].seriesof tplot4')
+.plotregion1.plot18.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*.8))) editcopy
+.plotregion1.plot18.bar_drop_to.setstyle , style(y)
+.plotregion1.plot18.bar_size = 6.7
+.plotregion1.plot18.register_with_scale
+.plotregion1.Declare plot19 = .y2xview_g.new , type(rbar) serset(`.sersets[5].objkey') yvariable(`.sersets[5].seriesof tplot4') xvariable(`.sersets[5].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p4bar) ybvar(`.sersets[5].seriesof tplot5')
+.plotregion1.plot19.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(gs14))) editcopy
+.plotregion1.plot19.bar_drop_to.setstyle , style(y)
+.plotregion1.plot19.bar_size = 6.7
+.plotregion1.plot19.register_with_scale
+.plotregion1.Declare plot20 = .y2xview_g.new , type(rcap) serset(`.sersets[5].objkey') yvariable(`.sersets[5].seriesof tplot6') xvariable(`.sersets[5].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p5) ybvar(`.sersets[5].seriesof tplot7')
+.plotregion1.plot20.style.editstyle line(color(gs8)) area(linestyle(color(gs8))) line(width(vthin)) area(linestyle(width(vthin))) marker(size(small)) editcopy
+.plotregion1.plot20.bar_drop_to.setstyle , style(y)
+.plotregion1.Declare plot21 = .yxview.new , type(bar) serset(`.sersets[6].objkey') yvariable(`.sersets[6].seriesof tplot1') xvariable(`.sersets[6].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p6bar) 
+.plotregion1.plot21.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*2))) editcopy
+.plotregion1.plot21.bar_drop_to.setstyle , style(y)
+.plotregion1.plot21.bar_size = 6.7
+.plotregion1.plot21.register_with_scale
+.plotregion1.Declare plot22 = .y2xview_g.new , type(rbar) serset(`.sersets[6].objkey') yvariable(`.sersets[6].seriesof tplot1') xvariable(`.sersets[6].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p7bar) ybvar(`.sersets[6].seriesof tplot2')
+.plotregion1.plot22.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(green))) editcopy
+.plotregion1.plot22.bar_drop_to.setstyle , style(y)
+.plotregion1.plot22.bar_size = 6.7
+.plotregion1.plot22.register_with_scale
+.plotregion1.Declare plot23 = .y2xview_g.new , type(rbar) serset(`.sersets[6].objkey') yvariable(`.sersets[6].seriesof tplot2') xvariable(`.sersets[6].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p8bar) ybvar(`.sersets[6].seriesof tplot3')
+.plotregion1.plot23.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*.5))) editcopy
+.plotregion1.plot23.bar_drop_to.setstyle , style(y)
+.plotregion1.plot23.bar_size = 6.7
+.plotregion1.plot23.register_with_scale
+.plotregion1.Declare plot24 = .y2xview_g.new , type(rbar) serset(`.sersets[6].objkey') yvariable(`.sersets[6].seriesof tplot3') xvariable(`.sersets[6].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p9bar) ybvar(`.sersets[6].seriesof tplot4')
+.plotregion1.plot24.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*.8))) editcopy
+.plotregion1.plot24.bar_drop_to.setstyle , style(y)
+.plotregion1.plot24.bar_size = 6.7
+.plotregion1.plot24.register_with_scale
+.plotregion1.Declare plot25 = .y2xview_g.new , type(rbar) serset(`.sersets[6].objkey') yvariable(`.sersets[6].seriesof tplot4') xvariable(`.sersets[6].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p10bar) ybvar(`.sersets[6].seriesof tplot5')
+.plotregion1.plot25.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(gs14))) editcopy
+.plotregion1.plot25.bar_drop_to.setstyle , style(y)
+.plotregion1.plot25.bar_size = 6.7
+.plotregion1.plot25.register_with_scale
+.plotregion1.Declare plot26 = .y2xview_g.new , type(rcap) serset(`.sersets[6].objkey') yvariable(`.sersets[6].seriesof tplot6') xvariable(`.sersets[6].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p11) ybvar(`.sersets[6].seriesof tplot7')
+.plotregion1.plot26.style.editstyle line(color(gs8)) area(linestyle(color(gs8))) line(width(vthin)) area(linestyle(width(vthin))) marker(size(small)) editcopy
+.plotregion1.plot26.bar_drop_to.setstyle , style(y)
+.plotregion1.Declare plot27 = .yxview.new , type(bar) serset(`.sersets[7].objkey') yvariable(`.sersets[7].seriesof tplot1') xvariable(`.sersets[7].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p12bar) 
+.plotregion1.plot27.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*2))) editcopy
+.plotregion1.plot27.bar_drop_to.setstyle , style(y)
+.plotregion1.plot27.bar_size = 6.7
+.plotregion1.plot27.register_with_scale
+.plotregion1.Declare plot28 = .y2xview_g.new , type(rbar) serset(`.sersets[7].objkey') yvariable(`.sersets[7].seriesof tplot1') xvariable(`.sersets[7].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p13bar) ybvar(`.sersets[7].seriesof tplot2')
+.plotregion1.plot28.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(green))) editcopy
+.plotregion1.plot28.bar_drop_to.setstyle , style(y)
+.plotregion1.plot28.bar_size = 6.7
+.plotregion1.plot28.register_with_scale
+.plotregion1.Declare plot29 = .y2xview_g.new , type(rbar) serset(`.sersets[7].objkey') yvariable(`.sersets[7].seriesof tplot2') xvariable(`.sersets[7].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p14bar) ybvar(`.sersets[7].seriesof tplot3')
+.plotregion1.plot29.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*.5))) editcopy
+.plotregion1.plot29.bar_drop_to.setstyle , style(y)
+.plotregion1.plot29.bar_size = 6.7
+.plotregion1.plot29.register_with_scale
+.plotregion1.Declare plot30 = .y2xview_g.new , type(rbar) serset(`.sersets[7].objkey') yvariable(`.sersets[7].seriesof tplot3') xvariable(`.sersets[7].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p15bar) ybvar(`.sersets[7].seriesof tplot4')
+.plotregion1.plot30.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*.8))) editcopy
+.plotregion1.plot30.bar_drop_to.setstyle , style(y)
+.plotregion1.plot30.bar_size = 6.7
+.plotregion1.plot30.register_with_scale
+.plotregion1.Declare plot31 = .y2xview_g.new , type(rbar) serset(`.sersets[7].objkey') yvariable(`.sersets[7].seriesof tplot4') xvariable(`.sersets[7].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p1bar) ybvar(`.sersets[7].seriesof tplot5')
+.plotregion1.plot31.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(gs14))) editcopy
+.plotregion1.plot31.bar_drop_to.setstyle , style(y)
+.plotregion1.plot31.bar_size = 6.7
+.plotregion1.plot31.register_with_scale
+.plotregion1.Declare plot32 = .y2xview_g.new , type(rcap) serset(`.sersets[7].objkey') yvariable(`.sersets[7].seriesof tplot6') xvariable(`.sersets[7].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p2) ybvar(`.sersets[7].seriesof tplot7')
+.plotregion1.plot32.style.editstyle line(color(gs8)) area(linestyle(color(gs8))) line(width(vthin)) area(linestyle(width(vthin))) marker(size(small)) editcopy
+.plotregion1.plot32.bar_drop_to.setstyle , style(y)
+.plotregion1.Declare plot33 = .yxview.new , type(bar) serset(`.sersets[8].objkey') yvariable(`.sersets[8].seriesof tplot1') xvariable(`.sersets[8].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p3bar) 
+.plotregion1.plot33.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*2))) editcopy
+.plotregion1.plot33.bar_drop_to.setstyle , style(y)
+.plotregion1.plot33.bar_size = 6.7
+.plotregion1.plot33.register_with_scale
+.plotregion1.Declare plot34 = .y2xview_g.new , type(rbar) serset(`.sersets[8].objkey') yvariable(`.sersets[8].seriesof tplot1') xvariable(`.sersets[8].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p4bar) ybvar(`.sersets[8].seriesof tplot2')
+.plotregion1.plot34.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(green))) editcopy
+.plotregion1.plot34.bar_drop_to.setstyle , style(y)
+.plotregion1.plot34.bar_size = 6.7
+.plotregion1.plot34.register_with_scale
+.plotregion1.Declare plot35 = .y2xview_g.new , type(rbar) serset(`.sersets[8].objkey') yvariable(`.sersets[8].seriesof tplot2') xvariable(`.sersets[8].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p5bar) ybvar(`.sersets[8].seriesof tplot3')
+.plotregion1.plot35.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*.5))) editcopy
+.plotregion1.plot35.bar_drop_to.setstyle , style(y)
+.plotregion1.plot35.bar_size = 6.7
+.plotregion1.plot35.register_with_scale
+.plotregion1.Declare plot36 = .y2xview_g.new , type(rbar) serset(`.sersets[8].objkey') yvariable(`.sersets[8].seriesof tplot3') xvariable(`.sersets[8].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p6bar) ybvar(`.sersets[8].seriesof tplot4')
+.plotregion1.plot36.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*.8))) editcopy
+.plotregion1.plot36.bar_drop_to.setstyle , style(y)
+.plotregion1.plot36.bar_size = 6.7
+.plotregion1.plot36.register_with_scale
+.plotregion1.Declare plot37 = .y2xview_g.new , type(rbar) serset(`.sersets[8].objkey') yvariable(`.sersets[8].seriesof tplot4') xvariable(`.sersets[8].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p7bar) ybvar(`.sersets[8].seriesof tplot5')
+.plotregion1.plot37.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(gs14))) editcopy
+.plotregion1.plot37.bar_drop_to.setstyle , style(y)
+.plotregion1.plot37.bar_size = 6.7
+.plotregion1.plot37.register_with_scale
+.plotregion1.Declare plot38 = .y2xview_g.new , type(rcap) serset(`.sersets[8].objkey') yvariable(`.sersets[8].seriesof tplot6') xvariable(`.sersets[8].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p8) ybvar(`.sersets[8].seriesof tplot7')
+.plotregion1.plot38.style.editstyle line(color(gs8)) area(linestyle(color(gs8))) line(width(vthin)) area(linestyle(width(vthin))) marker(size(small)) editcopy
+.plotregion1.plot38.bar_drop_to.setstyle , style(y)
+.plotregion1.Declare plot39 = .yxview.new , type(bar) serset(`.sersets[9].objkey') yvariable(`.sersets[9].seriesof tplot1') xvariable(`.sersets[9].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p9bar) 
+.plotregion1.plot39.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*2))) editcopy
+.plotregion1.plot39.bar_drop_to.setstyle , style(y)
+.plotregion1.plot39.bar_size = 6.7
+.plotregion1.plot39.register_with_scale
+.plotregion1.Declare plot40 = .y2xview_g.new , type(rbar) serset(`.sersets[9].objkey') yvariable(`.sersets[9].seriesof tplot1') xvariable(`.sersets[9].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p10bar) ybvar(`.sersets[9].seriesof tplot2')
+.plotregion1.plot40.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(green))) editcopy
+.plotregion1.plot40.bar_drop_to.setstyle , style(y)
+.plotregion1.plot40.bar_size = 6.7
+.plotregion1.plot40.register_with_scale
+.plotregion1.Declare plot41 = .y2xview_g.new , type(rbar) serset(`.sersets[9].objkey') yvariable(`.sersets[9].seriesof tplot2') xvariable(`.sersets[9].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p11bar) ybvar(`.sersets[9].seriesof tplot3')
+.plotregion1.plot41.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*.5))) editcopy
+.plotregion1.plot41.bar_drop_to.setstyle , style(y)
+.plotregion1.plot41.bar_size = 6.7
+.plotregion1.plot41.register_with_scale
+.plotregion1.Declare plot42 = .y2xview_g.new , type(rbar) serset(`.sersets[9].objkey') yvariable(`.sersets[9].seriesof tplot3') xvariable(`.sersets[9].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p12bar) ybvar(`.sersets[9].seriesof tplot4')
+.plotregion1.plot42.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*.8))) editcopy
+.plotregion1.plot42.bar_drop_to.setstyle , style(y)
+.plotregion1.plot42.bar_size = 6.7
+.plotregion1.plot42.register_with_scale
+.plotregion1.Declare plot43 = .y2xview_g.new , type(rbar) serset(`.sersets[9].objkey') yvariable(`.sersets[9].seriesof tplot4') xvariable(`.sersets[9].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p13bar) ybvar(`.sersets[9].seriesof tplot5')
+.plotregion1.plot43.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(gs14))) editcopy
+.plotregion1.plot43.bar_drop_to.setstyle , style(y)
+.plotregion1.plot43.bar_size = 6.7
+.plotregion1.plot43.register_with_scale
+.plotregion1.Declare plot44 = .y2xview_g.new , type(rcap) serset(`.sersets[9].objkey') yvariable(`.sersets[9].seriesof tplot6') xvariable(`.sersets[9].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p14) ybvar(`.sersets[9].seriesof tplot7')
+.plotregion1.plot44.style.editstyle line(color(gs8)) area(linestyle(color(gs8))) line(width(vthin)) area(linestyle(width(vthin))) marker(size(small)) editcopy
+.plotregion1.plot44.bar_drop_to.setstyle , style(y)
+.plotregion1.Declare plot45 = .yxview.new , type(bar) serset(`.sersets[10].objkey') yvariable(`.sersets[10].seriesof tplot1') xvariable(`.sersets[10].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p15bar) 
+.plotregion1.plot45.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*2))) editcopy
+.plotregion1.plot45.bar_drop_to.setstyle , style(y)
+.plotregion1.plot45.bar_size = 6.7
+.plotregion1.plot45.register_with_scale
+.plotregion1.Declare plot46 = .y2xview_g.new , type(rbar) serset(`.sersets[10].objkey') yvariable(`.sersets[10].seriesof tplot1') xvariable(`.sersets[10].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p1bar) ybvar(`.sersets[10].seriesof tplot2')
+.plotregion1.plot46.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(green))) editcopy
+.plotregion1.plot46.bar_drop_to.setstyle , style(y)
+.plotregion1.plot46.bar_size = 6.7
+.plotregion1.plot46.register_with_scale
+.plotregion1.Declare plot47 = .y2xview_g.new , type(rbar) serset(`.sersets[10].objkey') yvariable(`.sersets[10].seriesof tplot2') xvariable(`.sersets[10].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p2bar) ybvar(`.sersets[10].seriesof tplot3')
+.plotregion1.plot47.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*.5))) editcopy
+.plotregion1.plot47.bar_drop_to.setstyle , style(y)
+.plotregion1.plot47.bar_size = 6.7
+.plotregion1.plot47.register_with_scale
+.plotregion1.Declare plot48 = .y2xview_g.new , type(rbar) serset(`.sersets[10].objkey') yvariable(`.sersets[10].seriesof tplot3') xvariable(`.sersets[10].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p3bar) ybvar(`.sersets[10].seriesof tplot4')
+.plotregion1.plot48.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*.8))) editcopy
+.plotregion1.plot48.bar_drop_to.setstyle , style(y)
+.plotregion1.plot48.bar_size = 6.7
+.plotregion1.plot48.register_with_scale
+.plotregion1.Declare plot49 = .y2xview_g.new , type(rbar) serset(`.sersets[10].objkey') yvariable(`.sersets[10].seriesof tplot4') xvariable(`.sersets[10].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p4bar) ybvar(`.sersets[10].seriesof tplot5')
+.plotregion1.plot49.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(gs14))) editcopy
+.plotregion1.plot49.bar_drop_to.setstyle , style(y)
+.plotregion1.plot49.bar_size = 6.7
+.plotregion1.plot49.register_with_scale
+.plotregion1.Declare plot50 = .y2xview_g.new , type(rcap) serset(`.sersets[10].objkey') yvariable(`.sersets[10].seriesof tplot6') xvariable(`.sersets[10].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p5) ybvar(`.sersets[10].seriesof tplot7')
+.plotregion1.plot50.style.editstyle line(color(gs8)) area(linestyle(color(gs8))) line(width(vthin)) area(linestyle(width(vthin))) marker(size(small)) editcopy
+.plotregion1.plot50.bar_drop_to.setstyle , style(y)
+.plotregion1.Declare plot51 = .yxview.new , type(bar) serset(`.sersets[11].objkey') yvariable(`.sersets[11].seriesof tplot1') xvariable(`.sersets[11].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p6bar) 
+.plotregion1.plot51.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*2))) editcopy
+.plotregion1.plot51.bar_drop_to.setstyle , style(y)
+.plotregion1.plot51.bar_size = 6.7
+.plotregion1.plot51.register_with_scale
+.plotregion1.Declare plot52 = .y2xview_g.new , type(rbar) serset(`.sersets[11].objkey') yvariable(`.sersets[11].seriesof tplot1') xvariable(`.sersets[11].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p7bar) ybvar(`.sersets[11].seriesof tplot2')
+.plotregion1.plot52.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(green))) editcopy
+.plotregion1.plot52.bar_drop_to.setstyle , style(y)
+.plotregion1.plot52.bar_size = 6.7
+.plotregion1.plot52.register_with_scale
+.plotregion1.Declare plot53 = .y2xview_g.new , type(rbar) serset(`.sersets[11].objkey') yvariable(`.sersets[11].seriesof tplot2') xvariable(`.sersets[11].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p8bar) ybvar(`.sersets[11].seriesof tplot3')
+.plotregion1.plot53.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*.5))) editcopy
+.plotregion1.plot53.bar_drop_to.setstyle , style(y)
+.plotregion1.plot53.bar_size = 6.7
+.plotregion1.plot53.register_with_scale
+.plotregion1.Declare plot54 = .y2xview_g.new , type(rbar) serset(`.sersets[11].objkey') yvariable(`.sersets[11].seriesof tplot3') xvariable(`.sersets[11].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p9bar) ybvar(`.sersets[11].seriesof tplot4')
+.plotregion1.plot54.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*.8))) editcopy
+.plotregion1.plot54.bar_drop_to.setstyle , style(y)
+.plotregion1.plot54.bar_size = 6.7
+.plotregion1.plot54.register_with_scale
+.plotregion1.Declare plot55 = .y2xview_g.new , type(rbar) serset(`.sersets[11].objkey') yvariable(`.sersets[11].seriesof tplot4') xvariable(`.sersets[11].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p10bar) ybvar(`.sersets[11].seriesof tplot5')
+.plotregion1.plot55.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(gs14))) editcopy
+.plotregion1.plot55.bar_drop_to.setstyle , style(y)
+.plotregion1.plot55.bar_size = 6.7
+.plotregion1.plot55.register_with_scale
+.plotregion1.Declare plot56 = .y2xview_g.new , type(rcap) serset(`.sersets[11].objkey') yvariable(`.sersets[11].seriesof tplot6') xvariable(`.sersets[11].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p11) ybvar(`.sersets[11].seriesof tplot7')
+.plotregion1.plot56.style.editstyle line(color(gs8)) area(linestyle(color(gs8))) line(width(vthin)) area(linestyle(width(vthin))) marker(size(small)) editcopy
+.plotregion1.plot56.bar_drop_to.setstyle , style(y)
+.plotregion1.Declare plot57 = .yxview.new , type(bar) serset(`.sersets[12].objkey') yvariable(`.sersets[12].seriesof tplot1') xvariable(`.sersets[12].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p12bar) 
+.plotregion1.plot57.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*2))) editcopy
+.plotregion1.plot57.bar_drop_to.setstyle , style(y)
+.plotregion1.plot57.bar_size = 6.7
+.plotregion1.plot57.register_with_scale
+.plotregion1.Declare plot58 = .y2xview_g.new , type(rbar) serset(`.sersets[12].objkey') yvariable(`.sersets[12].seriesof tplot1') xvariable(`.sersets[12].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p13bar) ybvar(`.sersets[12].seriesof tplot2')
+.plotregion1.plot58.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(green))) editcopy
+.plotregion1.plot58.bar_drop_to.setstyle , style(y)
+.plotregion1.plot58.bar_size = 6.7
+.plotregion1.plot58.register_with_scale
+.plotregion1.Declare plot59 = .y2xview_g.new , type(rbar) serset(`.sersets[12].objkey') yvariable(`.sersets[12].seriesof tplot2') xvariable(`.sersets[12].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p14bar) ybvar(`.sersets[12].seriesof tplot3')
+.plotregion1.plot59.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*.5))) editcopy
+.plotregion1.plot59.bar_drop_to.setstyle , style(y)
+.plotregion1.plot59.bar_size = 6.7
+.plotregion1.plot59.register_with_scale
+.plotregion1.Declare plot60 = .y2xview_g.new , type(rbar) serset(`.sersets[12].objkey') yvariable(`.sersets[12].seriesof tplot3') xvariable(`.sersets[12].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p15bar) ybvar(`.sersets[12].seriesof tplot4')
+.plotregion1.plot60.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*.8))) editcopy
+.plotregion1.plot60.bar_drop_to.setstyle , style(y)
+.plotregion1.plot60.bar_size = 6.7
+.plotregion1.plot60.register_with_scale
+.plotregion1.Declare plot61 = .y2xview_g.new , type(rbar) serset(`.sersets[12].objkey') yvariable(`.sersets[12].seriesof tplot4') xvariable(`.sersets[12].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p1bar) ybvar(`.sersets[12].seriesof tplot5')
+.plotregion1.plot61.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(gs14))) editcopy
+.plotregion1.plot61.bar_drop_to.setstyle , style(y)
+.plotregion1.plot61.bar_size = 6.7
+.plotregion1.plot61.register_with_scale
+.plotregion1.Declare plot62 = .y2xview_g.new , type(rcap) serset(`.sersets[12].objkey') yvariable(`.sersets[12].seriesof tplot6') xvariable(`.sersets[12].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p2) ybvar(`.sersets[12].seriesof tplot7')
+.plotregion1.plot62.style.editstyle line(color(gs8)) area(linestyle(color(gs8))) line(width(vthin)) area(linestyle(width(vthin))) marker(size(small)) editcopy
+.plotregion1.plot62.bar_drop_to.setstyle , style(y)
+.plotregion1.Declare plot63 = .yxview.new , type(bar) serset(`.sersets[13].objkey') yvariable(`.sersets[13].seriesof tplot1') xvariable(`.sersets[13].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p3bar) 
+.plotregion1.plot63.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*2))) editcopy
+.plotregion1.plot63.bar_drop_to.setstyle , style(y)
+.plotregion1.plot63.bar_size = 6.7
+.plotregion1.plot63.register_with_scale
+.plotregion1.Declare plot64 = .y2xview_g.new , type(rbar) serset(`.sersets[13].objkey') yvariable(`.sersets[13].seriesof tplot1') xvariable(`.sersets[13].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p4bar) ybvar(`.sersets[13].seriesof tplot2')
+.plotregion1.plot64.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(green))) editcopy
+.plotregion1.plot64.bar_drop_to.setstyle , style(y)
+.plotregion1.plot64.bar_size = 6.7
+.plotregion1.plot64.register_with_scale
+.plotregion1.Declare plot65 = .y2xview_g.new , type(rbar) serset(`.sersets[13].objkey') yvariable(`.sersets[13].seriesof tplot2') xvariable(`.sersets[13].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p5bar) ybvar(`.sersets[13].seriesof tplot3')
+.plotregion1.plot65.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*.5))) editcopy
+.plotregion1.plot65.bar_drop_to.setstyle , style(y)
+.plotregion1.plot65.bar_size = 6.7
+.plotregion1.plot65.register_with_scale
+.plotregion1.Declare plot66 = .y2xview_g.new , type(rbar) serset(`.sersets[13].objkey') yvariable(`.sersets[13].seriesof tplot3') xvariable(`.sersets[13].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p6bar) ybvar(`.sersets[13].seriesof tplot4')
+.plotregion1.plot66.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(magenta*.8))) editcopy
+.plotregion1.plot66.bar_drop_to.setstyle , style(y)
+.plotregion1.plot66.bar_size = 6.7
+.plotregion1.plot66.register_with_scale
+.plotregion1.Declare plot67 = .y2xview_g.new , type(rbar) serset(`.sersets[13].objkey') yvariable(`.sersets[13].seriesof tplot4') xvariable(`.sersets[13].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p7bar) ybvar(`.sersets[13].seriesof tplot5')
+.plotregion1.plot67.style.editstyle line(color(gs2)) area(linestyle(color(gs2))) line(width(*.2)) area(linestyle(width(*.2))) area(shadestyle(color(gs14))) editcopy
+.plotregion1.plot67.bar_drop_to.setstyle , style(y)
+.plotregion1.plot67.bar_size = 6.7
+.plotregion1.plot67.register_with_scale
+.plotregion1.Declare plot68 = .y2xview_g.new , type(rcap) serset(`.sersets[13].objkey') yvariable(`.sersets[13].seriesof tplot6') xvariable(`.sersets[13].seriesof y')     plotregion(`.plotregion1.objkey') style(scheme p8) ybvar(`.sersets[13].seriesof tplot7')
+.plotregion1.plot68.style.editstyle line(color(gs8)) area(linestyle(color(gs8))) line(width(vthin)) area(linestyle(width(vthin))) marker(size(small)) editcopy
+.plotregion1.plot68.bar_drop_to.setstyle , style(y)
+.plotregion1.clear_scales
+.plotregion1.reset_scales , noclear
+.n_views = 68
+.n_plotregions = 1
+.last_style = 68
+.x_scales = `" "1""'
+.y_scales = `" "1""'
+.create_axes 1 1 "9" "" 9
+.style.editstyle legend_position(6) editcopy
+.style.editstyle legend_span(yes) editcopy
+.insert (legend = .legend_g.new, graphs(`.objkey') style(scheme)) below plotregion1 , ring(3) spancols(all) spanfit(left right)
+.legend.style.editstyle box_alignment(S) editcopy
+.legend.style.editstyle boxstyle( linestyle( color(white))) editcopy
+.legend.style.editstyle labelstyle( size(*.5)) editcopy
+.legend.holes = ""
+.legend.style.editstyle  rows(1) key_gap(0.5) key_position(left) key_xsize(*.3) key_ysize(*1) editcopy
+.legend.insert (note = .sized_textbox.new, mtextq(`""') style(scheme leg_note) ) below plotregion1 , ring(3) 
+.legend.note.style.editstyle box_alignment(SW) editcopy
+.legend.note.style.editstyle horizontal(left) editcopy
+.legend.insert (caption = .sized_textbox.new, mtextq(`""') style(scheme leg_caption) ) below plotregion1 , ring(5) 
+.legend.caption.style.editstyle box_alignment(SW) editcopy
+.legend.caption.style.editstyle horizontal(left) editcopy
+.legend.insert (subtitle = .sized_textbox.new, mtextq(`""') style(scheme leg_subtitle) ) above plotregion1 , ring(6) 
+.legend.subtitle.style.editstyle box_alignment(N) editcopy
+.legend.subtitle.style.editstyle horizontal(center) editcopy
+.legend.insert (title = .sized_textbox.new, mtextq(`""') style(scheme leg_title) ) above plotregion1 , ring(7) 
+.legend.title.style.editstyle box_alignment(N) editcopy
+.legend.title.style.editstyle horizontal(center) editcopy
+.legend.rebuild
+.legend.parse_order 9 "Too Early" 3 "BCG by day 5" 10 "Timely (28 days)" 11 "< 2 Months Late" 12 "2+ Months Late" 6 "BCG After 1 Year" 13 "Timing Unknown"
+.legend.repositionkeys
+.xaxis1.addmin 0
+.xaxis1.addmax 170
+.xaxis1.style.editstyle  title_gap(*5)  editcopy
+.xaxis1.major.clear
+.xaxis1.major.range_ticks 0 100 20
+.xaxis1.reset_scale reinit
+.xaxis1.style.editstyle majorstyle( tickangle(0) tickstyle(  textstyle( size(5pt))) ) editcopy
+.xaxis1.title.edit , mtextq(`""""')   replace
+.xaxis1.title.edit , mtextq(`"Estimated Coverage (%)"')   replace
+.xaxis1.title.style.editstyle  size(5pt) editcopy
+.yaxis1.major.clear
+.yaxis1.major.add_ticks  10 20 27 37 44 54 61 71 81 88 95 ,  
+.yaxis1.major.set_default 0
+.yaxis1.reset_scale reinit
+.yaxis1.style.editstyle draw_major_grid(no) editcopy
+.yaxis1.style.editstyle majorstyle( tickangle(0) use_labels(yes) tickstyle(  textstyle( size(5pt) color(black))) ) editcopy
+.yaxis1.title.edit , mtextq(`"" ""')   replace
+.insert (r1title = .sized_textbox.new, mtextq(`""') style(scheme r1title) orientation(vertical)) rightof plotregion1 , ring(1) 
+.insert (r2title = .sized_textbox.new, mtextq(`""') style(scheme r2title) orientation(vertical)) rightof plotregion1 , ring(2) 
+.insert (l1title = .sized_textbox.new, mtextq(`""') style(scheme l1title) orientation(vertical)) leftof plotregion1 , ring(1) 
+.insert (l2title = .sized_textbox.new, mtextq(`""') style(scheme l2title) orientation(vertical)) leftof plotregion1 , ring(2) 
+.insert (t1title = .sized_textbox.new, mtextq(`""') style(scheme t1title) ) above plotregion1 , ring(1) 
+.insert (t2title = .sized_textbox.new, mtextq(`""') style(scheme t2title) ) above plotregion1 , ring(2) 
+.insert (b1title = .sized_textbox.new, mtextq(`""') style(scheme b1title) ) below plotregion1 , ring(1) 
+.insert (b2title = .sized_textbox.new, mtextq(`""') style(scheme b1title) ) below plotregion1 , ring(2) 
+.style.editstyle note_span(yes) editcopy
+.insert (note = .sized_textbox.new, mtextq(`""Fully vaccinated: 81.2% (95% CI: 75.3 - 86.0%). Fully vaccinated dose list: BCG POLIO1 POLIO2 POLIO3 PENTA1 PENTA2 PENTA3 MMR1." "Not vaccinated: 1.5% (95% CI: 0.6 - 3.7%). Not vaccinated means the child did not receive any of the doses from the fully vaccinated dose list.""') style(scheme note) ) below plotregion1 , ring(4) spancols(all) spanfit(left right)
+.note.style.editstyle box_alignment(SW) editcopy
+.note.style.editstyle horizontal(left) editcopy
+.note.style.editstyle  box_alignment(w) size(5pt) editcopy
+.style.editstyle caption_span(yes) editcopy
+.insert (caption = .sized_textbox.new, mtextq(`""Abbreviations: HBR- home-based record" "CI - Confidence interval; N - Sample size; NEFF - Effective sample size; DEFF - Design effect; ICC - Intracluster correlation coefficient""') style(scheme caption) ) below plotregion1 , ring(5) spancols(all) spanfit(left right)
+.caption.style.editstyle box_alignment(SW) editcopy
+.caption.style.editstyle horizontal(left) editcopy
+.caption.style.editstyle  box_alignment(w) size(5pt) editcopy
+.insert (subtitle = .sized_textbox.new, mtextq(`"" ""') style(scheme subtitle) ) above plotregion1 , ring(6) 
+.subtitle.style.editstyle box_alignment(N) editcopy
+.subtitle.style.editstyle horizontal(center) editcopy
+.subtitle.style.editstyle  box_alignment(w) size(small) editcopy
+.style.editstyle title_span(yes) editcopy
+.insert (title = .sized_textbox.new, mtextq(`""Vaccination Coverage & Timeliness: Jamaica""') style(scheme title) ) above plotregion1 , ring(7) spancols(all) spanfit(left right)
+.title.style.editstyle box_alignment(N) editcopy
+.title.style.editstyle horizontal(center) editcopy
+.title.style.editstyle  box_alignment(w) size(medium) editcopy
+.insert (spacert = .spacer.new) above plotregion1 , ring(11)
+.insert (spacerb = .spacer.new) below plotregion1 , ring(11)
+.insert (spacerl = .spacer.new) leftof plotregion1 , ring(11)
+.insert (spacerr = .spacer.new) rightof plotregion1 , ring(11)
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox1 = .pos_textbox.new , ypos(10) xpos(108) forcesized mtextq(`" `"97.7"'"') style(scheme text_option) 
+.plotregion1.textbox1.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox2 = .pos_textbox.new , ypos(20) xpos(108) forcesized mtextq(`" `"96.3"'"') style(scheme text_option) 
+.plotregion1.textbox2.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox3 = .pos_textbox.new , ypos(27) xpos(108) forcesized mtextq(`" `"94.1"'"') style(scheme text_option) 
+.plotregion1.textbox3.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox4 = .pos_textbox.new , ypos(37) xpos(108) forcesized mtextq(`" `"92.8"'"') style(scheme text_option) 
+.plotregion1.textbox4.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox5 = .pos_textbox.new , ypos(44) xpos(108) forcesized mtextq(`" `"87.6"'"') style(scheme text_option) 
+.plotregion1.textbox5.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox6 = .pos_textbox.new , ypos(54) xpos(108) forcesized mtextq(`" `"90.0"'"') style(scheme text_option) 
+.plotregion1.textbox6.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox7 = .pos_textbox.new , ypos(61) xpos(108) forcesized mtextq(`" `"83.5"'"') style(scheme text_option) 
+.plotregion1.textbox7.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox8 = .pos_textbox.new , ypos(71) xpos(108) forcesized mtextq(`" `"95.2"'"') style(scheme text_option) 
+.plotregion1.textbox8.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox9 = .pos_textbox.new , ypos(81) xpos(108) forcesized mtextq(`" `"73.6"'"') style(scheme text_option) 
+.plotregion1.textbox9.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox10 = .pos_textbox.new , ypos(88) xpos(108) forcesized mtextq(`" `"88.7"'"') style(scheme text_option) 
+.plotregion1.textbox10.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox11 = .pos_textbox.new , ypos(95) xpos(108) forcesized mtextq(`" `"61.9"'"') style(scheme text_option) 
+.plotregion1.textbox11.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox12 = .pos_textbox.new , ypos(104) xpos(108) forcesized mtextq(`" `"Coverage(%)"'"') style(scheme text_option) 
+.plotregion1.textbox12.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox13 = .pos_textbox.new , ypos(10) xpos(122) forcesized mtextq(`" `"(95.2,98.9)"'"') style(scheme text_option) 
+.plotregion1.textbox13.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox14 = .pos_textbox.new , ypos(20) xpos(122) forcesized mtextq(`" `"(92.8,98.1)"'"') style(scheme text_option) 
+.plotregion1.textbox14.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox15 = .pos_textbox.new , ypos(27) xpos(122) forcesized mtextq(`" `"(89.7,96.7)"'"') style(scheme text_option) 
+.plotregion1.textbox15.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox16 = .pos_textbox.new , ypos(37) xpos(122) forcesized mtextq(`" `"(88.8,95.5)"'"') style(scheme text_option) 
+.plotregion1.textbox16.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox17 = .pos_textbox.new , ypos(44) xpos(122) forcesized mtextq(`" `"(81.5,91.9)"'"') style(scheme text_option) 
+.plotregion1.textbox17.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox18 = .pos_textbox.new , ypos(54) xpos(122) forcesized mtextq(`" `"(85.3,93.2)"'"') style(scheme text_option) 
+.plotregion1.textbox18.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox19 = .pos_textbox.new , ypos(61) xpos(122) forcesized mtextq(`" `"(77.6,88.1)"'"') style(scheme text_option) 
+.plotregion1.textbox19.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox20 = .pos_textbox.new , ypos(71) xpos(122) forcesized mtextq(`" `"(91.2,97.4)"'"') style(scheme text_option) 
+.plotregion1.textbox20.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox21 = .pos_textbox.new , ypos(81) xpos(122) forcesized mtextq(`" `"(68.1,78.4)"'"') style(scheme text_option) 
+.plotregion1.textbox21.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox22 = .pos_textbox.new , ypos(88) xpos(122) forcesized mtextq(`" `"(83.6,92.4)"'"') style(scheme text_option) 
+.plotregion1.textbox22.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox23 = .pos_textbox.new , ypos(95) xpos(122) forcesized mtextq(`" `"(55.7,67.7)"'"') style(scheme text_option) 
+.plotregion1.textbox23.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox24 = .pos_textbox.new , ypos(104) xpos(122) forcesized mtextq(`" `"95% CI"'"') style(scheme text_option) 
+.plotregion1.textbox24.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox25 = .pos_textbox.new , ypos(10) xpos(135) forcesized mtextq(`" `"281"'"') style(scheme text_option) 
+.plotregion1.textbox25.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox26 = .pos_textbox.new , ypos(20) xpos(135) forcesized mtextq(`" `"281"'"') style(scheme text_option) 
+.plotregion1.textbox26.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox27 = .pos_textbox.new , ypos(27) xpos(135) forcesized mtextq(`" `"281"'"') style(scheme text_option) 
+.plotregion1.textbox27.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox28 = .pos_textbox.new , ypos(37) xpos(135) forcesized mtextq(`" `"281"'"') style(scheme text_option) 
+.plotregion1.textbox28.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox29 = .pos_textbox.new , ypos(44) xpos(135) forcesized mtextq(`" `"281"'"') style(scheme text_option) 
+.plotregion1.textbox29.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox30 = .pos_textbox.new , ypos(54) xpos(135) forcesized mtextq(`" `"281"'"') style(scheme text_option) 
+.plotregion1.textbox30.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox31 = .pos_textbox.new , ypos(61) xpos(135) forcesized mtextq(`" `"281"'"') style(scheme text_option) 
+.plotregion1.textbox31.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox32 = .pos_textbox.new , ypos(71) xpos(135) forcesized mtextq(`" `"281"'"') style(scheme text_option) 
+.plotregion1.textbox32.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox33 = .pos_textbox.new , ypos(81) xpos(135) forcesized mtextq(`" `"281"'"') style(scheme text_option) 
+.plotregion1.textbox33.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox34 = .pos_textbox.new , ypos(88) xpos(135) forcesized mtextq(`" `"281"'"') style(scheme text_option) 
+.plotregion1.textbox34.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox35 = .pos_textbox.new , ypos(95) xpos(135) forcesized mtextq(`" `"281"'"') style(scheme text_option) 
+.plotregion1.textbox35.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox36 = .pos_textbox.new , ypos(104) xpos(135) forcesized mtextq(`" `"N"'"') style(scheme text_option) 
+.plotregion1.textbox36.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox37 = .pos_textbox.new , ypos(10) xpos(145) forcesized mtextq(`" `"281"'"') style(scheme text_option) 
+.plotregion1.textbox37.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox38 = .pos_textbox.new , ypos(20) xpos(145) forcesized mtextq(`" `"219"'"') style(scheme text_option) 
+.plotregion1.textbox38.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox39 = .pos_textbox.new , ypos(27) xpos(145) forcesized mtextq(`" `"181"'"') style(scheme text_option) 
+.plotregion1.textbox39.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox40 = .pos_textbox.new , ypos(37) xpos(145) forcesized mtextq(`" `"235"'"') style(scheme text_option) 
+.plotregion1.textbox40.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox41 = .pos_textbox.new , ypos(44) xpos(145) forcesized mtextq(`" `"156"'"') style(scheme text_option) 
+.plotregion1.textbox41.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox42 = .pos_textbox.new , ypos(54) xpos(145) forcesized mtextq(`" `"224"'"') style(scheme text_option) 
+.plotregion1.textbox42.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox43 = .pos_textbox.new , ypos(61) xpos(145) forcesized mtextq(`" `"191"'"') style(scheme text_option) 
+.plotregion1.textbox43.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox44 = .pos_textbox.new , ypos(71) xpos(145) forcesized mtextq(`" `"197"'"') style(scheme text_option) 
+.plotregion1.textbox44.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox45 = .pos_textbox.new , ypos(81) xpos(145) forcesized mtextq(`" `"281"'"') style(scheme text_option) 
+.plotregion1.textbox45.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox46 = .pos_textbox.new , ypos(88) xpos(145) forcesized mtextq(`" `"200"'"') style(scheme text_option) 
+.plotregion1.textbox46.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox47 = .pos_textbox.new , ypos(95) xpos(145) forcesized mtextq(`" `"245"'"') style(scheme text_option) 
+.plotregion1.textbox47.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox48 = .pos_textbox.new , ypos(104) xpos(145) forcesized mtextq(`" `"NEFF"'"') style(scheme text_option) 
+.plotregion1.textbox48.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox49 = .pos_textbox.new , ypos(10) xpos(155) forcesized mtextq(`" `"1.0"'"') style(scheme text_option) 
+.plotregion1.textbox49.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox50 = .pos_textbox.new , ypos(20) xpos(155) forcesized mtextq(`" `"1.3"'"') style(scheme text_option) 
+.plotregion1.textbox50.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox51 = .pos_textbox.new , ypos(27) xpos(155) forcesized mtextq(`" `"1.5"'"') style(scheme text_option) 
+.plotregion1.textbox51.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox52 = .pos_textbox.new , ypos(37) xpos(155) forcesized mtextq(`" `"1.2"'"') style(scheme text_option) 
+.plotregion1.textbox52.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox53 = .pos_textbox.new , ypos(44) xpos(155) forcesized mtextq(`" `"1.8"'"') style(scheme text_option) 
+.plotregion1.textbox53.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox54 = .pos_textbox.new , ypos(54) xpos(155) forcesized mtextq(`" `"1.2"'"') style(scheme text_option) 
+.plotregion1.textbox54.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox55 = .pos_textbox.new , ypos(61) xpos(155) forcesized mtextq(`" `"1.5"'"') style(scheme text_option) 
+.plotregion1.textbox55.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox56 = .pos_textbox.new , ypos(71) xpos(155) forcesized mtextq(`" `"1.4"'"') style(scheme text_option) 
+.plotregion1.textbox56.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox57 = .pos_textbox.new , ypos(81) xpos(155) forcesized mtextq(`" `"1.0"'"') style(scheme text_option) 
+.plotregion1.textbox57.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox58 = .pos_textbox.new , ypos(88) xpos(155) forcesized mtextq(`" `"1.4"'"') style(scheme text_option) 
+.plotregion1.textbox58.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox59 = .pos_textbox.new , ypos(95) xpos(155) forcesized mtextq(`" `"1.1"'"') style(scheme text_option) 
+.plotregion1.textbox59.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox60 = .pos_textbox.new , ypos(104) xpos(155) forcesized mtextq(`" `"DEFF"'"') style(scheme text_option) 
+.plotregion1.textbox60.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox61 = .pos_textbox.new , ypos(10) xpos(165) forcesized mtextq(`" `"0.087"'"') style(scheme text_option) 
+.plotregion1.textbox61.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox62 = .pos_textbox.new , ypos(20) xpos(165) forcesized mtextq(`" `"-0.396"'"') style(scheme text_option) 
+.plotregion1.textbox62.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox63 = .pos_textbox.new , ypos(27) xpos(165) forcesized mtextq(`" `"-0.331"'"') style(scheme text_option) 
+.plotregion1.textbox63.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox64 = .pos_textbox.new , ypos(37) xpos(165) forcesized mtextq(`" `"-0.099"'"') style(scheme text_option) 
+.plotregion1.textbox64.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox65 = .pos_textbox.new , ypos(44) xpos(165) forcesized mtextq(`" `"0.005"'"') style(scheme text_option) 
+.plotregion1.textbox65.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox66 = .pos_textbox.new , ypos(54) xpos(165) forcesized mtextq(`" `"-0.058"'"') style(scheme text_option) 
+.plotregion1.textbox66.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox67 = .pos_textbox.new , ypos(61) xpos(165) forcesized mtextq(`" `"-0.003"'"') style(scheme text_option) 
+.plotregion1.textbox67.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox68 = .pos_textbox.new , ypos(71) xpos(165) forcesized mtextq(`" `"-0.228"'"') style(scheme text_option) 
+.plotregion1.textbox68.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox69 = .pos_textbox.new , ypos(81) xpos(165) forcesized mtextq(`" `"0.084"'"') style(scheme text_option) 
+.plotregion1.textbox69.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox70 = .pos_textbox.new , ypos(88) xpos(165) forcesized mtextq(`" `"0.191"'"') style(scheme text_option) 
+.plotregion1.textbox70.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox71 = .pos_textbox.new , ypos(95) xpos(165) forcesized mtextq(`" `"0.137"'"') style(scheme text_option) 
+.plotregion1.textbox71.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox72 = .pos_textbox.new , ypos(104) xpos(165) forcesized mtextq(`" `"ICC"'"') style(scheme text_option) 
+.plotregion1.textbox72.style.editstyle  box_alignment(c) size(5pt) color(black) editcopy
+local tfmt `.plotregion1.get_time_format'
+.plotregion1.Declare textbox73 = .pos_textbox.new , ypos(0.05) xpos(80.09718596703999) forcesized mtextq(`" `"<-- Showed HBR (79.1%)"'"') style(scheme text_option) 
+.plotregion1.textbox73.style.editstyle  box_alignment(3) size(5pt) color(gs2) editcopy
+.command = `"twoway (scatter y zero , ms(i)) (scatteri 0 79.09718596703999 101.7 79.09718596703999, ms(i) connect(direct) lw(medium) lc(gs8) lp(shortdash) ) (bar tplot1 y if y == 10, horizontal fc(green*2) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot1 tplot2 y if y == 10, horizontal fc(magenta*.5) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot2 tplot3 y if y == 10, horizontal fc(magenta*.8) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot3 tplot4 y if y == 10, horizontal fc(black) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot4 tplot5 y if y == 10, horizontal fc(gs14) lc(gs2) lw(*.2) barwidth(6.7)) (rcap tplot6 tplot7 y if y == 10 , horizontal lc(gs8) lw(vthin) msize(small)) (bar tplot1 y if y == 20, horizontal fc(magenta*2) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot1 tplot2 y if y == 20, horizontal fc(green) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot2 tplot3 y if y == 20, horizontal fc(magenta*.5) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot3 tplot4 y if y == 20, horizontal fc(magenta*.8) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot4 tplot5 y if y == 20, horizontal fc(gs14) lc(gs2) lw(*.2) barwidth(6.7)) (rcap tplot6 tplot7 y if y == 20 , horizontal lc(gs8) lw(vthin) msize(small)) (bar tplot1 y if y == 27, horizontal fc(magenta*2) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot1 tplot2 y if y == 27, horizontal fc(green) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot2 tplot3 y if y == 27, horizontal fc(magenta*.5) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot3 tplot4 y if y == 27, horizontal fc(magenta*.8) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot4 tplot5 y if y == 27, horizontal fc(gs14) lc(gs2) lw(*.2) barwidth(6.7)) (rcap tplot6 tplot7 y if y == 27 , horizontal lc(gs8) lw(vthin) msize(small)) (bar tplot1 y if y == 37, horizontal fc(magenta*2) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot1 tplot2 y if y == 37, horizontal fc(green) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot2 tplot3 y if y == 37, horizontal fc(magenta*.5) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot3 tplot4 y if y == 37, horizontal fc(magenta*.8) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot4 tplot5 y if y == 37, horizontal fc(gs14) lc(gs2) lw(*.2) barwidth(6.7)) (rcap tplot6 tplot7 y if y == 37 , horizontal lc(gs8) lw(vthin) msize(small)) (bar tplot1 y if y == 44, horizontal fc(magenta*2) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot1 tplot2 y if y == 44, horizontal fc(green) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot2 tplot3 y if y == 44, horizontal fc(magenta*.5) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot3 tplot4 y if y == 44, horizontal fc(magenta*.8) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot4 tplot5 y if y == 44, horizontal fc(gs14) lc(gs2) lw(*.2) barwidth(6.7)) (rcap tplot6 tplot7 y if y == 44 , horizontal lc(gs8) lw(vthin) msize(small)) (bar tplot1 y if y == 54, horizontal fc(magenta*2) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot1 tplot2 y if y == 54, horizontal fc(green) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot2 tplot3 y if y == 54, horizontal fc(magenta*.5) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot3 tplot4 y if y == 54, horizontal fc(magenta*.8) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot4 tplot5 y if y == 54, horizontal fc(gs14) lc(gs2) lw(*.2) barwidth(6.7)) (rcap tplot6 tplot7 y if y == 54 , horizontal lc(gs8) lw(vthin) msize(small)) (bar tplot1 y if y == 61, horizontal fc(magenta*2) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot1 tplot2 y if y == 61, horizontal fc(green) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot2 tplot3 y if y == 61, horizontal fc(magenta*.5) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot3 tplot4 y if y == 61, horizontal fc(magenta*.8) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot4 tplot5 y if y == 61, horizontal fc(gs14) lc(gs2) lw(*.2) barwidth(6.7)) (rcap tplot6 tplot7 y if y == 61 , horizontal lc(gs8) lw(vthin) msize(small)) (bar tplot1 y if y == 71, horizontal fc(magenta*2) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot1 tplot2 y if y == 71, horizontal fc(green) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot2 tplot3 y if y == 71, horizontal fc(magenta*.5) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot3 tplot4 y if y == 71, horizontal fc(magenta*.8) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot4 tplot5 y if y == 71, horizontal fc(gs14) lc(gs2) lw(*.2) barwidth(6.7)) (rcap tplot6 tplot7 y if y == 71 , horizontal lc(gs8) lw(vthin) msize(small)) (bar tplot1 y if y == 81, horizontal fc(magenta*2) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot1 tplot2 y if y == 81, horizontal fc(green) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot2 tplot3 y if y == 81, horizontal fc(magenta*.5) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot3 tplot4 y if y == 81, horizontal fc(magenta*.8) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot4 tplot5 y if y == 81, horizontal fc(gs14) lc(gs2) lw(*.2) barwidth(6.7)) (rcap tplot6 tplot7 y if y == 81 , horizontal lc(gs8) lw(vthin) msize(small)) (bar tplot1 y if y == 88, horizontal fc(magenta*2) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot1 tplot2 y if y == 88, horizontal fc(green) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot2 tplot3 y if y == 88, horizontal fc(magenta*.5) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot3 tplot4 y if y == 88, horizontal fc(magenta*.8) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot4 tplot5 y if y == 88, horizontal fc(gs14) lc(gs2) lw(*.2) barwidth(6.7)) (rcap tplot6 tplot7 y if y == 88 , horizontal lc(gs8) lw(vthin) msize(small)) (bar tplot1 y if y == 95, horizontal fc(magenta*2) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot1 tplot2 y if y == 95, horizontal fc(green) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot2 tplot3 y if y == 95, horizontal fc(magenta*.5) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot3 tplot4 y if y == 95, horizontal fc(magenta*.8) lc(gs2) lw(*.2) barwidth(6.7)) (rbar tplot4 tplot5 y if y == 95, horizontal fc(gs14) lc(gs2) lw(*.2) barwidth(6.7)) (rcap tplot6 tplot7 y if y == 95 , horizontal lc(gs8) lw(vthin) msize(small)) , ylabel( 10    20 27             37 44          54 61         71       81 88 95 , valuelabel angle(0) labsize(5pt) labcolor(black) nogrid) xscale(range(0 170) titlegap(*5)) xlabel(0(20)100, angle(0) labsize(5pt)) xtitle("") xtitle(Estimated Coverage (%), size(5pt)) ytitle(" ") title("Vaccination Coverage & Timeliness: Jamaica", span size(medium) place(w)) subtitle(" ", size(small) place(w)) graphregion(fcolor(white)) plotregion(fcolor(white) lcolor(white)) legend( order( 9 "Too Early" 3 "BCG by day 5" 10 "Timely (28 days)" 11 "< 2 Months Late" 12 "2+ Months Late" 6 "BCG After 1 Year" 13 "Timing Unknown" ) pos(6) symplacement(left) row(1) symxsize(*.3) symysize(*1) size(*.5) keygap(0.5) region(lcolor(white)) span ) text( 10 108 "97.7" , placement(c) size(5pt) color(black)) text( 20 108 "96.3" , placement(c) size(5pt) color(black)) text( 27 108 "94.1" , placement(c) size(5pt) color(black)) text( 37 108 "92.8" , placement(c) size(5pt) color(black)) text( 44 108 "87.6" , placement(c) size(5pt) color(black)) text( 54 108 "90.0" , placement(c) size(5pt) color(black)) text( 61 108 "83.5" , placement(c) size(5pt) color(black)) text( 71 108 "95.2" , placement(c) size(5pt) color(black)) text( 81 108 "73.6" , placement(c) size(5pt) color(black)) text( 88 108 "88.7" , placement(c) size(5pt) color(black)) text( 95 108 "61.9" , placement(c) size(5pt) color(black)) text(104 108 "Coverage(%)", placement(c) size(5pt) color(black)) text( 10 122 "(95.2,98.9)" , placement(c) size(5pt) color(black)) text( 20 122 "(92.8,98.1)" , placement(c) size(5pt) color(black)) text( 27 122 "(89.7,96.7)" , placement(c) size(5pt) color(black)) text( 37 122 "(88.8,95.5)" , placement(c) size(5pt) color(black)) text( 44 122 "(81.5,91.9)" , placement(c) size(5pt) color(black)) text( 54 122 "(85.3,93.2)" , placement(c) size(5pt) color(black)) text( 61 122 "(77.6,88.1)" , placement(c) size(5pt) color(black)) text( 71 122 "(91.2,97.4)" , placement(c) size(5pt) color(black)) text( 81 122 "(68.1,78.4)" , placement(c) size(5pt) color(black)) text( 88 122 "(83.6,92.4)" , placement(c) size(5pt) color(black)) text( 95 122 "(55.7,67.7)" , placement(c) size(5pt) color(black)) text(104 122 "95% CI", placement(c) size(5pt) color(black)) text(10 135 "281" , placement(c) size(5pt) color(black)) text(20 135 "281" , placement(c) size(5pt) color(black)) text(27 135 "281" , placement(c) size(5pt) color(black)) text(37 135 "281" , placement(c) size(5pt) color(black)) text(44 135 "281" , placement(c) size(5pt) color(black)) text(54 135 "281" , placement(c) size(5pt) color(black)) text(61 135 "281" , placement(c) size(5pt) color(black)) text(71 135 "281" , placement(c) size(5pt) color(black)) text(81 135 "281" , placement(c) size(5pt) color(black)) text(88 135 "281" , placement(c) size(5pt) color(black)) text(95 135 "281" , placement(c) size(5pt) color(black)) text(104 135 "N", placement(c) size(5pt) color(black)) text(10 145 "281" , placement(c) size(5pt) color(black)) text(20 145 "219" , placement(c) size(5pt) color(black)) text(27 145 "181" , placement(c) size(5pt) color(black)) text(37 145 "235" , placement(c) size(5pt) color(black)) text(44 145 "156" , placement(c) size(5pt) color(black)) text(54 145 "224" , placement(c) size(5pt) color(black)) text(61 145 "191" , placement(c) size(5pt) color(black)) text(71 145 "197" , placement(c) size(5pt) color(black)) text(81 145 "281" , placement(c) size(5pt) color(black)) text(88 145 "200" , placement(c) size(5pt) color(black)) text(95 145 "245" , placement(c) size(5pt) color(black)) text(104 145 "NEFF", placement(c) size(5pt) color(black)) text(10 155 "1.0" , placement(c) size(5pt) color(black)) text(20 155 "1.3" , placement(c) size(5pt) color(black)) text(27 155 "1.5" , placement(c) size(5pt) color(black)) text(37 155 "1.2" , placement(c) size(5pt) color(black)) text(44 155 "1.8" , placement(c) size(5pt) color(black)) text(54 155 "1.2" , placement(c) size(5pt) color(black)) text(61 155 "1.5" , placement(c) size(5pt) color(black)) text(71 155 "1.4" , placement(c) size(5pt) color(black)) text(81 155 "1.0" , placement(c) size(5pt) color(black)) text(88 155 "1.4" , placement(c) size(5pt) color(black)) text(95 155 "1.1" , placement(c) size(5pt) color(black)) text(104 155 "DEFF", placement(c) size(5pt) color(black)) text(10 165 "0.087" , placement(c) size(5pt) color(black)) text(20 165 "-0.396" , placement(c) size(5pt) color(black)) text(27 165 "-0.331" , placement(c) size(5pt) color(black)) text(37 165 "-0.099" , placement(c) size(5pt) color(black)) text(44 165 "0.005" , placement(c) size(5pt) color(black)) text(54 165 "-0.058" , placement(c) size(5pt) color(black)) text(61 165 "-0.003" , placement(c) size(5pt) color(black)) text(71 165 "-0.228" , placement(c) size(5pt) color(black)) text(81 165 "0.084" , placement(c) size(5pt) color(black)) text(88 165 "0.191" , placement(c) size(5pt) color(black)) text(95 165 "0.137" , placement(c) size(5pt) color(black)) text(104 165 "ICC", placement(c) size(5pt) color(black)) text(0.05 80.09718596703999 "<-- Showed HBR (79.1%)", placement(3) size(5pt) color(gs2)) note( "Fully vaccinated: 81.2% (95% CI: 75.3 - 86.0%). Fully vaccinated dose list: BCG POLIO1 POLIO2 POLIO3 PENTA1 PENTA2 PENTA3 MMR1." "Not vaccinated: 1.5% (95% CI: 0.6 - 3.7%). Not vaccinated means the child did not receive any of the doses from the fully vaccinated dose list." , size(5pt) place(w) span) caption( "Abbreviations: HBR- home-based record" "CI - Confidence interval; N - Sample size; NEFF - Effective sample size; DEFF - Design effect; ICC - Intracluster correlation coefficient", size(5pt) place(w) span)"'
+.date = " 7 Nov 2025"
+.time = "23:39:00"
+.dta_file = "Q:/VCQI Output - Jamaica 2022 MICS/Run 04 - Full RI for 24-35m/RI_VCTC_01_1_tplot_1_1.dta"
+.dta_date = " 7 Nov 2025 23:38"
+<EndItem>
