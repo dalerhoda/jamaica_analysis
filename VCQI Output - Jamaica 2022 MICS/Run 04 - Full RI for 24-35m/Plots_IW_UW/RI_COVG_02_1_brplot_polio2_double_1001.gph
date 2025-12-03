@@ -1,0 +1,3457 @@
+StataFileTM:00001:01000:LiveGPH:                       :
+00008:00008:
+*! classname: twowaygraph_g
+*! family: twoway
+*! command: twoway (scatter rownumber p , m(i) c(none)) ( area ybar xbar if dn == 1, color(orange*.5) lwidth(vthin) fcolor(orange*.5) fi(100) base(1) ) ( area ybar xbar if dn == 2, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(.6) ) ( area ybar xbar if dn == 3, color(orange*.5) lwidth(vthin) fcolor(orange*.5) fi(100) base(2) ) ( area ybar xbar if dn == 4, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(1.6) ) ( area ybar xbar if dn == 5, color(orange*.5) lwidth(vthin) fcolor(orange*.5) fi(100) base(3) ) ( area ybar xbar if dn == 6, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(2.6) ) ( area ybar xbar if dn == 7, color(orange*.5) lwidth(vthin) fcolor(orange*.5) fi(100) base(4) ) ( area ybar xbar if dn == 8, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(3.6) ) ( area ybar xbar if dn == 9, color(orange*.5) lwidth(vthin) fcolor(orange*.5) fi(100) base(5) ) ( area ybar xbar if dn == 10, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(4.6) ) ( area ybar xbar if dn == 11, color(olive*.5) lwidth(vthin) fcolor(olive*.5) fi(100) base(6) ) ( area ybar xbar if dn == 12, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(5.6) ) ( area ybar xbar if dn == 13, color(olive*.5) lwidth(vthin) fcolor(olive*.5) fi(100) base(7) ) ( area ybar xbar if dn == 14, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(6.6) ) ( area ybar xbar if dn == 15, color(olive*.5) lwidth(vthin) fcolor(olive*.5) fi(100) base(8) ) ( area ybar xbar if dn == 16, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(7.6) ) ( area ybar xbar if dn == 17, color(olive*.5) lwidth(vthin) fcolor(olive*.5) fi(100) base(9) ) ( area ybar xbar if dn == 18, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(8.6) ) ( area ybar xbar if dn == 19, color(olive*.5) lwidth(vthin) fcolor(olive*.5) fi(100) base(10) ) ( area ybar xbar if dn == 20, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(9.6) ) ( area ybar xbar if dn == 21, color(eltgreen*.5) lwidth(vthin) fcolor(eltgreen*.5) fi(100) base(11) ) ( area ybar xbar if dn == 22, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(10.6) ) ( area ybar xbar if dn == 23, color(eltgreen*.5) lwidth(vthin) fcolor(eltgreen*.5) fi(100) base(12) ) ( area ybar xbar if dn == 24, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(11.6) ) ( area ybar xbar if dn == 25, color(sienna*.5) lwidth(vthin) fcolor(sienna*.5) fi(100) base(13) ) ( area ybar xbar if dn == 26, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(12.6) ) ( area ybar xbar if dn == 27, color(sienna*.5) lwidth(vthin) fcolor(sienna*.5) fi(100) base(14) ) ( area ybar xbar if dn == 28, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(13.6) ) ( area ybar xbar if dn == 29, color(sienna*.5) lwidth(vthin) fcolor(sienna*.5) fi(100) base(15) ) ( area ybar xbar if dn == 30, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(14.6) ) ( area ybar xbar if dn == 31, color(vcqi_level4) lwidth(vthin) fcolor(vcqi_level4) fi(100) base(16) ) ( area ybar xbar if dn == 32, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(15.6) ) ( area ybar xbar if dn == 33, color(vcqi_level4) lwidth(vthin) fcolor(vcqi_level4) fi(100) base(17) ) ( area ybar xbar if dn == 34, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(16.6) ) ( area ybar xbar if dn == 35, color(vcqi_level4) lwidth(vthin) fcolor(vcqi_level4) fi(100) base(18) ) ( area ybar xbar if dn == 36, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(17.6) ) ( area ybar xbar if dn == 37, color(vcqi_level4) lwidth(vthin) fcolor(vcqi_level4) fi(100) base(19) ) ( area ybar xbar if dn == 38, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(18.6) ) ( area ybar xbar if dn == 39, color(vcqi_level3) lwidth(vthin) fcolor(vcqi_level3) fi(100) base(20) ) ( area ybar xbar if dn == 40, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(19.6) ) ( area ybar xbar if dn == 41, color(vcqi_level3) lwidth(vthin) fcolor(vcqi_level3) fi(100) base(21) ) ( area ybar xbar if dn == 42, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(20.6) ) ( area ybar xbar if dn == 43, color(vcqi_level1) lwidth(vthin) fcolor(vcqi_level1) fi(100) base(22) ) ( area ybar xbar if dn == 44, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(21.6) ) (scatteri 1.2 38.4256477355957 1.2 75.31819152832031, c(direct) m(i) lw(*0.95) lc(black)) (scatteri .8 80.55066680908203 .8 98.37237548828125, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 2.2 51.67448043823242 2.2 78.26673889160156, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 1.8 66.02963256835938 1.8 90.76444244384766, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 3.2 55.42520904541016 3.2 82.75297546386719, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 2.8 90.54195404052734 2.8 99.75399017333984, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 4.2 70.69108581542969 4.2 88.27389526367188, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 3.8 88.61913299560547 3.8 98.60824584960938, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 5.2 45.0826416015625 5.2 77.94918060302734, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 4.8 80.06242370605469 4.8 98.00296020507813, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 6.2 45.01758575439453 6.2 76.57903289794922, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 5.8 73.02194976806641 5.8 96.00352478027344, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 7.2 51.53732299804688 7.2 79.47262573242188, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 6.8 81.77822875976563 6.8 97.18025207519531, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 8.199999999999999 53.96723175048828 8.199999999999999 86.73574829101563, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 7.8 84.20211791992188 7.8 98.75717926025391, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 9.199999999999999 55.47916793823242 9.199999999999999 89.857177734375, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 8.800000000000001 79.30311584472656 8.800000000000001 98.48863220214844, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 10.2 59.66767501831055 10.2 80.52312469482422, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 9.800000000000001 85.63246154785156 9.800000000000001 97.21969604492188, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 11.2 27.44020843505859 11.2 79.97564697265625, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 10.8 71.24056243896484 10.8 100, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 12.2 62.66950988769531 12.2 76.46340179443359, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 11.8 88.36742401123047 11.8 95.26467895507813, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 13.2 49.19845199584961 13.2 70.48751068115234, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 12.8 83.25381469726563 12.8 97.8558349609375, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 14.2 69.45337677001953 14.2 84.31601715087891, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 13.8 86.05902862548828 13.8 96.005126953125, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 15.2 31.44978904724121 15.2 75.19887542724609, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 14.8 78.23258972167969 14.8 97.42622375488281, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 16.2 58.9826774597168 16.2 80.29936981201172, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 15.8 83.73143768310547 15.8 94.95272827148438, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 17.2 54.93291473388672 17.2 84.60012817382813, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 16.8 82.20196533203125 16.8 97.08405303955078, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 18.2 55.63877487182617 18.2 74.96105194091797, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 17.8 89.69432830810547 17.8 98.51971435546875, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 19.2 59.4417839050293 19.2 75.78425598144531, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 18.8 89.91042327880859 18.8 97.35414886474609, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 20.2 62.95051574707031 20.2 79.96722412109375, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 19.8 85.68167877197266 19.8 97.09689331054688, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 21.2 57.30559539794922 21.2 75.25767517089844, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 20.8 85.99994659423828 20.8 95.85702514648438, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 22.2 62.4366569519043 22.2 75.66118621826172, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 21.8 88.76792907714844 21.8 95.46237945556641, c(direct) m(i) lw(*0.95) lc(black)) (scatter text_y text_x, mlabel(cistring0) m(i) mlabg(*-1) mlabsize(*0.65) mlabcolor(black) ) ,   legend(off) ylabel(1(1)22, ang(hor) nogrid valuelabel labsize(small)) graphregion(color(white)) xscale(range(0 116) titlegap(*10)) xlabel(0(25)100,angle(0)) yscale(titlegap(1)) ysize(20) xsize(14.54545454545454) xtitle(Estimated Coverage %) ytitle() title(RI - Valid Coverage of POLIO2, span) subtitle(, span) note(Text at right: Point estimates from colored and from gray bars, size(vsmall) span) caption("Gray bar shows crude coverage; colored bar shows valid coverage", size(vsmall) span) name() saving(Plots_IW_UW/RI_COVG_02_1_brplot_polio2_double_1001, replace)
+*! command_date:  7 Nov 2025
+*! command_time: 23:23:23
+*! datafile: C:\Users\DaleR\AppData\Local\Temp\ST_414c_000003.tmp
+*! datafile_date:  7 Nov 2025 23:23
+*! scheme: s2color
+*! naturallywhite: 1
+*! xsize: 14.54545454545454
+*! ysize: 20
+*! end
+<BeginItem> serset K8ed8598 
+<BeginSerset>
+<BeginSeries>
+.name = `"rownumber"'
+.label = `""'
+.format = `"%23.0g"'
+.type.set numeric
+.min =  1
+.max =  22
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+.lab_offset = (.)
+.vlabs.Declare __D_1 = `"Richest"'
+.vlabs.Declare __D_2 = `"Fourth"'
+.vlabs.Declare __D_3 = `"Middle"'
+.vlabs.Declare __D_4 = `"Second"'
+.vlabs.Declare __D_5 = `"Poorest"'
+.vlabs.Declare __D_6 = `"No Religion"'
+.vlabs.Declare __D_7 = `"Other Religion"'
+.vlabs.Declare __D_8 = `"7D Adventist"'
+.vlabs.Declare __D_9 = `"Pentecostal"'
+.vlabs.Declare __D_10 = `"Church Of God"'
+.vlabs.Declare __D_11 = `"Other Ethnicity"'
+.vlabs.Declare __D_12 = `"Black"'
+.vlabs.Declare __D_13 = `"Post Secondary +"'
+.vlabs.Declare __D_14 = `"Upper Secondary"'
+.vlabs.Declare __D_15 = `"Lower Secondary Or Less"'
+.vlabs.Declare __D_16 = `"Rural"'
+.vlabs.Declare __D_17 = `"Other"'
+.vlabs.Declare __D_18 = `"GKMA"'
+.vlabs.Declare __D_19 = `"Urban"'
+.vlabs.Declare __D_20 = `"Female"'
+.vlabs.Declare __D_21 = `"Male"'
+.vlabs.Declare __D_22 = `"Jamaica"'
+<EndSeries>
+<BeginSeries>
+.name = `"p"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  54.11657333374023
+.max =  100
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"text_y"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  1
+.max =  22
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"text_x"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  103
+.max =  103
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"cistring0"'
+.label = `""'
+.format = `"%11s"'
+.type.set string
+.min = (.)
+.max = (.)
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite    ã  ˛˛˛˛rownumber                                                                                                                                             p 00002N days                                                                                                                                         text_y ipy                                                                                                                                            text_x ipx                                                                                                                                            cistring0                                                                                                                                             %23.0g                                                   %9.0g                                                    %9.0g                                                    %9.0g                                                    %11s                                                           ?   ‡ÎK@      ?     ¿Y@      ‡      6@      Y@      6@     ¿Y@      ‡  Ä?dÓgB  Ä?  ŒB58.0 | 94.1  Ä?dÓgB  Ä?  ŒB 8.0 | 94.1  Ä?dÓgB  Ä?  ŒB 8.0 | 94.1  Ä?dÓgB  Ä?  ŒB 8.0 | 94.1  Ä?dÓgB  Ä?  ŒB 8.0 | 94.1  Ä?dÓgB  Ä?  ŒB 8.0 | 94.1  Ä?dÓgB  Ä?  ŒB 8.0 | 94.1  Ä?dÓgB  Ä?  ŒB 8.0 | 94.1           ŒB  . - .  N=  Ä?=ºB  Ä?  ŒB58.0 | 94.1  Ä?=ºB  Ä?  ŒB 8.0 | 94.1  Ä?=ºB  Ä?  ŒB 8.0 | 94.1  Ä?=ºB  Ä?  ŒB 8.0 | 94.1  Ä?=ºB  Ä?  ŒB 8.0 | 94.1  Ä?=ºB  Ä?  ŒB 8.0 | 94.1  Ä?=ºB  Ä?  ŒB 8.0 | 94.1  Ä?=ºB  Ä?  ŒB 8.0 | 94.1           ŒB  . - .  N=   @i|ÑB   @  ŒB66.2 | 81.4   @i|ÑB   @  ŒB 6.2 | 81.4   @i|ÑB   @  ŒB 6.2 | 81.4   @i|ÑB   @  ŒB 6.2 | 81.4   @i|ÑB   @  ŒB 6.2 | 81.4   @i|ÑB   @  ŒB 6.2 | 81.4   @i|ÑB   @  ŒB 6.2 | 81.4   @i|ÑB   @  ŒB 6.2 | 81.4           ŒB  . - .  N=   @≥¬¢B   @  ŒB66.2 | 81.4   @≥¬¢B   @  ŒB 6.2 | 81.4   @≥¬¢B   @  ŒB 6.2 | 81.4   @≥¬¢B   @  ŒB 6.2 | 81.4   @≥¬¢B   @  ŒB 6.2 | 81.4   @≥¬¢B   @  ŒB 6.2 | 81.4   @≥¬¢B   @  ŒB 6.2 | 81.4   @≥¬¢B   @  ŒB 6.2 | 81.4           ŒB  . - .  N=  @@OÁçB  @@  ŒB71.0 | 98.4  @@OÁçB  @@  ŒB 1.0 | 98.4  @@OÁçB  @@  ŒB 1.0 | 98.4  @@OÁçB  @@  ŒB 1.0 | 98.4  @@OÁçB  @@  ŒB 1.0 | 98.4  @@OÁçB  @@  ŒB 1.0 | 98.4  @@OÁçB  @@  ŒB 1.0 | 98.4  @@OÁçB  @@  ŒB 1.0 | 98.4           ŒB  . - .  N=  @@3◊ƒB  @@  ŒB71.0 | 98.4  @@3◊ƒB  @@  ŒB 1.0 | 98.4  @@3◊ƒB  @@  ŒB 1.0 | 98.4  @@3◊ƒB  @@  ŒB 1.0 | 98.4  @@3◊ƒB  @@  ŒB 1.0 | 98.4  @@3◊ƒB  @@  ŒB 1.0 | 98.4  @@3◊ƒB  @@  ŒB 1.0 | 98.4  @@3◊ƒB  @@  ŒB 1.0 | 98.4           ŒB  . - .  N=  Ä@2¸°B  Ä@  ŒB81.0 | 95.9  Ä@2¸°B  Ä@  ŒB 1.0 | 95.9  Ä@2¸°B  Ä@  ŒB 1.0 | 95.9  Ä@2¸°B  Ä@  ŒB 1.0 | 95.9  Ä@2¸°B  Ä@  ŒB 1.0 | 95.9  Ä@2¸°B  Ä@  ŒB 1.0 | 95.9  Ä@2¸°B  Ä@  ŒB 1.0 | 95.9  Ä@2¸°B  Ä@  ŒB 1.0 | 95.9           ŒB  . - .  N=  Ä@5’øB  Ä@  ŒB81.0 | 95.9  Ä@5’øB  Ä@  ŒB 1.0 | 95.9  Ä@5’øB  Ä@  ŒB 1.0 | 95.9  Ä@5’øB  Ä@  ŒB 1.0 | 95.9  Ä@5’øB  Ä@  ŒB 1.0 | 95.9  Ä@5’øB  Ä@  ŒB 1.0 | 95.9  Ä@5’øB  Ä@  ŒB 1.0 | 95.9  Ä@5’øB  Ä@  ŒB 1.0 | 95.9           ŒB  . - .  N=  †@<|B  †@  ŒB63.0 | 93.4  †@<|B  †@  ŒB 3.0 | 93.4  †@<|B  †@  ŒB 3.0 | 93.4  †@<|B  †@  ŒB 3.0 | 93.4  †@<|B  †@  ŒB 3.0 | 93.4  †@<|B  †@  ŒB 3.0 | 93.4  †@<|B  †@  ŒB 3.0 | 93.4  †@<|B  †@  ŒB 3.0 | 93.4           ŒB  . - .  N=  †@I≥∫B  †@  ŒB63.0 | 93.4  †@I≥∫B  †@  ŒB 3.0 | 93.4  †@I≥∫B  †@  ŒB 3.0 | 93.4  †@I≥∫B  †@  ŒB 3.0 | 93.4  †@I≥∫B  †@  ŒB 3.0 | 93.4  †@I≥∫B  †@  ŒB 3.0 | 93.4  †@I≥∫B  †@  ŒB 3.0 | 93.4  †@I≥∫B  †@  ŒB 3.0 | 93.4           ŒB  . - .  N=  ¿@ÙCxB  ¿@  ŒB62.1 | 89.0  ¿@ÙCxB  ¿@  ŒB 2.1 | 89.0  ¿@ÙCxB  ¿@  ŒB 2.1 | 89.0  ¿@ÙCxB  ¿@  ŒB 2.1 | 89.0  ¿@ÙCxB  ¿@  ŒB 2.1 | 89.0  ¿@ÙCxB  ¿@  ŒB 2.1 | 89.0  ¿@ÙCxB  ¿@  ŒB 2.1 | 89.0  ¿@ÙCxB  ¿@  ŒB 2.1 | 89.0           ŒB  . - .  N=  ¿@Ô±B  ¿@  ŒB62.1 | 89.0  ¿@Ô±B  ¿@  ŒB 2.1 | 89.0  ¿@Ô±B  ¿@  ŒB 2.1 | 89.0  ¿@Ô±B  ¿@  ŒB 2.1 | 89.0  ¿@Ô±B  ¿@  ŒB 2.1 | 89.0  ¿@Ô±B  ¿@  ŒB 2.1 | 89.0  ¿@Ô±B  ¿@  ŒB 2.1 | 89.0  ¿@Ô±B  ¿@  ŒB 2.1 | 89.0           ŒB  . - .  N=  ‡@.˘ÖB  ‡@  ŒB67.0 | 92.6  ‡@.˘ÖB  ‡@  ŒB 7.0 | 92.6  ‡@.˘ÖB  ‡@  ŒB 7.0 | 92.6  ‡@.˘ÖB  ‡@  ŒB 7.0 | 92.6  ‡@.˘ÖB  ‡@  ŒB 7.0 | 92.6  ‡@.˘ÖB  ‡@  ŒB 7.0 | 92.6  ‡@.˘ÖB  ‡@  ŒB 7.0 | 92.6  ‡@.˘ÖB  ‡@  ŒB 7.0 | 92.6           ŒB  . - .  N=  ‡@èπB  ‡@  ŒB67.0 | 92.6  ‡@èπB  ‡@  ŒB 7.0 | 92.6  ‡@èπB  ‡@  ŒB 7.0 | 92.6  ‡@èπB  ‡@  ŒB 7.0 | 92.6  ‡@èπB  ‡@  ŒB 7.0 | 92.6  ‡@èπB  ‡@  ŒB 7.0 | 92.6  ‡@èπB  ‡@  ŒB 7.0 | 92.6  ‡@èπB  ‡@  ŒB 7.0 | 92.6           ŒB  . - .  N=   A∏ÓíB   A  ŒB73.5 | 95.4   A∏ÓíB   A  ŒB 3.5 | 95.4   A∏ÓíB   A  ŒB 3.5 | 95.4   A∏ÓíB   A  ŒB 3.5 | 95.4   A∏ÓíB   A  ŒB 3.5 | 95.4   A∏ÓíB   A  ŒB 3.5 | 95.4   A∏ÓíB   A  ŒB 3.5 | 95.4   A∏ÓíB   A  ŒB 3.5 | 95.4           ŒB  . - .  N=   AkªæB   A  ŒB73.5 | 95.4   AkªæB   A  ŒB 3.5 | 95.4   AkªæB   A  ŒB 3.5 | 95.4   AkªæB   A  ŒB 3.5 | 95.4   AkªæB   A  ŒB 3.5 | 95.4   AkªæB   A  ŒB 3.5 | 95.4   AkªæB   A  ŒB 3.5 | 95.4   AkªæB   A  ŒB 3.5 | 95.4           ŒB  . - .  N=  ASªôB  A  ŒB76.9 | 94.0  ASªôB  A  ŒB 6.9 | 94.0  ASªôB  A  ŒB 6.9 | 94.0  ASªôB  A  ŒB 6.9 | 94.0  ASªôB  A  ŒB 6.9 | 94.0  ASªôB  A  ŒB 6.9 | 94.0  ASªôB  A  ŒB 6.9 | 94.0  ASªôB  A  ŒB 6.9 | 94.0           ŒB  . - .  N=  A´ºB  A  ŒB76.9 | 94.0  A´ºB  A  ŒB 6.9 | 94.0  A´ºB  A  ŒB 6.9 | 94.0  A´ºB  A  ŒB 6.9 | 94.0  A´ºB  A  ŒB 6.9 | 94.0  A´ºB  A  ŒB 6.9 | 94.0  A´ºB  A  ŒB 6.9 | 94.0  A´ºB  A  ŒB 6.9 | 94.0           ŒB  . - .  N=   A,jéB   A  ŒB71.2 | 93.5   A,jéB   A  ŒB 1.2 | 93.5   A,jéB   A  ŒB 1.2 | 93.5   A,jéB   A  ŒB 1.2 | 93.5   A,jéB   A  ŒB 1.2 | 93.5   A,jéB   A  ŒB 1.2 | 93.5   A,jéB   A  ŒB 1.2 | 93.5   A,jéB   A  ŒB 1.2 | 93.5           ŒB  . - .  N=   A*ªB   A  ŒB71.2 | 93.5   A*ªB   A  ŒB 1.2 | 93.5   A*ªB   A  ŒB 1.2 | 93.5   A*ªB   A  ŒB 1.2 | 93.5   A*ªB   A  ŒB 1.2 | 93.5   A*ªB   A  ŒB 1.2 | 93.5   A*ªB   A  ŒB 1.2 | 93.5   A*ªB   A  ŒB 1.2 | 93.5           ŒB  . - .  N=  0Aºã\B  0A  ŒB55.1 | 100   0Aºã\B  0A  ŒB 5.1 | 100   0Aºã\B  0A  ŒB 5.1 | 100   0Aºã\B  0A  ŒB 5.1 | 100   0Aºã\B  0A  ŒB 5.1 | 100   0Aºã\B  0A  ŒB 5.1 | 100   0Aºã\B  0A  ŒB 5.1 | 100   0Aºã\B  0A  ŒB 5.1 | 100            ŒB  . - .  N=  0A  »B  0A  ŒB55.1 | 100   0A  »B  0A  ŒB 5.1 | 100   0A  »B  0A  ŒB 5.1 | 100   0A  »B  0A  ŒB 5.1 | 100   0A  »B  0A  ŒB 5.1 | 100   0A  »B  0A  ŒB 5.1 | 100   0A  »B  0A  ŒB 5.1 | 100   0A  »B  0A  ŒB 5.1 | 100            ŒB  . - .  N=  @AE	åB  @A  ŒB70.0 | 92.5  @AE	åB  @A  ŒB 0.0 | 92.5  @AE	åB  @A  ŒB 0.0 | 92.5  @AE	åB  @A  ŒB 0.0 | 92.5  @AE	åB  @A  ŒB 0.0 | 92.5  @AE	åB  @A  ŒB 0.0 | 92.5  @AE	åB  @A  ŒB 0.0 | 92.5  @AE	åB  @A  ŒB 0.0 | 92.5           ŒB  . - .  N=  @ASπB  @A  ŒB70.0 | 92.5  @ASπB  @A  ŒB 0.0 | 92.5  @ASπB  @A  ŒB 0.0 | 92.5  @ASπB  @A  ŒB 0.0 | 92.5  @ASπB  @A  ŒB 0.0 | 92.5  @ASπB  @A  ŒB 0.0 | 92.5  @ASπB  @A  ŒB 0.0 | 92.5  @ASπB  @A  ŒB 0.0 | 92.5           ŒB  . - .  N=  PASqB  PA  ŒB60.3 | 93.8  PASqB  PA  ŒB 0.3 | 93.8  PASqB  PA  ŒB 0.3 | 93.8  PASqB  PA  ŒB 0.3 | 93.8  PASqB  PA  ŒB 0.3 | 93.8  PASqB  PA  ŒB 0.3 | 93.8  PASqB  PA  ŒB 0.3 | 93.8  PASqB  PA  ŒB 0.3 | 93.8           ŒB  . - .  N=  PAàåªB  PA  ŒB60.3 | 93.8  PAàåªB  PA  ŒB 0.3 | 93.8  PAàåªB  PA  ŒB 0.3 | 93.8  PAàåªB  PA  ŒB 0.3 | 93.8  PAàåªB  PA  ŒB 0.3 | 93.8  PAàåªB  PA  ŒB 0.3 | 93.8  PAàåªB  PA  ŒB 0.3 | 93.8  PAàåªB  PA  ŒB 0.3 | 93.8           ŒB  . - .  N=  `AÖÑõB  `A  ŒB77.8 | 92.4  `AÖÑõB  `A  ŒB 7.8 | 92.4  `AÖÑõB  `A  ŒB 7.8 | 92.4  `AÖÑõB  `A  ŒB 7.8 | 92.4  `AÖÑõB  `A  ŒB 7.8 | 92.4  `AÖÑõB  `A  ŒB 7.8 | 92.4  `AÖÑõB  `A  ŒB 7.8 | 92.4  `AÖÑõB  `A  ŒB 7.8 | 92.4           ŒB  . - .  N=  `AS”∏B  `A  ŒB77.8 | 92.4  `AS”∏B  `A  ŒB 7.8 | 92.4  `AS”∏B  `A  ŒB 7.8 | 92.4  `AS”∏B  `A  ŒB 7.8 | 92.4  `AS”∏B  `A  ŒB 7.8 | 92.4  `AS”∏B  `A  ŒB 7.8 | 92.4  `AS”∏B  `A  ŒB 7.8 | 92.4  `AS”∏B  `A  ŒB 7.8 | 92.4           ŒB  . - .  N=  pA_wXB  pA  ŒB54.1 | 92.1  pA_wXB  pA  ŒB 4.1 | 92.1  pA_wXB  pA  ŒB 4.1 | 92.1  pA_wXB  pA  ŒB 4.1 | 92.1  pA_wXB  pA  ŒB 4.1 | 92.1  pA_wXB  pA  ŒB 4.1 | 92.1  pA_wXB  pA  ŒB 4.1 | 92.1  pA_wXB  pA  ŒB 4.1 | 92.1           ŒB  . - .  N=  pA5∏B  pA  ŒB54.1 | 92.1  pA5∏B  pA  ŒB 4.1 | 92.1  pA5∏B  pA  ŒB 4.1 | 92.1  pA5∏B  pA  ŒB 4.1 | 92.1  pA5∏B  pA  ŒB 4.1 | 92.1  pA5∏B  pA  ŒB 4.1 | 92.1  pA5∏B  pA  ŒB 4.1 | 92.1  pA5∏B  pA  ŒB 4.1 | 92.1           ŒB  . - .  N=  ÄAúâçB  ÄA  ŒB70.8 | 90.8  ÄAúâçB  ÄA  ŒB 0.8 | 90.8  ÄAúâçB  ÄA  ŒB 0.8 | 90.8  ÄAúâçB  ÄA  ŒB 0.8 | 90.8  ÄAúâçB  ÄA  ŒB 0.8 | 90.8  ÄAúâçB  ÄA  ŒB 0.8 | 90.8  ÄAúâçB  ÄA  ŒB 0.8 | 90.8  ÄAúâçB  ÄA  ŒB 0.8 | 90.8           ŒB  . - .  N=  ÄA¡åµB  ÄA  ŒB70.8 | 90.8  ÄA¡åµB  ÄA  ŒB 0.8 | 90.8  ÄA¡åµB  ÄA  ŒB 0.8 | 90.8  ÄA¡åµB  ÄA  ŒB 0.8 | 90.8  ÄA¡åµB  ÄA  ŒB 0.8 | 90.8  ÄA¡åµB  ÄA  ŒB 0.8 | 90.8  ÄA¡åµB  ÄA  ŒB 0.8 | 90.8  ÄA¡åµB  ÄA  ŒB 0.8 | 90.8           ŒB  . - .  N=  àAAêB  àA  ŒB72.1 | 92.5  àAAêB  àA  ŒB 2.1 | 92.5  àAAêB  àA  ŒB 2.1 | 92.5  àAAêB  àA  ŒB 2.1 | 92.5  àAAêB  àA  ŒB 2.1 | 92.5  àAAêB  àA  ŒB 2.1 | 92.5  àAAêB  àA  ŒB 2.1 | 92.5  àAAêB  àA  ŒB 2.1 | 92.5           ŒB  . - .  N=  àA?πB  àA  ŒB72.1 | 92.5  àA?πB  àA  ŒB 2.1 | 92.5  àA?πB  àA  ŒB 2.1 | 92.5  àA?πB  àA  ŒB 2.1 | 92.5  àA?πB  àA  ŒB 2.1 | 92.5  àA?πB  àA  ŒB 2.1 | 92.5  àA?πB  àA  ŒB 2.1 | 92.5  àA?πB  àA  ŒB 2.1 | 92.5           ŒB  . - .  N=  êA´ÎÉB  êA  ŒB66.0 | 96.0  êA´ÎÉB  êA  ŒB 6.0 | 96.0  êA´ÎÉB  êA  ŒB 6.0 | 96.0  êA´ÎÉB  êA  ŒB 6.0 | 96.0  êA´ÎÉB  êA  ŒB 6.0 | 96.0  êA´ÎÉB  êA  ŒB 6.0 | 96.0  êA´ÎÉB  êA  ŒB 6.0 | 96.0  êA´ÎÉB  êA  ŒB 6.0 | 96.0           ŒB  . - .  N=  êAÜ¿B  êA  ŒB66.0 | 96.0  êAÜ¿B  êA  ŒB 6.0 | 96.0  êAÜ¿B  êA  ŒB 6.0 | 96.0  êAÜ¿B  êA  ŒB 6.0 | 96.0  êAÜ¿B  êA  ŒB 6.0 | 96.0  êAÜ¿B  êA  ŒB 6.0 | 96.0  êAÜ¿B  êA  ŒB 6.0 | 96.0  êAÜ¿B  êA  ŒB 6.0 | 96.0           ŒB  . - .  N=  òAÃVàB  òA  ŒB68.2 | 94.8  òAÃVàB  òA  ŒB 8.2 | 94.8  òAÃVàB  òA  ŒB 8.2 | 94.8  òAÃVàB  òA  ŒB 8.2 | 94.8  òAÃVàB  òA  ŒB 8.2 | 94.8  òAÃVàB  òA  ŒB 8.2 | 94.8  òAÃVàB  òA  ŒB 8.2 | 94.8  òAÃVàB  òA  ŒB 8.2 | 94.8           ŒB  . - .  N=  òAsàΩB  òA  ŒB68.2 | 94.8  òAsàΩB  òA  ŒB 8.2 | 94.8  òAsàΩB  òA  ŒB 8.2 | 94.8  òAsàΩB  òA  ŒB 8.2 | 94.8  òAsàΩB  òA  ŒB 8.2 | 94.8  òAsàΩB  òA  ŒB 8.2 | 94.8  òAsàΩB  òA  ŒB 8.2 | 94.8  òAsàΩB  òA  ŒB 8.2 | 94.8           ŒB  . - .  N=  †A—ÇêB  †A  ŒB72.3 | 93.4  †A—ÇêB  †A  ŒB 2.3 | 93.4  †A—ÇêB  †A  ŒB 2.3 | 93.4  †A—ÇêB  †A  ŒB 2.3 | 93.4  †A—ÇêB  †A  ŒB 2.3 | 93.4  †A—ÇêB  †A  ŒB 2.3 | 93.4  †A—ÇêB  †A  ŒB 2.3 | 93.4  †A—ÇêB  †A  ŒB 2.3 | 93.4           ŒB  . - .  N=  †A‘À∫B  †A  ŒB72.3 | 93.4  †A‘À∫B  †A  ŒB 2.3 | 93.4  †A‘À∫B  †A  ŒB 2.3 | 93.4  †A‘À∫B  †A  ŒB 2.3 | 93.4  †A‘À∫B  †A  ŒB 2.3 | 93.4  †A‘À∫B  †A  ŒB 2.3 | 93.4  †A‘À∫B  †A  ŒB 2.3 | 93.4  †A‘À∫B  †A  ŒB 2.3 | 93.4           ŒB  . - .  N=  ®Ah…ÖB  ®A  ŒB66.9 | 92.3  ®Ah…ÖB  ®A  ŒB 6.9 | 92.3  ®Ah…ÖB  ®A  ŒB 6.9 | 92.3  ®Ah…ÖB  ®A  ŒB 6.9 | 92.3  ®Ah…ÖB  ®A  ŒB 6.9 | 92.3  ®Ah…ÖB  ®A  ŒB 6.9 | 92.3  ®Ah…ÖB  ®A  ŒB 6.9 | 92.3  ®Ah…ÖB  ®A  ŒB 6.9 | 92.3           ŒB  . - .  N=  ®A±Ö∏B  ®A  ŒB66.9 | 92.3  ®A±Ö∏B  ®A  ŒB 6.9 | 92.3  ®A±Ö∏B  ®A  ŒB 6.9 | 92.3  ®A±Ö∏B  ®A  ŒB 6.9 | 92.3  ®A±Ö∏B  ®A  ŒB 6.9 | 92.3  ®A±Ö∏B  ®A  ŒB 6.9 | 92.3  ®A±Ö∏B  ®A  ŒB 6.9 | 92.3  ®A±Ö∏B  ®A  ŒB 6.9 | 92.3           ŒB  . - .  N=  ∞A}ÂäB  ∞A  ŒB69.4 | 92.8  ∞A}ÂäB  ∞A  ŒB 9.4 | 92.8  ∞A}ÂäB  ∞A  ŒB 9.4 | 92.8  ∞A}ÂäB  ∞A  ŒB 9.4 | 92.8  ∞A}ÂäB  ∞A  ŒB 9.4 | 92.8  ∞A}ÂäB  ∞A  ŒB 9.4 | 92.8  ∞A}ÂäB  ∞A  ŒB 9.4 | 92.8  ∞A}ÂäB  ∞A  ŒB 9.4 | 92.8           ŒB  . - .  N=  ∞AõπB  ∞A  ŒB69.4 | 92.8  ∞AõπB  ∞A  ŒB 9.4 | 92.8  ∞AõπB  ∞A  ŒB 9.4 | 92.8  ∞AõπB  ∞A  ŒB 9.4 | 92.8  ∞AõπB  ∞A  ŒB 9.4 | 92.8  ∞AõπB  ∞A  ŒB 9.4 | 92.8  ∞AõπB  ∞A  ŒB 9.4 | 92.8  ∞AõπB  ∞A  ŒB 9.4 | 92.8
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ed85e8 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  1.399999976158142
+.max =  1.399999976158142
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  57.98280334472656
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                       `ffˆ?           `ffˆ?   ÄÃ˝L@33≥?    33≥?dÓgB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ed9768 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  1
+.max =  1
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  94.05515289306641
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                          ?              ?   †áÉW@  Ä?      Ä?=ºB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ed8db8 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  2.400000095367432
+.max =  2.400000095367432
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  66.24298858642578
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                       @33@           @33@    çèP@öô@    öô@i|ÑB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edac08 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  2
+.max =  2
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  81.38027191162109
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                           @               @   `VXT@   @       @≥¬¢B      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edab18 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  3.400000095367432
+.max =  3.400000095367432
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  70.95177459716797
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                       @33@           @33@   ‡ÈºQ@öôY@    öôY@OÁçB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8eda8e8 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  3
+.max =  3
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  98.42031097412109
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                          @              @   `ÊöX@  @@      @@3◊ƒB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ed9e98 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  4.400000095367432
+.max =  4.400000095367432
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  80.99256896972656
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                       †ôô@           †ôô@   @Ü?T@ÕÃå@    ÕÃå@2¸°B      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ed9f38 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  4
+.max =  4
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  95.91641998291016
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                          @              @   †¶˙W@  Ä@      Ä@5’øB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8eda988 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  5.400000095367432
+.max =  5.400000095367432
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  63.01097106933594
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                       †ôô@           †ôô@   ÄgÅO@ÕÃ¨@    ÕÃ¨@<|B      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8eda028 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  5
+.max =  5
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  93.35016632080078
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                          @              @    iVW@  †@      †@I≥∫B      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8eda398 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  6.400000095367432
+.max =  6.400000095367432
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  62.06636047363281
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                       †ôô@           †ôô@   Ä~O@ÕÃÃ@    ÕÃÃ@ÙCxB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edb248 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  6
+.max =  6
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  88.96680450439453
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                          @              @    ‡=V@  ¿@      ¿@Ô±B      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edb9c8 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  7.400000095367432
+.max =  7.400000095367432
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  66.98667907714844
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                       †ôô@           †ôô@   ¿%øP@ÕÃÏ@    ÕÃÏ@.˘ÖB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edb748 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  7
+.max =  7
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  92.55773162841797
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                          @              @   ‡±#W@  ‡@      ‡@èπB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edb158 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  8.399999618530273
+.max =  8.399999618530273
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  73.46624755859375
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                       ¿ÃÃ @           ¿ÃÃ @    ◊]R@ffA    ffA∏ÓíB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edb4c8 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  8
+.max =  8
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  95.36605072021484
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                           @               @   `m◊W@   A       AkªæB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edbbf8 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  9.399999618530273
+.max =  9.399999618530273
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  76.86586761474609
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                       ¿ÃÃ"@           ¿ÃÃ"@   `j7S@ffA    ffASªôB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edbce8 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  9
+.max =  9
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  94.04817962646484
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                          "@              "@   `ÉW@  A      A´ºB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edc0a8 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  10.39999961853027
+.max =  10.39999961853027
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  71.20736694335938
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                       ¿ÃÃ$@           ¿ÃÃ$@   ÄEÕQ@ff&A    ff&A,jéB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edcb48 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  10
+.max =  10
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  93.52180480957031
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                          $@              $@   @eaW@   A       A*ªB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edcbe8 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  11.39999961853027
+.max =  11.39999961853027
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  55.13645935058594
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                       ¿ÃÃ&@           ¿ÃÃ&@   ÄwëK@ff6A    ff6Aºã\B      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edd228 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  11
+.max =  11
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  100
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                          &@              &@      Y@  0A      0A  »B      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edd4f8 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  12.39999961853027
+.max =  12.39999961853027
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  70.01810455322266
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                       ¿ÃÃ(@           ¿ÃÃ(@   †(ÅQ@ffFA    ffFAE	åB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edc198 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  12
+.max =  12
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  92.51625823974609
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                          (@              (@   `
+!W@  @A      @ASπB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edc1e8 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  13.39999961853027
+.max =  13.39999961853027
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  60.33106231689453
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                       ¿ÃÃ*@           ¿ÃÃ*@   @`*N@ffVA    ffVASqB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edc238 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  13
+.max =  13
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  93.77447509765625
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                          *@              *@    ëqW@  PA      PAàåªB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edc828 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  14.39999961853027
+.max =  14.39999961853027
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  77.75882720947266
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                       ¿ÃÃ,@           ¿ÃÃ,@   †êpS@fffA    fffAÖÑõB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edd7c8 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  14
+.max =  14
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  92.41274261474609
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                          ,@              ,@   `jW@  `A      `AS”∏B      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edd778 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  15.39999961853027
+.max =  15.39999961853027
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  54.11657333374023
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                       ¿ÃÃ.@           ¿ÃÃ.@   ‡ÎK@ffvA    ffvA_wXB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ede808 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  15
+.max =  15
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  92.10353088378906
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                          .@              .@   @†W@  pA      pA5∏B      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ede678 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  16.39999961853027
+.max =  16.39999961853027
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  70.76876831054688
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                       `ff0@           `ff0@   Ä3±Q@33ÉA    33ÉAúâçB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ede1c8 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  16
+.max =  16
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  90.77490997314453
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                          0@              0@    ò±V@  ÄA      ÄA¡åµB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edd548 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  17.39999961853027
+.max =  17.39999961853027
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  72.12697601318359
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                       `ff1@           `ff1@   ` R@33ãA    33ãAAêB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8eddd68 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  17
+.max =  17
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  92.53759002685547
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                          1@              1@   ‡g"W@  àA      àA?πB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ede128 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  18.39999961853027
+.max =  18.39999961853027
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  65.96028900146484
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                       `ff2@           `ff2@   `u}P@33ìA    33ìA´ÎÉB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edfc58 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  18
+.max =  18
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  96.01078796386719
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                          2@              2@   ¿∞ X@  êA      êAÜ¿B      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edf3e8 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  19.39999961853027
+.max =  19.39999961853027
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  68.16952514648438
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                       `ff3@           `ff3@   ÄŸ
+Q@33õA    33õAÃVàB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edf2f8 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  19
+.max =  19
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  94.76650238037109
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                          3@              3@   `±W@  òA      òAsàΩB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edf7a8 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  20.39999961853027
+.max =  20.39999961853027
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  72.25550079345703
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                       `ff4@           `ff4@    ZR@33£A    33£A—ÇêB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ede998 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  20
+.max =  20
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  93.39810180664063
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                          4@              4@   ÄzYW@  †A      †A‘À∫B      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edef38 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  21.39999961853027
+.max =  21.39999961853027
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  66.89337158203125
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                       `ff5@           `ff5@    -πP@33´A    33´Ah…ÖB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edfac8 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  21
+.max =  21
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  92.26111602783203
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                          5@              5@    ∂W@  ®A      ®A±Ö∏B      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8edf488 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  22.39999961853027
+.max =  22.39999961853027
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  69.44821929931641
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                       `ff6@           `ff6@   †Ø\Q@33≥A    33≥A}ÂäB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee0108 
+<BeginSerset>
+<BeginSeries>
+.name = `"ybar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  22
+.max =  22
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"xbar"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  92.80284118652344
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛ybar mber                                                                                                                                             xbar 02N days                                                                                                                                         %9.0g                                                    %9.0g                                                          6@              6@   ¿a3W@  ∞A      ∞AõπB      
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee0748 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  1.200000047683716
+.max =  1.200000047683716
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  38.4256477355957
+.max =  75.31819152832031
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       @33Û?   †{6C@   @33Û?   @]‘R@öôô?›≥Böôô?Í¢ñB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee0158 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .800000011920929
+.max =  .800000011920929
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  80.55066680908203
+.max =  98.37237548828125
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       †ôôÈ?    >#T@   †ôôÈ?    ’óX@ÕÃL?Ò°BÕÃL?®æƒB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee0978 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  2.200000047683716
+.max =  2.200000047683716
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  51.67448043823242
+.max =  78.26673889160156
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       †ôô@   `U÷I@   †ôô@   @ëS@ÕÃ@´≤NBÕÃ@íàúB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee0c48 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  1.799999952316284
+.max =  1.799999952316284
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  66.02963256835938
+.max =  90.76444244384766
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       ¿ÃÃ¸?   ÄÂÅP@   ¿ÃÃ¸?   †Ï∞V@ffÊ?,ÑBffÊ?eáµB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee02e8 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  3.200000047683716
+.max =  3.200000047683716
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  55.42520904541016
+.max =  82.75297546386719
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       †ôô	@   @m∂K@   †ôô	@   ¿0∞T@ÕÃL@j≥]BÕÃL@ÜÅ•B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee10a8 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  2.799999952316284
+.max =  2.799999952316284
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  90.54195404052734
+.max =  99.75399017333984
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       `ff@   `Ø¢V@   `ff@   `AX@333@{µB333@Ç«B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee0888 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  4.199999809265137
+.max =  4.199999809265137
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  70.69108581542969
+.max =  88.27389526367188
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       ¿ÃÃ@   ¿:¨Q@   ¿ÃÃ@   ÄáV@ffÜ@÷açBffÜ@<å∞B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee15a8 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  3.799999952316284
+.max =  3.799999952316284
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  88.61913299560547
+.max =  98.60824584960938
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       `ff@   ‡ü'V@   `ff@   ÄÌ¶X@33s@ˇ<±B33s@l7≈B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee1e68 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  5.199999809265137
+.max =  5.199999809265137
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  45.0826416015625
+.max =  77.94918060302734
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       ¿ÃÃ@    îäF@   ¿ÃÃ@   `ø|S@ff¶@†T4Bff¶@˚ÂõB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee1c88 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  4.800000190734863
+.max =  4.800000190734863
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  80.06242370605469
+.max =  98.00296020507813
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       @33@   ¿˛T@   @33@   Ä0ÄX@öôô@ˆ†Böôô@ÑƒB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee1968 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  6.199999809265137
+.max =  6.199999809265137
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  45.01758575439453
+.max =  76.57903289794922
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       ¿ÃÃ@   @@ÇF@   ¿ÃÃ@   ‡%S@ff∆@4Bff∆@w(ôB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee1fa8 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  5.800000190734863
+.max =  5.800000190734863
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  73.02194976806641
+.max =  96.00352478027344
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       @33@   †gAR@   @33@   ¿9 X@öôπ@=íBöôπ@Œ¿B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee3628 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  7.199999809265137
+.max =  7.199999809265137
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  51.53732299804688
+.max =  79.47262573242188
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       ¿ÃÃ@    «ƒI@   ¿ÃÃ@   Ä?ﬁS@ffÊ@8&NBffÊ@¸ÒûB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee34e8 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  6.800000190734863
+.max =  6.800000190734863
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  81.77822875976563
+.max =  97.18025207519531
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       @33@   ÄŒqT@   @33@   @âKX@öôŸ@té£BöôŸ@J\¬B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee2908 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  8.199999809265137
+.max =  8.199999809265137
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  53.96723175048828
+.max =  86.73574829101563
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       `ff @   @Œ˚J@   `ff @   ÄØU@33ArﬁWB33A¥x≠B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee3448 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  7.800000190734863
+.max =  7.800000190734863
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  84.20211791992188
+.max =  98.75717926025391
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       @33@   ÄÔU@   @33@   †u∞X@öô˘@|g®Böô˘@≠É≈B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee2778 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  9.199999809265137
+.max =  9.199999809265137
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  55.47916793823242
+.max =  89.857177734375
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       `ff"@   `UΩK@   `ff"@    ‹vV@33A´Í]B33A‡∂≥B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee37b8 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  8.800000190734863
+.max =  8.800000190734863
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  79.30311584472656
+.max =  98.48863220214844
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       †ôô!@   @f”S@   †ôô!@   ¿EüX@ÕÃA2õûBÕÃA.˙ƒB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee36c8 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  10.19999980926514
+.max =  10.19999980926514
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  59.66767501831055
+.max =  80.52312469482422
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       `ff$@   `v’M@   `ff$@   ‡z!T@33#A≥´nB33#A◊°B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee2548 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  9.800000190734863
+.max =  9.800000190734863
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  85.63246154785156
+.max =  97.21969604492188
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       †ôô#@   @zhU@   †ôô#@   ÄNX@ÕÃA“C´BÕÃA|p¬B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee49d8 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  11.19999980926514
+.max =  11.19999980926514
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  27.44020843505859
+.max =  79.97564697265625
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       `ff&@   Ä±p;@   `ff&@    q˛S@333AåÖ€A333AàÛüB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee3e98 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  10.80000019073486
+.max =  10.80000019073486
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  71.24056243896484
+.max =  100
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       †ôô%@   `eœQ@   †ôô%@      Y@ÕÃ,A+{éBÕÃ,A  »B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee41b8 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  12.19999980926514
+.max =  12.19999980926514
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  62.66950988769531
+.max =  76.46340179443359
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       `ff(@   Ä≤UO@   `ff(@   `®S@33CAî≠zB33CACÌòB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee4618 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  11.80000019073486
+.max =  11.80000019073486
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  88.36742401123047
+.max =  95.26467895507813
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       †ôô'@   ‡ÉV@   †ôô'@   Ä–W@ÕÃ<Aº∞BÕÃ<AÑáæB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee4ca8 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  13.19999980926514
+.max =  13.19999980926514
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  49.19845199584961
+.max =  70.48751068115234
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       `ff*@   ‡fôH@   `ff*@   `3üQ@33SA7ÀDB33SAõ˘åB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee4668 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  12.80000019073486
+.max =  12.80000019073486
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  83.25381469726563
+.max =  97.8558349609375
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       †ôô)@   Ä>–T@   †ôô)@    ∆vX@ÕÃLAÙÅ¶BÕÃLA0∂√B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee4cf8 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  14.19999980926514
+.max =  14.19999980926514
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  69.45337677001953
+.max =  84.31601715087891
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       `ff,@    ]Q@   `ff,@   †9U@33cA!ËäB33cAÕ°®B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ee3c18 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  13.80000019073486
+.max =  13.80000019073486
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  86.05902862548828
+.max =  96.005126953125
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       †ôô+@    «ÉU@   †ôô+@    T X@ÕÃ\A9¨BÕÃ\A†¿B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ed2328 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  15.19999980926514
+.max =  15.19999980926514
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  31.44978904724121
+.max =  75.19887542724609
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       `ff.@   `%s?@   `ff.@   `∫ÃR@33sA+ô˚A33sA”eñB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ed3318 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  14.80000019073486
+.max =  14.80000019073486
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  78.23258972167969
+.max =  97.42622375488281
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       †ôô-@   ¿‚éS@   †ôô-@   @G[X@ÕÃlAwúBÕÃlA:⁄¬B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K8ed3458 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  16.20000076293945
+.max =  16.20000076293945
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  58.9826774597168
+.max =  80.29936981201172
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       @330@   `»}M@   @330@   ‡(T@öôÅACÓkBöôÅAGô†B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K19d6f258 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  15.80000019073486
+.max =  15.80000019073486
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  83.73143768310547
+.max =  94.95272827148438
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       †ôô/@   ‡œÓT@   †ôô/@   Ä˘ºW@ÕÃ|AvßBÕÃ|AÃÁΩB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K19d6f848 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  17.20000076293945
+.max =  17.20000076293945
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  54.93291473388672
+.max =  84.60012817382813
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       @331@   ¿iwK@   @331@   Äh&U@öôâANª[BöôâAD3©B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K19d6e858 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  16.79999923706055
+.max =  16.79999923706055
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  82.20196533203125
+.max =  97.08405303955078
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       ¿ÃÃ0@    ÌåT@   ¿ÃÃ0@    aEX@ffÜAhg§BffÜA	+¬B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K19d6f1b8 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  18.20000076293945
+.max =  18.20000076293945
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  55.63877487182617
+.max =  74.96105194091797
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       @332@   `√—K@   @332@   ‡ÅΩR@öôëAé^BöôëAÏïB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K19d6f988 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  17.79999923706055
+.max =  17.79999923706055
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  89.69432830810547
+.max =  98.51971435546875
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       ¿ÃÃ1@   ‡olV@   ¿ÃÃ1@    C°X@fféAc≥BfféA
+≈B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K19d6ee98 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  19.20000076293945
+.max =  19.20000076293945
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  59.4417839050293
+.max =  75.78425598144531
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       @333@   `å∏M@   @333@   @1ÚR@öôôAcƒmBöôôAäëóB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K19d6f5c8 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  18.79999923706055
+.max =  18.79999923706055
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  89.91042327880859
+.max =  97.35414886474609
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       ¿ÃÃ2@   `DzV@   ¿ÃÃ2@   `™VX@ffñA#“≥BffñASµ¬B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K19d6ec68 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  20.20000076293945
+.max =  20.20000076293945
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  62.95051574707031
+.max =  79.96722412109375
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       @334@   Ä™yO@   @334@    Á˝S@öô°ATÕ{Böô°A8ÔüB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K19d70518 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  19.79999923706055
+.max =  19.79999923706055
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  85.68167877197266
+.max =  97.09689331054688
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       ¿ÃÃ3@   ††kU@   ¿ÃÃ3@   Ä3FX@ffûA]´BffûAú1¬B
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K19d705b8 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  21.20000076293945
+.max =  21.20000076293945
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  57.30559539794922
+.max =  75.25767517089844
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       @335@   ¿ßL@   @335@   ¿}–R@öô©AÓ8eBöô©AÓÉñB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K19d70608 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  20.79999923706055
+.max =  20.79999923706055
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  85.99994659423828
+.max =  95.85702514648438
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       ¿ÃÃ4@    ˇU@   ¿ÃÃ4@   ÄŸˆW@ff¶A˘ˇ´Bff¶AÃ∂øB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K19d6fde8 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  22.20000076293945
+.max =  22.20000076293945
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  62.4366569519043
+.max =  75.66118621826172
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       @336@   `‰7O@   @336@   ‡PÍR@öô±A#øyBöô±AáRóB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> serset K19d6fed8 
+<BeginSerset>
+<BeginSeries>
+.name = `"y"'
+.label = `"y"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  21.79999923706055
+.max =  21.79999923706055
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  1
+<EndSeries>
+<BeginSeries>
+.name = `"x"'
+.label = `"x"'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  88.76792907714844
+.max =  95.46237945556641
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories =  2
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛__000052                                                                                                                                              __000053 days                                                                                                                                         %9.0g                                                    %9.0g                                                       ¿ÃÃ5@   ¿%1V@   ¿ÃÃ5@   †ó›W@ffÆA.â±BffÆAΩÏæB
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> scheme K9699298 
+.setscheme , scheme(s2color) naturallywhite(1)
+<EndItem>
+<BeginItem> twowaygraph_g K8ed5348 <UseScheme> K9699298
+.style.editstyle boxstyle( linestyle( color(white)) shadestyle( color(white))) editcopy
+.sersets[1] = .__Map.K8ed8598.ref
+.sersets[2] = .__Map.K8ed85e8.ref
+.sersets[3] = .__Map.K8ed9768.ref
+.sersets[4] = .__Map.K8ed8db8.ref
+.sersets[5] = .__Map.K8edac08.ref
+.sersets[6] = .__Map.K8edab18.ref
+.sersets[7] = .__Map.K8eda8e8.ref
+.sersets[8] = .__Map.K8ed9e98.ref
+.sersets[9] = .__Map.K8ed9f38.ref
+.sersets[10] = .__Map.K8eda988.ref
+.sersets[11] = .__Map.K8eda028.ref
+.sersets[12] = .__Map.K8eda398.ref
+.sersets[13] = .__Map.K8edb248.ref
+.sersets[14] = .__Map.K8edb9c8.ref
+.sersets[15] = .__Map.K8edb748.ref
+.sersets[16] = .__Map.K8edb158.ref
+.sersets[17] = .__Map.K8edb4c8.ref
+.sersets[18] = .__Map.K8edbbf8.ref
+.sersets[19] = .__Map.K8edbce8.ref
+.sersets[20] = .__Map.K8edc0a8.ref
+.sersets[21] = .__Map.K8edcb48.ref
+.sersets[22] = .__Map.K8edcbe8.ref
+.sersets[23] = .__Map.K8edd228.ref
+.sersets[24] = .__Map.K8edd4f8.ref
+.sersets[25] = .__Map.K8edc198.ref
+.sersets[26] = .__Map.K8edc1e8.ref
+.sersets[27] = .__Map.K8edc238.ref
+.sersets[28] = .__Map.K8edc828.ref
+.sersets[29] = .__Map.K8edd7c8.ref
+.sersets[30] = .__Map.K8edd778.ref
+.sersets[31] = .__Map.K8ede808.ref
+.sersets[32] = .__Map.K8ede678.ref
+.sersets[33] = .__Map.K8ede1c8.ref
+.sersets[34] = .__Map.K8edd548.ref
+.sersets[35] = .__Map.K8eddd68.ref
+.sersets[36] = .__Map.K8ede128.ref
+.sersets[37] = .__Map.K8edfc58.ref
+.sersets[38] = .__Map.K8edf3e8.ref
+.sersets[39] = .__Map.K8edf2f8.ref
+.sersets[40] = .__Map.K8edf7a8.ref
+.sersets[41] = .__Map.K8ede998.ref
+.sersets[42] = .__Map.K8edef38.ref
+.sersets[43] = .__Map.K8edfac8.ref
+.sersets[44] = .__Map.K8edf488.ref
+.sersets[45] = .__Map.K8ee0108.ref
+.sersets[46] = .__Map.K8ee0748.ref
+.sersets[47] = .__Map.K8ee0158.ref
+.sersets[48] = .__Map.K8ee0978.ref
+.sersets[49] = .__Map.K8ee0c48.ref
+.sersets[50] = .__Map.K8ee02e8.ref
+.sersets[51] = .__Map.K8ee10a8.ref
+.sersets[52] = .__Map.K8ee0888.ref
+.sersets[53] = .__Map.K8ee15a8.ref
+.sersets[54] = .__Map.K8ee1e68.ref
+.sersets[55] = .__Map.K8ee1c88.ref
+.sersets[56] = .__Map.K8ee1968.ref
+.sersets[57] = .__Map.K8ee1fa8.ref
+.sersets[58] = .__Map.K8ee3628.ref
+.sersets[59] = .__Map.K8ee34e8.ref
+.sersets[60] = .__Map.K8ee2908.ref
+.sersets[61] = .__Map.K8ee3448.ref
+.sersets[62] = .__Map.K8ee2778.ref
+.sersets[63] = .__Map.K8ee37b8.ref
+.sersets[64] = .__Map.K8ee36c8.ref
+.sersets[65] = .__Map.K8ee2548.ref
+.sersets[66] = .__Map.K8ee49d8.ref
+.sersets[67] = .__Map.K8ee3e98.ref
+.sersets[68] = .__Map.K8ee41b8.ref
+.sersets[69] = .__Map.K8ee4618.ref
+.sersets[70] = .__Map.K8ee4ca8.ref
+.sersets[71] = .__Map.K8ee4668.ref
+.sersets[72] = .__Map.K8ee4cf8.ref
+.sersets[73] = .__Map.K8ee3c18.ref
+.sersets[74] = .__Map.K8ed2328.ref
+.sersets[75] = .__Map.K8ed3318.ref
+.sersets[76] = .__Map.K8ed3458.ref
+.sersets[77] = .__Map.K19d6f258.ref
+.sersets[78] = .__Map.K19d6f848.ref
+.sersets[79] = .__Map.K19d6e858.ref
+.sersets[80] = .__Map.K19d6f1b8.ref
+.sersets[81] = .__Map.K19d6f988.ref
+.sersets[82] = .__Map.K19d6ee98.ref
+.sersets[83] = .__Map.K19d6f5c8.ref
+.sersets[84] = .__Map.K19d6ec68.ref
+.sersets[85] = .__Map.K19d70518.ref
+.sersets[86] = .__Map.K19d705b8.ref
+.sersets[87] = .__Map.K19d70608.ref
+.sersets[88] = .__Map.K19d6fde8.ref
+.sersets[89] = .__Map.K19d6fed8.ref
+.insert (plotregion1 = .plotregion.new , style(scheme twoway) graph(`.objkey')) at 1 1
+.plotregion1.xaxis_dexes = `"1"'
+.plotregion1.yaxis_dexes = `"1"'
+.plotregion1.Declare plot1 = .yxview.new , type(scatter) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof rownumber') xvariable(`.sersets[1].seriesof p')     plotregion(`.plotregion1.objkey') style(scheme p1) 
+.plotregion1.plot1.style.editstyle marker(symbol(i)) editcopy
+.plotregion1.plot1.style.editstyle connect(none) editcopy
+.plotregion1.plot1._maybe_override_type
+.plotregion1.Declare plot2 = .yxview.new , type(area) serset(`.sersets[2].objkey') yvariable(`.sersets[2].seriesof ybar') xvariable(`.sersets[2].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p2area) 
+.plotregion1.plot2.style.editstyle line(color(orange*.5)) area(shadestyle(color(orange*.5))) area(linestyle(color(orange*.5))) marker(fillcolor(orange*.5) linestyle(color(orange*.5))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(orange*.5))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot2.base = 1
+.plotregion1.plot2.register_with_scale
+.plotregion1.Declare plot3 = .yxview.new , type(area) serset(`.sersets[3].objkey') yvariable(`.sersets[3].seriesof ybar') xvariable(`.sersets[3].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p3area) 
+.plotregion1.plot3.style.editstyle line(color(gs3)) area(shadestyle(color(gs3))) area(linestyle(color(gs3))) marker(fillcolor(gs3) linestyle(color(gs3))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(gs14))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot3.base = .6
+.plotregion1.plot3.register_with_scale
+.plotregion1.Declare plot4 = .yxview.new , type(area) serset(`.sersets[4].objkey') yvariable(`.sersets[4].seriesof ybar') xvariable(`.sersets[4].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p4area) 
+.plotregion1.plot4.style.editstyle line(color(orange*.5)) area(shadestyle(color(orange*.5))) area(linestyle(color(orange*.5))) marker(fillcolor(orange*.5) linestyle(color(orange*.5))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(orange*.5))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot4.base = 2
+.plotregion1.plot4.register_with_scale
+.plotregion1.Declare plot5 = .yxview.new , type(area) serset(`.sersets[5].objkey') yvariable(`.sersets[5].seriesof ybar') xvariable(`.sersets[5].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p5area) 
+.plotregion1.plot5.style.editstyle line(color(gs3)) area(shadestyle(color(gs3))) area(linestyle(color(gs3))) marker(fillcolor(gs3) linestyle(color(gs3))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(gs14))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot5.base = 1.6
+.plotregion1.plot5.register_with_scale
+.plotregion1.Declare plot6 = .yxview.new , type(area) serset(`.sersets[6].objkey') yvariable(`.sersets[6].seriesof ybar') xvariable(`.sersets[6].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p6area) 
+.plotregion1.plot6.style.editstyle line(color(orange*.5)) area(shadestyle(color(orange*.5))) area(linestyle(color(orange*.5))) marker(fillcolor(orange*.5) linestyle(color(orange*.5))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(orange*.5))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot6.base = 3
+.plotregion1.plot6.register_with_scale
+.plotregion1.Declare plot7 = .yxview.new , type(area) serset(`.sersets[7].objkey') yvariable(`.sersets[7].seriesof ybar') xvariable(`.sersets[7].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p7area) 
+.plotregion1.plot7.style.editstyle line(color(gs3)) area(shadestyle(color(gs3))) area(linestyle(color(gs3))) marker(fillcolor(gs3) linestyle(color(gs3))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(gs14))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot7.base = 2.6
+.plotregion1.plot7.register_with_scale
+.plotregion1.Declare plot8 = .yxview.new , type(area) serset(`.sersets[8].objkey') yvariable(`.sersets[8].seriesof ybar') xvariable(`.sersets[8].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p8area) 
+.plotregion1.plot8.style.editstyle line(color(orange*.5)) area(shadestyle(color(orange*.5))) area(linestyle(color(orange*.5))) marker(fillcolor(orange*.5) linestyle(color(orange*.5))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(orange*.5))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot8.base = 4
+.plotregion1.plot8.register_with_scale
+.plotregion1.Declare plot9 = .yxview.new , type(area) serset(`.sersets[9].objkey') yvariable(`.sersets[9].seriesof ybar') xvariable(`.sersets[9].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p9area) 
+.plotregion1.plot9.style.editstyle line(color(gs3)) area(shadestyle(color(gs3))) area(linestyle(color(gs3))) marker(fillcolor(gs3) linestyle(color(gs3))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(gs14))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot9.base = 3.6
+.plotregion1.plot9.register_with_scale
+.plotregion1.Declare plot10 = .yxview.new , type(area) serset(`.sersets[10].objkey') yvariable(`.sersets[10].seriesof ybar') xvariable(`.sersets[10].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p10area) 
+.plotregion1.plot10.style.editstyle line(color(orange*.5)) area(shadestyle(color(orange*.5))) area(linestyle(color(orange*.5))) marker(fillcolor(orange*.5) linestyle(color(orange*.5))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(orange*.5))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot10.base = 5
+.plotregion1.plot10.register_with_scale
+.plotregion1.Declare plot11 = .yxview.new , type(area) serset(`.sersets[11].objkey') yvariable(`.sersets[11].seriesof ybar') xvariable(`.sersets[11].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p11area) 
+.plotregion1.plot11.style.editstyle line(color(gs3)) area(shadestyle(color(gs3))) area(linestyle(color(gs3))) marker(fillcolor(gs3) linestyle(color(gs3))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(gs14))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot11.base = 4.6
+.plotregion1.plot11.register_with_scale
+.plotregion1.Declare plot12 = .yxview.new , type(area) serset(`.sersets[12].objkey') yvariable(`.sersets[12].seriesof ybar') xvariable(`.sersets[12].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p12area) 
+.plotregion1.plot12.style.editstyle line(color(olive*.5)) area(shadestyle(color(olive*.5))) area(linestyle(color(olive*.5))) marker(fillcolor(olive*.5) linestyle(color(olive*.5))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(olive*.5))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot12.base = 6
+.plotregion1.plot12.register_with_scale
+.plotregion1.Declare plot13 = .yxview.new , type(area) serset(`.sersets[13].objkey') yvariable(`.sersets[13].seriesof ybar') xvariable(`.sersets[13].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p13area) 
+.plotregion1.plot13.style.editstyle line(color(gs3)) area(shadestyle(color(gs3))) area(linestyle(color(gs3))) marker(fillcolor(gs3) linestyle(color(gs3))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(gs14))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot13.base = 5.6
+.plotregion1.plot13.register_with_scale
+.plotregion1.Declare plot14 = .yxview.new , type(area) serset(`.sersets[14].objkey') yvariable(`.sersets[14].seriesof ybar') xvariable(`.sersets[14].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p14area) 
+.plotregion1.plot14.style.editstyle line(color(olive*.5)) area(shadestyle(color(olive*.5))) area(linestyle(color(olive*.5))) marker(fillcolor(olive*.5) linestyle(color(olive*.5))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(olive*.5))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot14.base = 7
+.plotregion1.plot14.register_with_scale
+.plotregion1.Declare plot15 = .yxview.new , type(area) serset(`.sersets[15].objkey') yvariable(`.sersets[15].seriesof ybar') xvariable(`.sersets[15].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p15area) 
+.plotregion1.plot15.style.editstyle line(color(gs3)) area(shadestyle(color(gs3))) area(linestyle(color(gs3))) marker(fillcolor(gs3) linestyle(color(gs3))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(gs14))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot15.base = 6.6
+.plotregion1.plot15.register_with_scale
+.plotregion1.Declare plot16 = .yxview.new , type(area) serset(`.sersets[16].objkey') yvariable(`.sersets[16].seriesof ybar') xvariable(`.sersets[16].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p1area) 
+.plotregion1.plot16.style.editstyle line(color(olive*.5)) area(shadestyle(color(olive*.5))) area(linestyle(color(olive*.5))) marker(fillcolor(olive*.5) linestyle(color(olive*.5))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(olive*.5))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot16.base = 8
+.plotregion1.plot16.register_with_scale
+.plotregion1.Declare plot17 = .yxview.new , type(area) serset(`.sersets[17].objkey') yvariable(`.sersets[17].seriesof ybar') xvariable(`.sersets[17].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p2area) 
+.plotregion1.plot17.style.editstyle line(color(gs3)) area(shadestyle(color(gs3))) area(linestyle(color(gs3))) marker(fillcolor(gs3) linestyle(color(gs3))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(gs14))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot17.base = 7.6
+.plotregion1.plot17.register_with_scale
+.plotregion1.Declare plot18 = .yxview.new , type(area) serset(`.sersets[18].objkey') yvariable(`.sersets[18].seriesof ybar') xvariable(`.sersets[18].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p3area) 
+.plotregion1.plot18.style.editstyle line(color(olive*.5)) area(shadestyle(color(olive*.5))) area(linestyle(color(olive*.5))) marker(fillcolor(olive*.5) linestyle(color(olive*.5))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(olive*.5))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot18.base = 9
+.plotregion1.plot18.register_with_scale
+.plotregion1.Declare plot19 = .yxview.new , type(area) serset(`.sersets[19].objkey') yvariable(`.sersets[19].seriesof ybar') xvariable(`.sersets[19].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p4area) 
+.plotregion1.plot19.style.editstyle line(color(gs3)) area(shadestyle(color(gs3))) area(linestyle(color(gs3))) marker(fillcolor(gs3) linestyle(color(gs3))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(gs14))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot19.base = 8.6
+.plotregion1.plot19.register_with_scale
+.plotregion1.Declare plot20 = .yxview.new , type(area) serset(`.sersets[20].objkey') yvariable(`.sersets[20].seriesof ybar') xvariable(`.sersets[20].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p5area) 
+.plotregion1.plot20.style.editstyle line(color(olive*.5)) area(shadestyle(color(olive*.5))) area(linestyle(color(olive*.5))) marker(fillcolor(olive*.5) linestyle(color(olive*.5))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(olive*.5))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot20.base = 10
+.plotregion1.plot20.register_with_scale
+.plotregion1.Declare plot21 = .yxview.new , type(area) serset(`.sersets[21].objkey') yvariable(`.sersets[21].seriesof ybar') xvariable(`.sersets[21].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p6area) 
+.plotregion1.plot21.style.editstyle line(color(gs3)) area(shadestyle(color(gs3))) area(linestyle(color(gs3))) marker(fillcolor(gs3) linestyle(color(gs3))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(gs14))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot21.base = 9.6
+.plotregion1.plot21.register_with_scale
+.plotregion1.Declare plot22 = .yxview.new , type(area) serset(`.sersets[22].objkey') yvariable(`.sersets[22].seriesof ybar') xvariable(`.sersets[22].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p7area) 
+.plotregion1.plot22.style.editstyle line(color(eltgreen*.5)) area(shadestyle(color(eltgreen*.5))) area(linestyle(color(eltgreen*.5))) marker(fillcolor(eltgreen*.5) linestyle(color(eltgreen*.5))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(eltgreen*.5))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot22.base = 11
+.plotregion1.plot22.register_with_scale
+.plotregion1.Declare plot23 = .yxview.new , type(area) serset(`.sersets[23].objkey') yvariable(`.sersets[23].seriesof ybar') xvariable(`.sersets[23].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p8area) 
+.plotregion1.plot23.style.editstyle line(color(gs3)) area(shadestyle(color(gs3))) area(linestyle(color(gs3))) marker(fillcolor(gs3) linestyle(color(gs3))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(gs14))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot23.base = 10.6
+.plotregion1.plot23.register_with_scale
+.plotregion1.Declare plot24 = .yxview.new , type(area) serset(`.sersets[24].objkey') yvariable(`.sersets[24].seriesof ybar') xvariable(`.sersets[24].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p9area) 
+.plotregion1.plot24.style.editstyle line(color(eltgreen*.5)) area(shadestyle(color(eltgreen*.5))) area(linestyle(color(eltgreen*.5))) marker(fillcolor(eltgreen*.5) linestyle(color(eltgreen*.5))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(eltgreen*.5))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot24.base = 12
+.plotregion1.plot24.register_with_scale
+.plotregion1.Declare plot25 = .yxview.new , type(area) serset(`.sersets[25].objkey') yvariable(`.sersets[25].seriesof ybar') xvariable(`.sersets[25].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p10area) 
+.plotregion1.plot25.style.editstyle line(color(gs3)) area(shadestyle(color(gs3))) area(linestyle(color(gs3))) marker(fillcolor(gs3) linestyle(color(gs3))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(gs14))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot25.base = 11.6
+.plotregion1.plot25.register_with_scale
+.plotregion1.Declare plot26 = .yxview.new , type(area) serset(`.sersets[26].objkey') yvariable(`.sersets[26].seriesof ybar') xvariable(`.sersets[26].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p11area) 
+.plotregion1.plot26.style.editstyle line(color(sienna*.5)) area(shadestyle(color(sienna*.5))) area(linestyle(color(sienna*.5))) marker(fillcolor(sienna*.5) linestyle(color(sienna*.5))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(sienna*.5))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot26.base = 13
+.plotregion1.plot26.register_with_scale
+.plotregion1.Declare plot27 = .yxview.new , type(area) serset(`.sersets[27].objkey') yvariable(`.sersets[27].seriesof ybar') xvariable(`.sersets[27].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p12area) 
+.plotregion1.plot27.style.editstyle line(color(gs3)) area(shadestyle(color(gs3))) area(linestyle(color(gs3))) marker(fillcolor(gs3) linestyle(color(gs3))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(gs14))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot27.base = 12.6
+.plotregion1.plot27.register_with_scale
+.plotregion1.Declare plot28 = .yxview.new , type(area) serset(`.sersets[28].objkey') yvariable(`.sersets[28].seriesof ybar') xvariable(`.sersets[28].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p13area) 
+.plotregion1.plot28.style.editstyle line(color(sienna*.5)) area(shadestyle(color(sienna*.5))) area(linestyle(color(sienna*.5))) marker(fillcolor(sienna*.5) linestyle(color(sienna*.5))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(sienna*.5))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot28.base = 14
+.plotregion1.plot28.register_with_scale
+.plotregion1.Declare plot29 = .yxview.new , type(area) serset(`.sersets[29].objkey') yvariable(`.sersets[29].seriesof ybar') xvariable(`.sersets[29].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p14area) 
+.plotregion1.plot29.style.editstyle line(color(gs3)) area(shadestyle(color(gs3))) area(linestyle(color(gs3))) marker(fillcolor(gs3) linestyle(color(gs3))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(gs14))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot29.base = 13.6
+.plotregion1.plot29.register_with_scale
+.plotregion1.Declare plot30 = .yxview.new , type(area) serset(`.sersets[30].objkey') yvariable(`.sersets[30].seriesof ybar') xvariable(`.sersets[30].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p15area) 
+.plotregion1.plot30.style.editstyle line(color(sienna*.5)) area(shadestyle(color(sienna*.5))) area(linestyle(color(sienna*.5))) marker(fillcolor(sienna*.5) linestyle(color(sienna*.5))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(sienna*.5))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot30.base = 15
+.plotregion1.plot30.register_with_scale
+.plotregion1.Declare plot31 = .yxview.new , type(area) serset(`.sersets[31].objkey') yvariable(`.sersets[31].seriesof ybar') xvariable(`.sersets[31].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p1area) 
+.plotregion1.plot31.style.editstyle line(color(gs3)) area(shadestyle(color(gs3))) area(linestyle(color(gs3))) marker(fillcolor(gs3) linestyle(color(gs3))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(gs14))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot31.base = 14.6
+.plotregion1.plot31.register_with_scale
+.plotregion1.Declare plot32 = .yxview.new , type(area) serset(`.sersets[32].objkey') yvariable(`.sersets[32].seriesof ybar') xvariable(`.sersets[32].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p2area) 
+.plotregion1.plot32.style.editstyle line(color(vcqi_level4)) area(shadestyle(color(vcqi_level4))) area(linestyle(color(vcqi_level4))) marker(fillcolor(vcqi_level4) linestyle(color(vcqi_level4))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(vcqi_level4))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot32.base = 16
+.plotregion1.plot32.register_with_scale
+.plotregion1.Declare plot33 = .yxview.new , type(area) serset(`.sersets[33].objkey') yvariable(`.sersets[33].seriesof ybar') xvariable(`.sersets[33].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p3area) 
+.plotregion1.plot33.style.editstyle line(color(gs3)) area(shadestyle(color(gs3))) area(linestyle(color(gs3))) marker(fillcolor(gs3) linestyle(color(gs3))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(gs14))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot33.base = 15.6
+.plotregion1.plot33.register_with_scale
+.plotregion1.Declare plot34 = .yxview.new , type(area) serset(`.sersets[34].objkey') yvariable(`.sersets[34].seriesof ybar') xvariable(`.sersets[34].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p4area) 
+.plotregion1.plot34.style.editstyle line(color(vcqi_level4)) area(shadestyle(color(vcqi_level4))) area(linestyle(color(vcqi_level4))) marker(fillcolor(vcqi_level4) linestyle(color(vcqi_level4))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(vcqi_level4))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot34.base = 17
+.plotregion1.plot34.register_with_scale
+.plotregion1.Declare plot35 = .yxview.new , type(area) serset(`.sersets[35].objkey') yvariable(`.sersets[35].seriesof ybar') xvariable(`.sersets[35].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p5area) 
+.plotregion1.plot35.style.editstyle line(color(gs3)) area(shadestyle(color(gs3))) area(linestyle(color(gs3))) marker(fillcolor(gs3) linestyle(color(gs3))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(gs14))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot35.base = 16.6
+.plotregion1.plot35.register_with_scale
+.plotregion1.Declare plot36 = .yxview.new , type(area) serset(`.sersets[36].objkey') yvariable(`.sersets[36].seriesof ybar') xvariable(`.sersets[36].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p6area) 
+.plotregion1.plot36.style.editstyle line(color(vcqi_level4)) area(shadestyle(color(vcqi_level4))) area(linestyle(color(vcqi_level4))) marker(fillcolor(vcqi_level4) linestyle(color(vcqi_level4))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(vcqi_level4))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot36.base = 18
+.plotregion1.plot36.register_with_scale
+.plotregion1.Declare plot37 = .yxview.new , type(area) serset(`.sersets[37].objkey') yvariable(`.sersets[37].seriesof ybar') xvariable(`.sersets[37].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p7area) 
+.plotregion1.plot37.style.editstyle line(color(gs3)) area(shadestyle(color(gs3))) area(linestyle(color(gs3))) marker(fillcolor(gs3) linestyle(color(gs3))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(gs14))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot37.base = 17.6
+.plotregion1.plot37.register_with_scale
+.plotregion1.Declare plot38 = .yxview.new , type(area) serset(`.sersets[38].objkey') yvariable(`.sersets[38].seriesof ybar') xvariable(`.sersets[38].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p8area) 
+.plotregion1.plot38.style.editstyle line(color(vcqi_level4)) area(shadestyle(color(vcqi_level4))) area(linestyle(color(vcqi_level4))) marker(fillcolor(vcqi_level4) linestyle(color(vcqi_level4))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(vcqi_level4))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot38.base = 19
+.plotregion1.plot38.register_with_scale
+.plotregion1.Declare plot39 = .yxview.new , type(area) serset(`.sersets[39].objkey') yvariable(`.sersets[39].seriesof ybar') xvariable(`.sersets[39].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p9area) 
+.plotregion1.plot39.style.editstyle line(color(gs3)) area(shadestyle(color(gs3))) area(linestyle(color(gs3))) marker(fillcolor(gs3) linestyle(color(gs3))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(gs14))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot39.base = 18.6
+.plotregion1.plot39.register_with_scale
+.plotregion1.Declare plot40 = .yxview.new , type(area) serset(`.sersets[40].objkey') yvariable(`.sersets[40].seriesof ybar') xvariable(`.sersets[40].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p10area) 
+.plotregion1.plot40.style.editstyle line(color(vcqi_level3)) area(shadestyle(color(vcqi_level3))) area(linestyle(color(vcqi_level3))) marker(fillcolor(vcqi_level3) linestyle(color(vcqi_level3))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(vcqi_level3))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot40.base = 20
+.plotregion1.plot40.register_with_scale
+.plotregion1.Declare plot41 = .yxview.new , type(area) serset(`.sersets[41].objkey') yvariable(`.sersets[41].seriesof ybar') xvariable(`.sersets[41].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p11area) 
+.plotregion1.plot41.style.editstyle line(color(gs3)) area(shadestyle(color(gs3))) area(linestyle(color(gs3))) marker(fillcolor(gs3) linestyle(color(gs3))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(gs14))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot41.base = 19.6
+.plotregion1.plot41.register_with_scale
+.plotregion1.Declare plot42 = .yxview.new , type(area) serset(`.sersets[42].objkey') yvariable(`.sersets[42].seriesof ybar') xvariable(`.sersets[42].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p12area) 
+.plotregion1.plot42.style.editstyle line(color(vcqi_level3)) area(shadestyle(color(vcqi_level3))) area(linestyle(color(vcqi_level3))) marker(fillcolor(vcqi_level3) linestyle(color(vcqi_level3))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(vcqi_level3))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot42.base = 21
+.plotregion1.plot42.register_with_scale
+.plotregion1.Declare plot43 = .yxview.new , type(area) serset(`.sersets[43].objkey') yvariable(`.sersets[43].seriesof ybar') xvariable(`.sersets[43].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p13area) 
+.plotregion1.plot43.style.editstyle line(color(gs3)) area(shadestyle(color(gs3))) area(linestyle(color(gs3))) marker(fillcolor(gs3) linestyle(color(gs3))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(gs14))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot43.base = 20.6
+.plotregion1.plot43.register_with_scale
+.plotregion1.Declare plot44 = .yxview.new , type(area) serset(`.sersets[44].objkey') yvariable(`.sersets[44].seriesof ybar') xvariable(`.sersets[44].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p14area) 
+.plotregion1.plot44.style.editstyle line(color(vcqi_level1)) area(shadestyle(color(vcqi_level1))) area(linestyle(color(vcqi_level1))) marker(fillcolor(vcqi_level1) linestyle(color(vcqi_level1))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(vcqi_level1))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot44.base = 22
+.plotregion1.plot44.register_with_scale
+.plotregion1.Declare plot45 = .yxview.new , type(area) serset(`.sersets[45].objkey') yvariable(`.sersets[45].seriesof ybar') xvariable(`.sersets[45].seriesof xbar')     plotregion(`.plotregion1.objkey') style(scheme p15area) 
+.plotregion1.plot45.style.editstyle line(color(gs3)) area(shadestyle(color(gs3))) area(linestyle(color(gs3))) marker(fillcolor(gs3) linestyle(color(gs3))) line(width(vthin)) area(linestyle(width(vthin))) area(shadestyle(color(gs14))) area(shadestyle(intensity(100))) editcopy
+.plotregion1.plot45.base = 21.6
+.plotregion1.plot45.register_with_scale
+.plotregion1.Declare plot46 = .yxview.new , type(scatter) serset(`.sersets[46].objkey') yvariable(`.sersets[46].seriesof y') xvariable(`.sersets[46].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p1) 
+.plotregion1.plot46.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot46.style.editstyle connect(direct) editcopy
+.plotregion1.plot46._maybe_override_type
+.plotregion1.Declare plot47 = .yxview.new , type(scatter) serset(`.sersets[47].objkey') yvariable(`.sersets[47].seriesof y') xvariable(`.sersets[47].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p2) 
+.plotregion1.plot47.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot47.style.editstyle connect(direct) editcopy
+.plotregion1.plot47._maybe_override_type
+.plotregion1.Declare plot48 = .yxview.new , type(scatter) serset(`.sersets[48].objkey') yvariable(`.sersets[48].seriesof y') xvariable(`.sersets[48].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p3) 
+.plotregion1.plot48.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot48.style.editstyle connect(direct) editcopy
+.plotregion1.plot48._maybe_override_type
+.plotregion1.Declare plot49 = .yxview.new , type(scatter) serset(`.sersets[49].objkey') yvariable(`.sersets[49].seriesof y') xvariable(`.sersets[49].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p4) 
+.plotregion1.plot49.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot49.style.editstyle connect(direct) editcopy
+.plotregion1.plot49._maybe_override_type
+.plotregion1.Declare plot50 = .yxview.new , type(scatter) serset(`.sersets[50].objkey') yvariable(`.sersets[50].seriesof y') xvariable(`.sersets[50].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p5) 
+.plotregion1.plot50.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot50.style.editstyle connect(direct) editcopy
+.plotregion1.plot50._maybe_override_type
+.plotregion1.Declare plot51 = .yxview.new , type(scatter) serset(`.sersets[51].objkey') yvariable(`.sersets[51].seriesof y') xvariable(`.sersets[51].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p6) 
+.plotregion1.plot51.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot51.style.editstyle connect(direct) editcopy
+.plotregion1.plot51._maybe_override_type
+.plotregion1.Declare plot52 = .yxview.new , type(scatter) serset(`.sersets[52].objkey') yvariable(`.sersets[52].seriesof y') xvariable(`.sersets[52].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p7) 
+.plotregion1.plot52.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot52.style.editstyle connect(direct) editcopy
+.plotregion1.plot52._maybe_override_type
+.plotregion1.Declare plot53 = .yxview.new , type(scatter) serset(`.sersets[53].objkey') yvariable(`.sersets[53].seriesof y') xvariable(`.sersets[53].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p8) 
+.plotregion1.plot53.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot53.style.editstyle connect(direct) editcopy
+.plotregion1.plot53._maybe_override_type
+.plotregion1.Declare plot54 = .yxview.new , type(scatter) serset(`.sersets[54].objkey') yvariable(`.sersets[54].seriesof y') xvariable(`.sersets[54].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p9) 
+.plotregion1.plot54.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot54.style.editstyle connect(direct) editcopy
+.plotregion1.plot54._maybe_override_type
+.plotregion1.Declare plot55 = .yxview.new , type(scatter) serset(`.sersets[55].objkey') yvariable(`.sersets[55].seriesof y') xvariable(`.sersets[55].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p10) 
+.plotregion1.plot55.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot55.style.editstyle connect(direct) editcopy
+.plotregion1.plot55._maybe_override_type
+.plotregion1.Declare plot56 = .yxview.new , type(scatter) serset(`.sersets[56].objkey') yvariable(`.sersets[56].seriesof y') xvariable(`.sersets[56].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p11) 
+.plotregion1.plot56.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot56.style.editstyle connect(direct) editcopy
+.plotregion1.plot56._maybe_override_type
+.plotregion1.Declare plot57 = .yxview.new , type(scatter) serset(`.sersets[57].objkey') yvariable(`.sersets[57].seriesof y') xvariable(`.sersets[57].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p12) 
+.plotregion1.plot57.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot57.style.editstyle connect(direct) editcopy
+.plotregion1.plot57._maybe_override_type
+.plotregion1.Declare plot58 = .yxview.new , type(scatter) serset(`.sersets[58].objkey') yvariable(`.sersets[58].seriesof y') xvariable(`.sersets[58].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p13) 
+.plotregion1.plot58.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot58.style.editstyle connect(direct) editcopy
+.plotregion1.plot58._maybe_override_type
+.plotregion1.Declare plot59 = .yxview.new , type(scatter) serset(`.sersets[59].objkey') yvariable(`.sersets[59].seriesof y') xvariable(`.sersets[59].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p14) 
+.plotregion1.plot59.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot59.style.editstyle connect(direct) editcopy
+.plotregion1.plot59._maybe_override_type
+.plotregion1.Declare plot60 = .yxview.new , type(scatter) serset(`.sersets[60].objkey') yvariable(`.sersets[60].seriesof y') xvariable(`.sersets[60].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p15) 
+.plotregion1.plot60.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot60.style.editstyle connect(direct) editcopy
+.plotregion1.plot60._maybe_override_type
+.plotregion1.Declare plot61 = .yxview.new , type(scatter) serset(`.sersets[61].objkey') yvariable(`.sersets[61].seriesof y') xvariable(`.sersets[61].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p1) 
+.plotregion1.plot61.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot61.style.editstyle connect(direct) editcopy
+.plotregion1.plot61._maybe_override_type
+.plotregion1.Declare plot62 = .yxview.new , type(scatter) serset(`.sersets[62].objkey') yvariable(`.sersets[62].seriesof y') xvariable(`.sersets[62].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p2) 
+.plotregion1.plot62.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot62.style.editstyle connect(direct) editcopy
+.plotregion1.plot62._maybe_override_type
+.plotregion1.Declare plot63 = .yxview.new , type(scatter) serset(`.sersets[63].objkey') yvariable(`.sersets[63].seriesof y') xvariable(`.sersets[63].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p3) 
+.plotregion1.plot63.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot63.style.editstyle connect(direct) editcopy
+.plotregion1.plot63._maybe_override_type
+.plotregion1.Declare plot64 = .yxview.new , type(scatter) serset(`.sersets[64].objkey') yvariable(`.sersets[64].seriesof y') xvariable(`.sersets[64].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p4) 
+.plotregion1.plot64.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot64.style.editstyle connect(direct) editcopy
+.plotregion1.plot64._maybe_override_type
+.plotregion1.Declare plot65 = .yxview.new , type(scatter) serset(`.sersets[65].objkey') yvariable(`.sersets[65].seriesof y') xvariable(`.sersets[65].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p5) 
+.plotregion1.plot65.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot65.style.editstyle connect(direct) editcopy
+.plotregion1.plot65._maybe_override_type
+.plotregion1.Declare plot66 = .yxview.new , type(scatter) serset(`.sersets[66].objkey') yvariable(`.sersets[66].seriesof y') xvariable(`.sersets[66].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p6) 
+.plotregion1.plot66.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot66.style.editstyle connect(direct) editcopy
+.plotregion1.plot66._maybe_override_type
+.plotregion1.Declare plot67 = .yxview.new , type(scatter) serset(`.sersets[67].objkey') yvariable(`.sersets[67].seriesof y') xvariable(`.sersets[67].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p7) 
+.plotregion1.plot67.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot67.style.editstyle connect(direct) editcopy
+.plotregion1.plot67._maybe_override_type
+.plotregion1.Declare plot68 = .yxview.new , type(scatter) serset(`.sersets[68].objkey') yvariable(`.sersets[68].seriesof y') xvariable(`.sersets[68].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p8) 
+.plotregion1.plot68.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot68.style.editstyle connect(direct) editcopy
+.plotregion1.plot68._maybe_override_type
+.plotregion1.Declare plot69 = .yxview.new , type(scatter) serset(`.sersets[69].objkey') yvariable(`.sersets[69].seriesof y') xvariable(`.sersets[69].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p9) 
+.plotregion1.plot69.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot69.style.editstyle connect(direct) editcopy
+.plotregion1.plot69._maybe_override_type
+.plotregion1.Declare plot70 = .yxview.new , type(scatter) serset(`.sersets[70].objkey') yvariable(`.sersets[70].seriesof y') xvariable(`.sersets[70].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p10) 
+.plotregion1.plot70.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot70.style.editstyle connect(direct) editcopy
+.plotregion1.plot70._maybe_override_type
+.plotregion1.Declare plot71 = .yxview.new , type(scatter) serset(`.sersets[71].objkey') yvariable(`.sersets[71].seriesof y') xvariable(`.sersets[71].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p11) 
+.plotregion1.plot71.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot71.style.editstyle connect(direct) editcopy
+.plotregion1.plot71._maybe_override_type
+.plotregion1.Declare plot72 = .yxview.new , type(scatter) serset(`.sersets[72].objkey') yvariable(`.sersets[72].seriesof y') xvariable(`.sersets[72].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p12) 
+.plotregion1.plot72.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot72.style.editstyle connect(direct) editcopy
+.plotregion1.plot72._maybe_override_type
+.plotregion1.Declare plot73 = .yxview.new , type(scatter) serset(`.sersets[73].objkey') yvariable(`.sersets[73].seriesof y') xvariable(`.sersets[73].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p13) 
+.plotregion1.plot73.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot73.style.editstyle connect(direct) editcopy
+.plotregion1.plot73._maybe_override_type
+.plotregion1.Declare plot74 = .yxview.new , type(scatter) serset(`.sersets[74].objkey') yvariable(`.sersets[74].seriesof y') xvariable(`.sersets[74].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p14) 
+.plotregion1.plot74.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot74.style.editstyle connect(direct) editcopy
+.plotregion1.plot74._maybe_override_type
+.plotregion1.Declare plot75 = .yxview.new , type(scatter) serset(`.sersets[75].objkey') yvariable(`.sersets[75].seriesof y') xvariable(`.sersets[75].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p15) 
+.plotregion1.plot75.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot75.style.editstyle connect(direct) editcopy
+.plotregion1.plot75._maybe_override_type
+.plotregion1.Declare plot76 = .yxview.new , type(scatter) serset(`.sersets[76].objkey') yvariable(`.sersets[76].seriesof y') xvariable(`.sersets[76].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p1) 
+.plotregion1.plot76.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot76.style.editstyle connect(direct) editcopy
+.plotregion1.plot76._maybe_override_type
+.plotregion1.Declare plot77 = .yxview.new , type(scatter) serset(`.sersets[77].objkey') yvariable(`.sersets[77].seriesof y') xvariable(`.sersets[77].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p2) 
+.plotregion1.plot77.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot77.style.editstyle connect(direct) editcopy
+.plotregion1.plot77._maybe_override_type
+.plotregion1.Declare plot78 = .yxview.new , type(scatter) serset(`.sersets[78].objkey') yvariable(`.sersets[78].seriesof y') xvariable(`.sersets[78].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p3) 
+.plotregion1.plot78.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot78.style.editstyle connect(direct) editcopy
+.plotregion1.plot78._maybe_override_type
+.plotregion1.Declare plot79 = .yxview.new , type(scatter) serset(`.sersets[79].objkey') yvariable(`.sersets[79].seriesof y') xvariable(`.sersets[79].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p4) 
+.plotregion1.plot79.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot79.style.editstyle connect(direct) editcopy
+.plotregion1.plot79._maybe_override_type
+.plotregion1.Declare plot80 = .yxview.new , type(scatter) serset(`.sersets[80].objkey') yvariable(`.sersets[80].seriesof y') xvariable(`.sersets[80].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p5) 
+.plotregion1.plot80.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot80.style.editstyle connect(direct) editcopy
+.plotregion1.plot80._maybe_override_type
+.plotregion1.Declare plot81 = .yxview.new , type(scatter) serset(`.sersets[81].objkey') yvariable(`.sersets[81].seriesof y') xvariable(`.sersets[81].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p6) 
+.plotregion1.plot81.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot81.style.editstyle connect(direct) editcopy
+.plotregion1.plot81._maybe_override_type
+.plotregion1.Declare plot82 = .yxview.new , type(scatter) serset(`.sersets[82].objkey') yvariable(`.sersets[82].seriesof y') xvariable(`.sersets[82].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p7) 
+.plotregion1.plot82.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot82.style.editstyle connect(direct) editcopy
+.plotregion1.plot82._maybe_override_type
+.plotregion1.Declare plot83 = .yxview.new , type(scatter) serset(`.sersets[83].objkey') yvariable(`.sersets[83].seriesof y') xvariable(`.sersets[83].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p8) 
+.plotregion1.plot83.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot83.style.editstyle connect(direct) editcopy
+.plotregion1.plot83._maybe_override_type
+.plotregion1.Declare plot84 = .yxview.new , type(scatter) serset(`.sersets[84].objkey') yvariable(`.sersets[84].seriesof y') xvariable(`.sersets[84].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p9) 
+.plotregion1.plot84.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot84.style.editstyle connect(direct) editcopy
+.plotregion1.plot84._maybe_override_type
+.plotregion1.Declare plot85 = .yxview.new , type(scatter) serset(`.sersets[85].objkey') yvariable(`.sersets[85].seriesof y') xvariable(`.sersets[85].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p10) 
+.plotregion1.plot85.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot85.style.editstyle connect(direct) editcopy
+.plotregion1.plot85._maybe_override_type
+.plotregion1.Declare plot86 = .yxview.new , type(scatter) serset(`.sersets[86].objkey') yvariable(`.sersets[86].seriesof y') xvariable(`.sersets[86].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p11) 
+.plotregion1.plot86.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot86.style.editstyle connect(direct) editcopy
+.plotregion1.plot86._maybe_override_type
+.plotregion1.Declare plot87 = .yxview.new , type(scatter) serset(`.sersets[87].objkey') yvariable(`.sersets[87].seriesof y') xvariable(`.sersets[87].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p12) 
+.plotregion1.plot87.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot87.style.editstyle connect(direct) editcopy
+.plotregion1.plot87._maybe_override_type
+.plotregion1.Declare plot88 = .yxview.new , type(scatter) serset(`.sersets[88].objkey') yvariable(`.sersets[88].seriesof y') xvariable(`.sersets[88].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p13) 
+.plotregion1.plot88.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot88.style.editstyle connect(direct) editcopy
+.plotregion1.plot88._maybe_override_type
+.plotregion1.Declare plot89 = .yxview.new , type(scatter) serset(`.sersets[89].objkey') yvariable(`.sersets[89].seriesof y') xvariable(`.sersets[89].seriesof x')     plotregion(`.plotregion1.objkey') style(scheme p14) 
+.plotregion1.plot89.style.editstyle line(color(black)) area(linestyle(color(black))) line(width(*0.95)) area(linestyle(width(*0.95))) marker(symbol(i)) editcopy
+.plotregion1.plot89.style.editstyle connect(direct) editcopy
+.plotregion1.plot89._maybe_override_type
+.plotregion1.Declare plot90 = .yxview.new , type(scatter) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof text_y') xvariable(`.sersets[1].seriesof text_x')  lvariable(`.sersets[1].seriesof cistring0')   plotregion(`.plotregion1.objkey') style(scheme p15) 
+.plotregion1.plot90.style.editstyle marker(symbol(i)) label(textgap(*-1)) label(textstyle(size(*0.65))) label(textstyle(color(black))) editcopy
+.plotregion1.clear_scales
+.plotregion1.reset_scales , noclear
+.n_views = 90
+.n_plotregions = 1
+.last_style = 90
+.x_scales = `" "1""'
+.y_scales = `" "1""'
+.create_axes 1 1 "9" "" 9
+.insert (legend = .legend_g.new, graphs(`.objkey') style(scheme)) below plotregion1 , ring(3) 
+.legend.style.editstyle box_alignment(S) editcopy
+.legend.holes = ""
+.legend.style.editstyle  force_draw(no) force_nodraw(yes) editcopy
+.legend.insert (note = .sized_textbox.new, mtextq(`""') style(scheme leg_note) ) below plotregion1 , ring(3) 
+.legend.note.style.editstyle box_alignment(SW) editcopy
+.legend.note.style.editstyle horizontal(left) editcopy
+.legend.insert (caption = .sized_textbox.new, mtextq(`""') style(scheme leg_caption) ) below plotregion1 , ring(5) 
+.legend.caption.style.editstyle box_alignment(SW) editcopy
+.legend.caption.style.editstyle horizontal(left) editcopy
+.legend.insert (subtitle = .sized_textbox.new, mtextq(`""') style(scheme leg_subtitle) ) above plotregion1 , ring(6) 
+.legend.subtitle.style.editstyle box_alignment(N) editcopy
+.legend.subtitle.style.editstyle horizontal(center) editcopy
+.legend.insert (title = .sized_textbox.new, mtextq(`""') style(scheme leg_title) ) above plotregion1 , ring(7) 
+.legend.title.style.editstyle box_alignment(N) editcopy
+.legend.title.style.editstyle horizontal(center) editcopy
+.legend.rebuild
+.legend.repositionkeys
+.xaxis1.addmin 0
+.xaxis1.addmax 116
+.xaxis1.style.editstyle  title_gap(*10)  editcopy
+.xaxis1.major.clear
+.xaxis1.major.range_ticks 0 100 25
+.xaxis1.reset_scale reinit
+.xaxis1.style.editstyle majorstyle( tickangle(0)  ) editcopy
+.xaxis1.title.edit , mtextq(`"Estimated Coverage %"')   replace
+.yaxis1.style.editstyle  title_gap(1)  editcopy
+.yaxis1.major.clear
+.yaxis1.major.range_ticks 1 22 1
+.yaxis1.reset_scale reinit
+.yaxis1.style.editstyle draw_major_grid(no) editcopy
+.yaxis1.style.editstyle majorstyle( tickangle(hor) use_labels(yes) tickstyle(  textstyle( size(small))) ) editcopy
+.insert (r1title = .sized_textbox.new, mtextq(`""') style(scheme r1title) orientation(vertical)) rightof plotregion1 , ring(1) 
+.insert (r2title = .sized_textbox.new, mtextq(`""') style(scheme r2title) orientation(vertical)) rightof plotregion1 , ring(2) 
+.insert (l1title = .sized_textbox.new, mtextq(`""') style(scheme l1title) orientation(vertical)) leftof plotregion1 , ring(1) 
+.insert (l2title = .sized_textbox.new, mtextq(`""') style(scheme l2title) orientation(vertical)) leftof plotregion1 , ring(2) 
+.insert (t1title = .sized_textbox.new, mtextq(`""') style(scheme t1title) ) above plotregion1 , ring(1) 
+.insert (t2title = .sized_textbox.new, mtextq(`""') style(scheme t2title) ) above plotregion1 , ring(2) 
+.insert (b1title = .sized_textbox.new, mtextq(`""') style(scheme b1title) ) below plotregion1 , ring(1) 
+.insert (b2title = .sized_textbox.new, mtextq(`""') style(scheme b1title) ) below plotregion1 , ring(2) 
+.style.editstyle note_span(yes) editcopy
+.insert (note = .sized_textbox.new, mtextq(`"Text at right: Point estimates from colored and from gray bars"') style(scheme note) ) below plotregion1 , ring(4) spancols(all) spanfit(left right)
+.note.style.editstyle box_alignment(SW) editcopy
+.note.style.editstyle horizontal(left) editcopy
+.note.style.editstyle  size(vsmall) editcopy
+.style.editstyle caption_span(yes) editcopy
+.insert (caption = .sized_textbox.new, mtextq(`""Gray bar shows crude coverage; colored bar shows valid coverage""') style(scheme caption) ) below plotregion1 , ring(5) spancols(all) spanfit(left right)
+.caption.style.editstyle box_alignment(SW) editcopy
+.caption.style.editstyle horizontal(left) editcopy
+.caption.style.editstyle  size(vsmall) editcopy
+.style.editstyle subtitle_span(yes) editcopy
+.insert (subtitle = .sized_textbox.new, mtextq(`""') style(scheme subtitle) ) above plotregion1 , ring(6) spancols(all) spanfit(left right)
+.subtitle.style.editstyle box_alignment(N) editcopy
+.subtitle.style.editstyle horizontal(center) editcopy
+.style.editstyle title_span(yes) editcopy
+.insert (title = .sized_textbox.new, mtextq(`"RI - Valid Coverage of POLIO2"') style(scheme title) ) above plotregion1 , ring(7) spancols(all) spanfit(left right)
+.title.style.editstyle box_alignment(N) editcopy
+.title.style.editstyle horizontal(center) editcopy
+.insert (spacert = .spacer.new) above plotregion1 , ring(11)
+.insert (spacerb = .spacer.new) below plotregion1 , ring(11)
+.insert (spacerl = .spacer.new) leftof plotregion1 , ring(11)
+.insert (spacerr = .spacer.new) rightof plotregion1 , ring(11)
+.style.editstyle declared_xsize(14.54545454545454) editcopy
+.style.editstyle declared_ysize(20) editcopy
+.command = `"twoway (scatter rownumber p , m(i) c(none)) ( area ybar xbar if dn == 1, color(orange*.5) lwidth(vthin) fcolor(orange*.5) fi(100) base(1) ) ( area ybar xbar if dn == 2, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(.6) ) ( area ybar xbar if dn == 3, color(orange*.5) lwidth(vthin) fcolor(orange*.5) fi(100) base(2) ) ( area ybar xbar if dn == 4, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(1.6) ) ( area ybar xbar if dn == 5, color(orange*.5) lwidth(vthin) fcolor(orange*.5) fi(100) base(3) ) ( area ybar xbar if dn == 6, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(2.6) ) ( area ybar xbar if dn == 7, color(orange*.5) lwidth(vthin) fcolor(orange*.5) fi(100) base(4) ) ( area ybar xbar if dn == 8, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(3.6) ) ( area ybar xbar if dn == 9, color(orange*.5) lwidth(vthin) fcolor(orange*.5) fi(100) base(5) ) ( area ybar xbar if dn == 10, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(4.6) ) ( area ybar xbar if dn == 11, color(olive*.5) lwidth(vthin) fcolor(olive*.5) fi(100) base(6) ) ( area ybar xbar if dn == 12, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(5.6) ) ( area ybar xbar if dn == 13, color(olive*.5) lwidth(vthin) fcolor(olive*.5) fi(100) base(7) ) ( area ybar xbar if dn == 14, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(6.6) ) ( area ybar xbar if dn == 15, color(olive*.5) lwidth(vthin) fcolor(olive*.5) fi(100) base(8) ) ( area ybar xbar if dn == 16, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(7.6) ) ( area ybar xbar if dn == 17, color(olive*.5) lwidth(vthin) fcolor(olive*.5) fi(100) base(9) ) ( area ybar xbar if dn == 18, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(8.6) ) ( area ybar xbar if dn == 19, color(olive*.5) lwidth(vthin) fcolor(olive*.5) fi(100) base(10) ) ( area ybar xbar if dn == 20, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(9.6) ) ( area ybar xbar if dn == 21, color(eltgreen*.5) lwidth(vthin) fcolor(eltgreen*.5) fi(100) base(11) ) ( area ybar xbar if dn == 22, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(10.6) ) ( area ybar xbar if dn == 23, color(eltgreen*.5) lwidth(vthin) fcolor(eltgreen*.5) fi(100) base(12) ) ( area ybar xbar if dn == 24, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(11.6) ) ( area ybar xbar if dn == 25, color(sienna*.5) lwidth(vthin) fcolor(sienna*.5) fi(100) base(13) ) ( area ybar xbar if dn == 26, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(12.6) ) ( area ybar xbar if dn == 27, color(sienna*.5) lwidth(vthin) fcolor(sienna*.5) fi(100) base(14) ) ( area ybar xbar if dn == 28, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(13.6) ) ( area ybar xbar if dn == 29, color(sienna*.5) lwidth(vthin) fcolor(sienna*.5) fi(100) base(15) ) ( area ybar xbar if dn == 30, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(14.6) ) ( area ybar xbar if dn == 31, color(vcqi_level4) lwidth(vthin) fcolor(vcqi_level4) fi(100) base(16) ) ( area ybar xbar if dn == 32, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(15.6) ) ( area ybar xbar if dn == 33, color(vcqi_level4) lwidth(vthin) fcolor(vcqi_level4) fi(100) base(17) ) ( area ybar xbar if dn == 34, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(16.6) ) ( area ybar xbar if dn == 35, color(vcqi_level4) lwidth(vthin) fcolor(vcqi_level4) fi(100) base(18) ) ( area ybar xbar if dn == 36, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(17.6) ) ( area ybar xbar if dn == 37, color(vcqi_level4) lwidth(vthin) fcolor(vcqi_level4) fi(100) base(19) ) ( area ybar xbar if dn == 38, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(18.6) ) ( area ybar xbar if dn == 39, color(vcqi_level3) lwidth(vthin) fcolor(vcqi_level3) fi(100) base(20) ) ( area ybar xbar if dn == 40, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(19.6) ) ( area ybar xbar if dn == 41, color(vcqi_level3) lwidth(vthin) fcolor(vcqi_level3) fi(100) base(21) ) ( area ybar xbar if dn == 42, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(20.6) ) ( area ybar xbar if dn == 43, color(vcqi_level1) lwidth(vthin) fcolor(vcqi_level1) fi(100) base(22) ) ( area ybar xbar if dn == 44, color(gs3) lwidth(vthin) fcolor(gs14) fi(100) base(21.6) ) (scatteri 1.2 38.4256477355957 1.2 75.31819152832031, c(direct) m(i) lw(*0.95) lc(black)) (scatteri .8 80.55066680908203 .8 98.37237548828125, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 2.2 51.67448043823242 2.2 78.26673889160156, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 1.8 66.02963256835938 1.8 90.76444244384766, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 3.2 55.42520904541016 3.2 82.75297546386719, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 2.8 90.54195404052734 2.8 99.75399017333984, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 4.2 70.69108581542969 4.2 88.27389526367188, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 3.8 88.61913299560547 3.8 98.60824584960938, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 5.2 45.0826416015625 5.2 77.94918060302734, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 4.8 80.06242370605469 4.8 98.00296020507813, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 6.2 45.01758575439453 6.2 76.57903289794922, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 5.8 73.02194976806641 5.8 96.00352478027344, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 7.2 51.53732299804688 7.2 79.47262573242188, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 6.8 81.77822875976563 6.8 97.18025207519531, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 8.199999999999999 53.96723175048828 8.199999999999999 86.73574829101563, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 7.8 84.20211791992188 7.8 98.75717926025391, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 9.199999999999999 55.47916793823242 9.199999999999999 89.857177734375, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 8.800000000000001 79.30311584472656 8.800000000000001 98.48863220214844, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 10.2 59.66767501831055 10.2 80.52312469482422, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 9.800000000000001 85.63246154785156 9.800000000000001 97.21969604492188, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 11.2 27.44020843505859 11.2 79.97564697265625, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 10.8 71.24056243896484 10.8 100, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 12.2 62.66950988769531 12.2 76.46340179443359, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 11.8 88.36742401123047 11.8 95.26467895507813, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 13.2 49.19845199584961 13.2 70.48751068115234, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 12.8 83.25381469726563 12.8 97.8558349609375, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 14.2 69.45337677001953 14.2 84.31601715087891, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 13.8 86.05902862548828 13.8 96.005126953125, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 15.2 31.44978904724121 15.2 75.19887542724609, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 14.8 78.23258972167969 14.8 97.42622375488281, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 16.2 58.9826774597168 16.2 80.29936981201172, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 15.8 83.73143768310547 15.8 94.95272827148438, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 17.2 54.93291473388672 17.2 84.60012817382813, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 16.8 82.20196533203125 16.8 97.08405303955078, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 18.2 55.63877487182617 18.2 74.96105194091797, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 17.8 89.69432830810547 17.8 98.51971435546875, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 19.2 59.4417839050293 19.2 75.78425598144531, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 18.8 89.91042327880859 18.8 97.35414886474609, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 20.2 62.95051574707031 20.2 79.96722412109375, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 19.8 85.68167877197266 19.8 97.09689331054688, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 21.2 57.30559539794922 21.2 75.25767517089844, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 20.8 85.99994659423828 20.8 95.85702514648438, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 22.2 62.4366569519043 22.2 75.66118621826172, c(direct) m(i) lw(*0.95) lc(black)) (scatteri 21.8 88.76792907714844 21.8 95.46237945556641, c(direct) m(i) lw(*0.95) lc(black)) (scatter text_y text_x, mlabel(cistring0) m(i) mlabg(*-1) mlabsize(*0.65) mlabcolor(black) ) ,   legend(off) ylabel(1(1)22, ang(hor) nogrid valuelabel labsize(small)) graphregion(color(white)) xscale(range(0 116) titlegap(*10)) xlabel(0(25)100,angle(0)) yscale(titlegap(1)) ysize(20) xsize(14.54545454545454) xtitle(Estimated Coverage %) ytitle() title(RI - Valid Coverage of POLIO2, span) subtitle(, span) note(Text at right: Point estimates from colored and from gray bars, size(vsmall) span) caption("Gray bar shows crude coverage; colored bar shows valid coverage", size(vsmall) span) name() saving(Plots_IW_UW/RI_COVG_02_1_brplot_polio2_double_1001, replace)"'
+.date = " 7 Nov 2025"
+.time = "23:23:23"
+.dta_file = "C:\Users\DaleR\AppData\Local\Temp\ST_414c_000003.tmp"
+.dta_date = " 7 Nov 2025 23:23"
+<EndItem>
